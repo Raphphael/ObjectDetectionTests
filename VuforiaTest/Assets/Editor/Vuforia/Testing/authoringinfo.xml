@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<QCARInfo>
+    <TargetSet version="36.0" toolVersion="v6.1.2">
+        <ModelTarget name="Ambulance" targetId="81c90b31145e4723b5d70215b7ee291b" bbox="-0.034241 -0.000062 -0.060416 0.026924 0.080896 0.065922" version="13.0" toolVersion="v6.1.2" trackingMode="scan" upVector="0.0 1.0 0.0" optimizeTrackingFor="default" realisticTextures="yes" />
+        <ModelTarget name="Basketball" targetId="60d2f25578d346e8b6e27f680367111e" bbox="-0.112154 -0.000119 -0.140360 0.131741 0.235658 0.104252" version="13.0" toolVersion="v6.1.2" trackingMode="scan" upVector="0.0 1.0 0.0" optimizeTrackingFor="default" realisticTextures="yes" />
+        <ModelTarget name="DuploR" targetId="f76c86c6b6254f8a94fdf24616830341" bbox="-0.021326 -0.000035 -0.027639 0.045756 0.065992 0.044477" version="13.0" toolVersion="v6.1.2" trackingMode="scan" upVector="0.0 1.0 0.0" optimizeTrackingFor="default" realisticTextures="yes" />
+        <ModelTarget name="DuploY" targetId="5316d279c0d64819a524912122e5fc8b" bbox="-0.035722 -0.000037 -0.049079 0.040110 0.069282 0.026088" version="13.0" toolVersion="v6.1.2" trackingMode="scan" upVector="0.0 1.0 0.0" optimizeTrackingFor="default" realisticTextures="yes" />
+        <ModelTarget name="Nutcracker" targetId="b794e757c98d41c0ad152b7e3a343030" bbox="-0.038856 -0.000137 -0.051278 0.042508 0.280527 0.031456" version="13.0" toolVersion="v6.1.2" trackingMode="scan" upVector="0.0 1.0 0.0" optimizeTrackingFor="default" realisticTextures="yes" />
+        <ModelTarget name="perfume50ml" targetId="dad886228cdc47ec99870cd0126611fe" bbox="-0.028198 -0.000055 -0.025351 0.022039 0.112077 0.022260" version="13.0" toolVersion="v6.1.2" trackingMode="scan" upVector="0.0 1.0 0.0" optimizeTrackingFor="default" realisticTextures="yes" />
+        <ModelTarget name="perfume100ml" targetId="d6828d9cccb74921b59b9bd8fb99d36e" bbox="-0.025647 -0.000068 -0.036243 0.030656 0.139260 0.020468" version="13.0" toolVersion="v6.1.2" trackingMode="scan" upVector="0.0 1.0 0.0" optimizeTrackingFor="default" realisticTextures="yes" />
+        <ModelTarget name="Police" targetId="5bd43c36108e4bc7abeeb4d2e2dfcd3e" bbox="-0.027938 -0.000069 -0.075842 0.032435 0.069703 0.064731" version="13.0" toolVersion="v6.1.2" trackingMode="scan" upVector="0.0 1.0 0.0" optimizeTrackingFor="default" realisticTextures="yes" />
+    </TargetSet>
+    <Assembly name="Ambulance" assemblyId="1606b0070bf14dc986d2442d57a588e9">
+        <Part name="Ambulance" translation="0 0 0" rotation="AD: 0 0 1 0" />
+        <EntryPoint name="(none)" trained="yes" />
+    </Assembly>
+    <Assembly name="Basketball" assemblyId="be01e1dbe7984a2dbbce20aac5a0be49">
+        <Part name="Basketball" translation="0 0 0" rotation="AD: 0 0 1 0" />
+        <EntryPoint name="(none)" trained="yes" />
+    </Assembly>
+    <Assembly name="DuploR" assemblyId="a5bbd1c1ae9a4fc9ae41fdf69fc9f9fa">
+        <Part name="DuploR" translation="0 0 0" rotation="AD: 0 0 1 0" />
+        <EntryPoint name="(none)" trained="yes" />
+    </Assembly>
+    <Assembly name="DuploY" assemblyId="cccf0229c3f84462a6845cf393030b50">
+        <Part name="DuploY" translation="0 0 0" rotation="AD: 0 0 1 0" />
+        <EntryPoint name="(none)" trained="yes" />
+    </Assembly>
+    <Assembly name="Nutcracker" assemblyId="f8f143a4893f403fad9a58d6d416d13c">
+        <Part name="Nutcracker" translation="0 0 0" rotation="AD: 0 0 1 0" />
+        <EntryPoint name="(none)" trained="yes" />
+    </Assembly>
+    <Assembly name="perfume50ml" assemblyId="de76c8ff28fb4e548997f2c72708402d">
+        <Part name="perfume50ml" translation="0 0 0" rotation="AD: 0 0 1 0" />
+        <EntryPoint name="(none)" trained="yes" />
+    </Assembly>
+    <Assembly name="perfume100ml" assemblyId="4170bbe58ec54e43a61f433cb1d7560d">
+        <Part name="perfume100ml" translation="0 0 0" rotation="AD: 0 0 1 0" />
+        <EntryPoint name="(none)" trained="yes" />
+    </Assembly>
+    <Assembly name="Police" assemblyId="25f9cc360aed4be3849b00346db40e67">
+        <Part name="Police" translation="0 0 0" rotation="AD: 0 0 1 0" />
+        <EntryPoint name="(none)" trained="yes" />
+    </Assembly>
+    <ModelTargetDatabase mtDBid="41ab89e41221407ba87a55fbd735931b" name="Testing" toolVersion="v6.1.2" version="36.0" />
+</QCARInfo>

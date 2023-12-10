@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<QCARConfig>
+    <Tracking>
+        <ModelTarget name="Ambulance" trackingMode="scan" motionHint="adaptive" upVector="0.0 1.0 0.0" optimizeTrackingFor="default"> </ModelTarget>
+        <ModelTarget name="Basketball" trackingMode="scan" motionHint="adaptive" upVector="0.0 1.0 0.0" optimizeTrackingFor="default"> </ModelTarget>
+        <ModelTarget name="DuploR" trackingMode="scan" motionHint="adaptive" upVector="0.0 1.0 0.0" optimizeTrackingFor="default"> </ModelTarget>
+        <ModelTarget name="DuploY" trackingMode="scan" motionHint="adaptive" upVector="0.0 1.0 0.0" optimizeTrackingFor="default"> </ModelTarget>
+        <ModelTarget name="Nutcracker" trackingMode="scan" motionHint="adaptive" upVector="0.0 1.0 0.0" optimizeTrackingFor="default"> </ModelTarget>
+        <ModelTarget name="perfume50ml" trackingMode="scan" motionHint="adaptive" upVector="0.0 1.0 0.0" optimizeTrackingFor="default"> </ModelTarget>
+        <ModelTarget name="perfume100ml" trackingMode="scan" motionHint="adaptive" upVector="0.0 1.0 0.0" optimizeTrackingFor="default"> </ModelTarget>
+        <ModelTarget name="Police" trackingMode="scan" motionHint="adaptive" upVector="0.0 1.0 0.0" optimizeTrackingFor="default"> </ModelTarget>
+    </Tracking>
+    <Assembly name="Ambulance" assemblyId="1606b0070bf14dc986d2442d57a588e9">
+        <Part name="Ambulance" translation="0 0 0" rotation="AD: 0 0 1 0"></Part>
+        <EntryPoint name="(none)" trained="yes"></EntryPoint>
+    </Assembly>
+    <Assembly name="Basketball" assemblyId="be01e1dbe7984a2dbbce20aac5a0be49">
+        <Part name="Basketball" translation="0 0 0" rotation="AD: 0 0 1 0"></Part>
+        <EntryPoint name="(none)" trained="yes"></EntryPoint>
+    </Assembly>
+    <Assembly name="DuploR" assemblyId="a5bbd1c1ae9a4fc9ae41fdf69fc9f9fa">
+        <Part name="DuploR" translation="0 0 0" rotation="AD: 0 0 1 0"></Part>
+        <EntryPoint name="(none)" trained="yes"></EntryPoint>
+    </Assembly>
+    <Assembly name="DuploY" assemblyId="cccf0229c3f84462a6845cf393030b50">
+        <Part name="DuploY" translation="0 0 0" rotation="AD: 0 0 1 0"></Part>
+        <EntryPoint name="(none)" trained="yes"></EntryPoint>
+    </Assembly>
+    <Assembly name="Nutcracker" assemblyId="f8f143a4893f403fad9a58d6d416d13c">
+        <Part name="Nutcracker" translation="0 0 0" rotation="AD: 0 0 1 0"></Part>
+        <EntryPoint name="(none)" trained="yes"></EntryPoint>
+    </Assembly>
+    <Assembly name="perfume50ml" assemblyId="de76c8ff28fb4e548997f2c72708402d">
+        <Part name="perfume50ml" translation="0 0 0" rotation="AD: 0 0 1 0"></Part>
+        <EntryPoint name="(none)" trained="yes"></EntryPoint>
+    </Assembly>
+    <Assembly name="perfume100ml" assemblyId="4170bbe58ec54e43a61f433cb1d7560d">
+        <Part name="perfume100ml" translation="0 0 0" rotation="AD: 0 0 1 0"></Part>
+        <EntryPoint name="(none)" trained="yes"></EntryPoint>
+    </Assembly>
+    <Assembly name="Police" assemblyId="25f9cc360aed4be3849b00346db40e67">
+        <Part name="Police" translation="0 0 0" rotation="AD: 0 0 1 0"></Part>
+        <EntryPoint name="(none)" trained="yes"></EntryPoint>
+    </Assembly>
+    <ModelTargetDatabase name="Testing"> </ModelTargetDatabase>
+</QCARConfig>

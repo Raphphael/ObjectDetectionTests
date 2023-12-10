@@ -1,0 +1,14 @@
+{
+  "images" : [
+    {
+      "filename" : "ARKit-a543ab22fdd9242d279b464af87f0a9e.png",
+      "idiom" : "universal",
+      "platform" : "ios",
+      "size" : "1024x1024"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}

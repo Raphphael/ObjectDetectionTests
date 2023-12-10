@@ -1,0 +1,528 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3F2569BB6B7241438B814B3D /* UEAzureTest2.Build.cs in Sources */ = {isa = PBXBuildFile; fileRef = EE80C2B2817030DE6FF8F637 /* UEAzureTest2.Build.cs */; };
+		EC5E64005393B30D4A402975 /* UEAzureTest2.Target.cs in Sources */ = {isa = PBXBuildFile; fileRef = CF746C0FF4BEC24D1E04EB4B /* UEAzureTest2.Target.cs */; };
+		B313A3F8480C9569B4FB02AB /* UEAzureTest2.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5D6E69272078F7B3E1E827FB /* UEAzureTest2.cpp */; };
+		1A0C466F5D75E4D8AD6765D5 /* UEAzureTest2.uproject in Sources */ = {isa = PBXBuildFile; fileRef = F519DBC82B7C343B37F88500 /* UEAzureTest2.uproject */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		EE80C2B2817030DE6FF8F637 /* UEAzureTest2.Build.cs */ = {isa = PBXFileReference; explicitFileType = file.text; name = "UEAzureTest2.Build.cs"; path = "../Source/UEAzureTest2.Build.cs"; sourceTree = SOURCE_ROOT; };
+		CF746C0FF4BEC24D1E04EB4B /* UEAzureTest2.Target.cs */ = {isa = PBXFileReference; explicitFileType = file.text; name = "UEAzureTest2.Target.cs"; path = "../Source/UEAzureTest2.Target.cs"; sourceTree = SOURCE_ROOT; };
+		5D6E69272078F7B3E1E827FB /* UEAzureTest2.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = "UEAzureTest2.cpp"; path = "../Source/UEAzureTest2.cpp"; sourceTree = SOURCE_ROOT; };
+		F519DBC82B7C343B37F88500 /* UEAzureTest2.uproject */ = {isa = PBXFileReference; explicitFileType = file.text; name = "UEAzureTest2.uproject"; path = "../../UEAzureTest2.uproject"; sourceTree = SOURCE_ROOT; };
+		7D78C6FF5E347D8803ABACFE /* UEAzureTest2 */ = {isa = PBXFileReference; explicitFileType = wrapper.application; path = UEAzureTest2; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXSourcesBuildPhase section */
+		35C357B9E764F1BC6CE30081 = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B313A3F8480C9569B4FB02AB /* UEAzureTest2.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+	67CE68E97CADAFDFDA8B410A /* Embed App Extensions */ = {
+		isa = PBXCopyFilesBuildPhase;
+		buildActionMask = 2147483647;
+		dstPath = "";
+		dstSubfolderSpec = 13;
+		files = (
+		);
+		name = "Embed App Extensions";
+		runOnlyForDeploymentPostprocessing = 0;
+	};
+/* End PBXCopyFilesBuildPhase section */
+/* Begin PBXContainerItemProxy section */
+		4EE262A69CBB7C2B671158D7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DEBAEDDA00B74E68EEBD6E85 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4F6746EBDC3B6B26F109300A;
+			remoteInfo = "UEAzureTest2_Build";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXGroup section */
+		D97F4F7F000541C0D6F0D970 = {
+			isa = PBXGroup;
+			children = (
+				5DF7780FBBB47F3FB9B3E9DD /* Intermediate */,
+				F519DBC82B7C343B37F88500 /* UEAzureTest2.uproject */,
+				E112A17E15EE45B722C95CF1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5DF7780FBBB47F3FB9B3E9DD = {
+			isa = PBXGroup;
+			children = (
+				C850FB6CAA72AAE4A576376E /* Source */,
+			);
+			name = "Intermediate";
+			path = "/Users/macbookair/Desktop/UEAzureTest2 2/Intermediate";
+			sourceTree = "<absolute>";
+		};
+		C850FB6CAA72AAE4A576376E = {
+			isa = PBXGroup;
+			children = (
+				EE80C2B2817030DE6FF8F637 /* UEAzureTest2.Build.cs */,
+				CF746C0FF4BEC24D1E04EB4B /* UEAzureTest2.Target.cs */,
+				5D6E69272078F7B3E1E827FB /* UEAzureTest2.cpp */,
+			);
+			name = "Source";
+			path = "/Users/macbookair/Desktop/UEAzureTest2 2/Intermediate/Source";
+			sourceTree = "<absolute>";
+		};
+		E112A17E15EE45B722C95CF1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7D78C6FF5E347D8803ABACFE /* UEAzureTest2 */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXLegacyTarget section */
+		4F6746EBDC3B6B26F109300A /* UEAzureTest2_Build */ = {
+			isa = PBXLegacyTarget;
+			buildArgumentsString = "$(ACTION) $(UE_BUILD_TARGET_NAME) $(PLATFORM_NAME) $(UE_BUILD_TARGET_CONFIG) \"/Users/macbookair/Desktop/UEAzureTest2 2/UEAzureTest2.uproject\"";
+			buildConfigurationList = 7FE256C29B29AAF5B0E67988 /* Build configuration list for PBXLegacyTarget "UEAzureTest2_Build" */;
+			buildPhases = (
+			);
+			buildToolPath = "/Users/Shared/Epic Games/UE_5.2/Engine/Build/BatchFiles/Mac/XcodeBuild.sh";
+			buildWorkingDirectory = "/Users/Shared/Epic Games/UE_5.2";
+			dependencies = (
+			);
+			name = "UEAzureTest2_Build";
+			passBuildSettingsInEnvironment = 1;
+			productName = "UEAzureTest2_Build";
+		};
+/* End PBXLegacyTarget section */
+
+/* Begin PBXNativeTarget section */
+		A058BDB3070D5F472E320758 /* UEAzureTest2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CF49FA7FECE189F27E175412 /* Build configuration list for PBXNativeTarget "UEAzureTest2" */;
+			buildPhases = (
+				67CE68E97CADAFDFDA8B410A /* Embed App Extensions */, 
+				EC56059CDC96E810225E493C /* Shell Script */, 
+			);
+			dependencies = (
+			);
+			name = "UEAzureTest2";
+			passBuildSettingsInEnvironment = 1;
+			productName = "UEAzureTest2";
+			productReference = "7D78C6FF5E347D8803ABACFE";
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXNativeTarget section */
+		7C566CB72ACEECA235635734 /* UEAzureTest2_Index */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 74904F2BA531E67447BC7F7C /* Build configuration list for PBXNativeTarget "UEAzureTest2_Index" */;
+			buildPhases = (
+				35C357B9E764F1BC6CE30081 /* Sources */,
+			);
+			dependencies = (
+			);
+			name = "UEAzureTest2_Index";
+			passBuildSettingsInEnvironment = 1;
+			productName = "UEAzureTest2_Index";
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DEBAEDDA00B74E68EEBD6E85 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 2000;
+				ORGANIZATIONNAME = "Epic Games, Inc.";
+				TargetAttributes = {
+					A058BDB3070D5F472E320758 = {
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = CFB4FC221C8ED41B8B224E0A /* Build configuration list for PBXProject "UEAzureTest2" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en
+			);
+			mainGroup = D97F4F7F000541C0D6F0D970;
+			productRefGroup = E112A17E15EE45B722C95CF1;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+			A058BDB3070D5F472E320758 /* UEAzureTest2 */,
+			4F6746EBDC3B6B26F109300A /* UEAzureTest2_Build */,
+			7C566CB72ACEECA235635734 /* UEAzureTest2_Index */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin XCBuildConfiguration section */
+		AD88D971FF1C04FE11201646 /* "DebugGame" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"__INTELLISENSE__",
+					"MONOLITHIC_BUILD=1",
+				);
+				HEADER_SEARCH_PATHS = (
+				);
+				USER_HEADER_SEARCH_PATHS = (
+				);
+				ONLY_ACTIVE_ARCH = YES;
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++14";
+				GCC_ENABLE_CPP_RTTI = NO;
+				GCC_WARN_CHECK_SWITCH_STATEMENTS = NO;
+				USE_HEADERMAP = NO;
+			};
+			name = "DebugGame";
+		};
+		5B73F6A547A0B960BB4912AA /* "Development" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"__INTELLISENSE__",
+					"MONOLITHIC_BUILD=1",
+				);
+				HEADER_SEARCH_PATHS = (
+				);
+				USER_HEADER_SEARCH_PATHS = (
+				);
+				ONLY_ACTIVE_ARCH = YES;
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++14";
+				GCC_ENABLE_CPP_RTTI = NO;
+				GCC_WARN_CHECK_SWITCH_STATEMENTS = NO;
+				USE_HEADERMAP = NO;
+			};
+			name = "Development";
+		};
+		3FD80A33FCBC5F15D21908EE /* "Shipping" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"__INTELLISENSE__",
+					"MONOLITHIC_BUILD=1",
+				);
+				HEADER_SEARCH_PATHS = (
+				);
+				USER_HEADER_SEARCH_PATHS = (
+				);
+				ONLY_ACTIVE_ARCH = YES;
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++14";
+				GCC_ENABLE_CPP_RTTI = NO;
+				GCC_WARN_CHECK_SWITCH_STATEMENTS = NO;
+				USE_HEADERMAP = NO;
+			};
+			name = "Shipping";
+		};
+		865C3A74197D16A9824DCC90 /* "DebugGame" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				SUPPORTED_PLATFORMS = "macosx iphoneos";
+				CODE_SIGN_STYLE = Automatic;
+				"VALID_ARCHS[sdk=iphoneos*]" = "arm64";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				"PRODUCT_NAME[sdk=iphoneos*]" = "UEAzureTest2";
+				"TARGETED_DEVICE_FAMILY[sdk=iphoneos*]" = "1,2";
+				"SDKROOT[sdk=iphoneos]" = iphoneos;
+				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = GZA46PDP9T;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				"PRODUCT_BUNDLE_IDENTIFIER[sdk=iphoneos*]" = com.rafael.UETest;
+				"VALID_ARCHS[sdk=macosx*]" = "arm64 x86_64";
+				"PRODUCT_NAME[sdk=macosx*]" = "UEAzureTest2-Mac-DebugGame";
+				"CONFIGURATION_BUILD_DIR[sdk=macosx*]" = "/Users/macbookair/Desktop/UEAzureTest2 2/Binaries/Mac";
+				"SDKROOT[sdk=macosx*]" = macosx;
+				"PRODUCT_BUNDLE_IDENTIFIER[sdk=macosx*]" = com.rafael.UETest;
+				"CONFIGURATION_BUILD_DIR[sdk=iphoneos*]" = "/Users/macbookair/Desktop/UEAzureTest2 2/Binaries/IOS/Payload";
+				INFOPLIST_FILE = "/Users/macbookair/Desktop/UEAzureTest2 2/Intermediate/IOS/UEAzureTest2-Info.plist";
+				CODE_SIGN_ENTITLEMENTS = "/Users/macbookair/Desktop/UEAzureTest2 2/Intermediate/IOS/UEAzureTest2.entitlements";
+				OTHER_CODE_SIGN_FLAGS = "--generate-entitlement-der --deep";
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				INFOPLIST_OUTPUT_FORMAT = xml;
+				COMBINE_HIDPI_IMAGES = YES;
+				SDKROOT = iphoneos;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "/Users/Shared/Epic Games/UE_5.2/Engine/Source/Editor/UnrealEd/Public/UnrealEd.h";
+			};
+			name = "DebugGame";
+		};
+		3C2F0320C10CC15A2046A0DC /* "Development" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				SUPPORTED_PLATFORMS = "macosx iphoneos";
+				CODE_SIGN_STYLE = Automatic;
+				"VALID_ARCHS[sdk=iphoneos*]" = "arm64";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				"PRODUCT_NAME[sdk=iphoneos*]" = "UEAzureTest2";
+				"TARGETED_DEVICE_FAMILY[sdk=iphoneos*]" = "1,2";
+				"SDKROOT[sdk=iphoneos]" = iphoneos;
+				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = GZA46PDP9T;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				"PRODUCT_BUNDLE_IDENTIFIER[sdk=iphoneos*]" = com.rafael.UETest;
+				"VALID_ARCHS[sdk=macosx*]" = "arm64 x86_64";
+				"PRODUCT_NAME[sdk=macosx*]" = "UEAzureTest2";
+				"CONFIGURATION_BUILD_DIR[sdk=macosx*]" = "/Users/macbookair/Desktop/UEAzureTest2 2/Binaries/Mac";
+				"SDKROOT[sdk=macosx*]" = macosx;
+				"PRODUCT_BUNDLE_IDENTIFIER[sdk=macosx*]" = com.rafael.UETest;
+				"CONFIGURATION_BUILD_DIR[sdk=iphoneos*]" = "/Users/macbookair/Desktop/UEAzureTest2 2/Binaries/IOS/Payload";
+				INFOPLIST_FILE = "/Users/macbookair/Desktop/UEAzureTest2 2/Intermediate/IOS/UEAzureTest2-Info.plist";
+				CODE_SIGN_ENTITLEMENTS = "/Users/macbookair/Desktop/UEAzureTest2 2/Intermediate/IOS/UEAzureTest2.entitlements";
+				OTHER_CODE_SIGN_FLAGS = "--generate-entitlement-der --deep";
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				INFOPLIST_OUTPUT_FORMAT = xml;
+				COMBINE_HIDPI_IMAGES = YES;
+				SDKROOT = iphoneos;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "/Users/Shared/Epic Games/UE_5.2/Engine/Source/Editor/UnrealEd/Public/UnrealEd.h";
+			};
+			name = "Development";
+		};
+		7D790CBAF9726CDCB57C2608 /* "Shipping" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				SUPPORTED_PLATFORMS = "macosx iphoneos";
+				CODE_SIGN_STYLE = Automatic;
+				"VALID_ARCHS[sdk=iphoneos*]" = "arm64";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				"PRODUCT_NAME[sdk=iphoneos*]" = "UEAzureTest2";
+				"TARGETED_DEVICE_FAMILY[sdk=iphoneos*]" = "1,2";
+				"SDKROOT[sdk=iphoneos]" = iphoneos;
+				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = GZA46PDP9T;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				"PRODUCT_BUNDLE_IDENTIFIER[sdk=iphoneos*]" = com.rafael.UETest;
+				"VALID_ARCHS[sdk=macosx*]" = "arm64 x86_64";
+				"PRODUCT_NAME[sdk=macosx*]" = "UEAzureTest2-Mac-Shipping";
+				"CONFIGURATION_BUILD_DIR[sdk=macosx*]" = "/Users/macbookair/Desktop/UEAzureTest2 2/Binaries/Mac";
+				"SDKROOT[sdk=macosx*]" = macosx;
+				"PRODUCT_BUNDLE_IDENTIFIER[sdk=macosx*]" = com.rafael.UETest;
+				"CONFIGURATION_BUILD_DIR[sdk=iphoneos*]" = "/Users/macbookair/Desktop/UEAzureTest2 2/Binaries/IOS/Payload";
+				INFOPLIST_FILE = "/Users/macbookair/Desktop/UEAzureTest2 2/Intermediate/IOS/UEAzureTest2-Info.plist";
+				CODE_SIGN_ENTITLEMENTS = "/Users/macbookair/Desktop/UEAzureTest2 2/Intermediate/IOS/UEAzureTest2.entitlements";
+				OTHER_CODE_SIGN_FLAGS = "--generate-entitlement-der --deep";
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				INFOPLIST_OUTPUT_FORMAT = xml;
+				COMBINE_HIDPI_IMAGES = YES;
+				SDKROOT = iphoneos;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "/Users/Shared/Epic Games/UE_5.2/Engine/Source/Editor/UnrealEd/Public/UnrealEd.h";
+			};
+			name = "Shipping";
+		};
+		5E54E0D5FAF05E09852B3BF4 /* "DebugGame" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				VALID_ARCHS = "arm64 x86_64";
+				SUPPORTED_PLATFORMS = "macosx iphoneos";
+				GCC_PREPROCESSOR_DEFINITIONS = ();
+				HEADER_SEARCH_PATHS = ();
+				USER_HEADER_SEARCH_PATHS = ();
+				UE_BUILD_TARGET_NAME = "UEAzureTest2";
+				UE_BUILD_TARGET_CONFIG = "DebugGame";
+			};
+			name = "DebugGame";
+		};
+		9D58223F540050A03D607987 /* "Development" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				VALID_ARCHS = "arm64 x86_64";
+				SUPPORTED_PLATFORMS = "macosx iphoneos";
+				GCC_PREPROCESSOR_DEFINITIONS = ();
+				HEADER_SEARCH_PATHS = ();
+				USER_HEADER_SEARCH_PATHS = ();
+				UE_BUILD_TARGET_NAME = "UEAzureTest2";
+				UE_BUILD_TARGET_CONFIG = "Development";
+			};
+			name = "Development";
+		};
+		4ADCE8440E16B167D7CA007C /* "Shipping" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				VALID_ARCHS = "arm64 x86_64";
+				SUPPORTED_PLATFORMS = "macosx iphoneos";
+				GCC_PREPROCESSOR_DEFINITIONS = ();
+				HEADER_SEARCH_PATHS = ();
+				USER_HEADER_SEARCH_PATHS = ();
+				UE_BUILD_TARGET_NAME = "UEAzureTest2";
+				UE_BUILD_TARGET_CONFIG = "Shipping";
+			};
+			name = "Shipping";
+		};
+		D33DE0BE8742F8CB40BE167F /* "DebugGame" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				SUPPORTED_PLATFORMS = "macosx iphoneos";
+				CODE_SIGN_STYLE = Automatic;
+				"VALID_ARCHS[sdk=iphoneos*]" = "arm64";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				"PRODUCT_NAME[sdk=iphoneos*]" = "UEAzureTest2";
+				"TARGETED_DEVICE_FAMILY[sdk=iphoneos*]" = "1,2";
+				"SDKROOT[sdk=iphoneos]" = iphoneos;
+				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = GZA46PDP9T;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				"PRODUCT_BUNDLE_IDENTIFIER[sdk=iphoneos*]" = com.rafael.UETest;
+				"VALID_ARCHS[sdk=macosx*]" = "arm64 x86_64";
+				"PRODUCT_NAME[sdk=macosx*]" = "UEAzureTest2-Mac-DebugGame";
+				"CONFIGURATION_BUILD_DIR[sdk=macosx*]" = "/Users/macbookair/Desktop/UEAzureTest2 2/Binaries/Mac";
+				"SDKROOT[sdk=macosx*]" = macosx;
+				"PRODUCT_BUNDLE_IDENTIFIER[sdk=macosx*]" = com.rafael.UETest;
+				"CONFIGURATION_BUILD_DIR[sdk=iphoneos*]" = "/Users/macbookair/Desktop/UEAzureTest2 2/Binaries/IOS/Payload";
+				INFOPLIST_FILE = "/Users/macbookair/Desktop/UEAzureTest2 2/Intermediate/IOS/UEAzureTest2-Info.plist";
+				CODE_SIGN_ENTITLEMENTS = "/Users/macbookair/Desktop/UEAzureTest2 2/Intermediate/IOS/UEAzureTest2.entitlements";
+				OTHER_CODE_SIGN_FLAGS = "--generate-entitlement-der --deep";
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				INFOPLIST_OUTPUT_FORMAT = xml;
+				COMBINE_HIDPI_IMAGES = YES;
+				SDKROOT = iphoneos;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "/Users/Shared/Epic Games/UE_5.2/Engine/Source/Editor/UnrealEd/Public/UnrealEd.h";
+			};
+			name = "DebugGame";
+		};
+		FAB9C2E472DB388A2A358158 /* "Development" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				SUPPORTED_PLATFORMS = "macosx iphoneos";
+				CODE_SIGN_STYLE = Automatic;
+				"VALID_ARCHS[sdk=iphoneos*]" = "arm64";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				"PRODUCT_NAME[sdk=iphoneos*]" = "UEAzureTest2";
+				"TARGETED_DEVICE_FAMILY[sdk=iphoneos*]" = "1,2";
+				"SDKROOT[sdk=iphoneos]" = iphoneos;
+				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = GZA46PDP9T;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				"PRODUCT_BUNDLE_IDENTIFIER[sdk=iphoneos*]" = com.rafael.UETest;
+				"VALID_ARCHS[sdk=macosx*]" = "arm64 x86_64";
+				"PRODUCT_NAME[sdk=macosx*]" = "UEAzureTest2";
+				"CONFIGURATION_BUILD_DIR[sdk=macosx*]" = "/Users/macbookair/Desktop/UEAzureTest2 2/Binaries/Mac";
+				"SDKROOT[sdk=macosx*]" = macosx;
+				"PRODUCT_BUNDLE_IDENTIFIER[sdk=macosx*]" = com.rafael.UETest;
+				"CONFIGURATION_BUILD_DIR[sdk=iphoneos*]" = "/Users/macbookair/Desktop/UEAzureTest2 2/Binaries/IOS/Payload";
+				INFOPLIST_FILE = "/Users/macbookair/Desktop/UEAzureTest2 2/Intermediate/IOS/UEAzureTest2-Info.plist";
+				CODE_SIGN_ENTITLEMENTS = "/Users/macbookair/Desktop/UEAzureTest2 2/Intermediate/IOS/UEAzureTest2.entitlements";
+				OTHER_CODE_SIGN_FLAGS = "--generate-entitlement-der --deep";
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				INFOPLIST_OUTPUT_FORMAT = xml;
+				COMBINE_HIDPI_IMAGES = YES;
+				SDKROOT = iphoneos;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "/Users/Shared/Epic Games/UE_5.2/Engine/Source/Editor/UnrealEd/Public/UnrealEd.h";
+			};
+			name = "Development";
+		};
+		F61CA3810064B4E0B0D367F8 /* "Shipping" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				SUPPORTED_PLATFORMS = "macosx iphoneos";
+				CODE_SIGN_STYLE = Automatic;
+				"VALID_ARCHS[sdk=iphoneos*]" = "arm64";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				"PRODUCT_NAME[sdk=iphoneos*]" = "UEAzureTest2";
+				"TARGETED_DEVICE_FAMILY[sdk=iphoneos*]" = "1,2";
+				"SDKROOT[sdk=iphoneos]" = iphoneos;
+				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = GZA46PDP9T;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				"PRODUCT_BUNDLE_IDENTIFIER[sdk=iphoneos*]" = com.rafael.UETest;
+				"VALID_ARCHS[sdk=macosx*]" = "arm64 x86_64";
+				"PRODUCT_NAME[sdk=macosx*]" = "UEAzureTest2-Mac-Shipping";
+				"CONFIGURATION_BUILD_DIR[sdk=macosx*]" = "/Users/macbookair/Desktop/UEAzureTest2 2/Binaries/Mac";
+				"SDKROOT[sdk=macosx*]" = macosx;
+				"PRODUCT_BUNDLE_IDENTIFIER[sdk=macosx*]" = com.rafael.UETest;
+				"CONFIGURATION_BUILD_DIR[sdk=iphoneos*]" = "/Users/macbookair/Desktop/UEAzureTest2 2/Binaries/IOS/Payload";
+				INFOPLIST_FILE = "/Users/macbookair/Desktop/UEAzureTest2 2/Intermediate/IOS/UEAzureTest2-Info.plist";
+				CODE_SIGN_ENTITLEMENTS = "/Users/macbookair/Desktop/UEAzureTest2 2/Intermediate/IOS/UEAzureTest2.entitlements";
+				OTHER_CODE_SIGN_FLAGS = "--generate-entitlement-der --deep";
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				INFOPLIST_OUTPUT_FORMAT = xml;
+				COMBINE_HIDPI_IMAGES = YES;
+				SDKROOT = iphoneos;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "/Users/Shared/Epic Games/UE_5.2/Engine/Source/Editor/UnrealEd/Public/UnrealEd.h";
+			};
+			name = "Shipping";
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CFB4FC221C8ED41B8B224E0A /* Build configuration list for PBXProject "UEAzureTest2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD88D971FF1C04FE11201646 /* "DebugGame" */,
+				5B73F6A547A0B960BB4912AA /* "Development" */,
+				3FD80A33FCBC5F15D21908EE /* "Shipping" */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Development;
+		};
+		7FE256C29B29AAF5B0E67988 /* Build configuration list for PBXLegacyTarget "UEAzureTest2_Build" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5E54E0D5FAF05E09852B3BF4 /* "DebugGame" */,
+				9D58223F540050A03D607987 /* "Development" */,
+				4ADCE8440E16B167D7CA007C /* "Shipping" */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Development;
+		};
+		CF49FA7FECE189F27E175412 /* Build configuration list for PBXNativeTarget "UEAzureTest2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				865C3A74197D16A9824DCC90 /* "DebugGame" */,
+				3C2F0320C10CC15A2046A0DC /* "Development" */,
+				7D790CBAF9726CDCB57C2608 /* "Shipping" */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Development;
+		};
+		74904F2BA531E67447BC7F7C /* Build configuration list for PBXNativeTarget "UEAzureTest2_Index" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D33DE0BE8742F8CB40BE167F /* "DebugGame" */,
+				FAB9C2E472DB388A2A358158 /* "Development" */,
+				F61CA3810064B4E0B0D367F8 /* "Shipping" */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Development;
+		};
+/* End XCConfigurationList section */
+/* Begin PBXShellScriptBuildPhase section */
+		EC56059CDC96E810225E493C /* Sign Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+				/dev/null
+			);
+			name = "Sign Manual Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e\n\nIFS=$'\\n'\n\nif [ $PLATFORM_NAME = iphoneos ] || [ $PLATFORM_NAME = tvos ]; then \n\tFRAMEWORK_DIR=$TARGET_BUILD_DIR/$EXECUTABLE_FOLDER_PATH/Frameworks\n\tfor FRAMEWORK in ${FRAMEWORK_DIR}/*.framework; do\n\t\t[ -d \"${FRAMEWORK}\" ] || continue\n\t\techo Codesigning ${FRAMEWORK}\n\t\tcodesign --force --sign ${EXPANDED_CODE_SIGN_IDENTITY} --generate-entitlement-der --verbose --preserve-metadata=identifier,entitlements,flags --timestamp=none \"${FRAMEWORK}\"\n\tdone\nfi\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+	};
+	rootObject = DEBAEDDA00B74E68EEBD6E85 /* Project object */;
+}

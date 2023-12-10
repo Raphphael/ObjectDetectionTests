@@ -1,0 +1,1105 @@
+{
+
+"Instructions Readme": "1) Open Chrome or Edge, 2) go to chrome://tracing, 3) click Load, 4) navigate to this file.",
+"processInfo": {
+    "os": "Unix 14.1.2",
+    "cpuCount": "8",
+    "mappedPhysicalMemory": "48mb",
+    "commandLine": "/Users/macbookair/VuforiaTesting/Build/Il2CppOutputProject/IL2CPP/build/deploy_arm64/il2cpp.dll --compile-cpp --platform=iOS --baselib-directory=/Users/macbookair/VuforiaTesting/Build/Libraries --additional-defines=IL2CPP_DEBUG=0 --incremental-g-c-time-slice=3 --dotnetprofile=unityaot-macos --profiler-report --print-command-line --external-lib-il2-cpp=/Users/macbookair/VuforiaTesting/Build/Libraries/libil2cpp.a --generatedcppdir=Il2CppOutputProject/Source/il2cppOutput --architecture=arm64 --outputpath=/Users/macbookair/Library/Developer/Xcode/DerivedData/Unity-iPhone-djydjfhvhlopmjaxjdctdgjoogdm/Build/Products/ReleaseForRunning-iphoneos/libGameAssembly.a --cachedirectory=/Users/macbookair/Library/Developer/Xcode/DerivedData/Unity-iPhone-djydjfhvhlopmjaxjdctdgjoogdm/Build/Intermediates.noindex/Unity-iPhone.build/ReleaseForRunning-iphoneos/artifacts/arm64 --configuration=Release"
+},
+
+"traceEvents":[
+{ "pid": 10638, "tid": -1, "ph": "M", "name": "process_name", "args": { "name": "il2cpp_outer" } },
+{ "pid": 10638, "tid": -1, "ph": "M", "name": "process_sort_index", "args": { "sort_index": "-1" } },
+{ "pid": 10638, "tid": 12884901888, "ph": "M", "name": "thread_name", "args": { "name": "GC - Gen2" } },
+{ "pid": 10638, "tid": 1, "ts": 1702202187835853, "dur": 1853, "ph": "X", "name": "GC - Gen2", "args": {} },
+{ "pid": 10638, "tid": 8589934592, "ph": "M", "name": "thread_name", "args": { "name": "GC - Gen1" } },
+{ "pid": 10638, "tid": 4294967296, "ph": "M", "name": "thread_name", "args": { "name": "GC - Gen0" } },
+{ "pid": 10638, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "Main thread" } },
+{ "pid": 10638, "tid": 1, "ts": 1702202187451466, "dur": 361377, "ph": "X", "name": "il2cpp.exe", "args": {"analytics": "1"} },
+{ "pid": 10638, "tid": 1, "ts": 1702202187453395, "dur": 59833, "ph": "X", "name": "ParseArguments", "args": {} },
+{ "pid": 10638, "tid": 1, "ts": 1702202187513230, "dur": 8892, "ph": "X", "name": "RegisterRuntimeEventListeners", "args": {} },
+{ "pid": 10638, "tid": 1, "ts": 1702202187537756, "dur": 262024, "ph": "X", "name": "BeeDriverRunner.ExecuteIl2Cpp", "args": {} },
+{ "pid": 10638, "tid": 1, "ts": 1702202187803906, "dur": 6899, "ph": "X", "name": "Write Analytics", "args": {} },
+{ "pid": 10638, "tid": 1, "ts": 1702202187812844, "dur": 12742, "ph": "X", "name": "UnregisterRuntimeEventListeners", "args": {} },
+{ "pid": 10638, "tid": -1, "ph": "M", "name": "process_name", "args": { "name": "BeeDriver" } },
+{ "pid": 10638, "tid": -1, "ph": "M", "name": "process_sort_index", "args": { "sort_index": "-2" } },
+{ "pid": 10638, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "Main thread" } },
+{ "pid": 10638, "tid": 1, "ts": 1702202187651672, "dur": 151334, "ph": "X", "name": "Build FinalProgram", "args": {} },
+{ "pid": 10638, "tid": 1, "ts": 1702202187653790, "dur": 9789, "ph": "X", "name": "Writing build program input data", "args": {} },
+{ "pid": 10638, "tid": 1, "ts": 1702202187663604, "dur": 139321, "ph": "X", "name": "Running build system backend", "args": {} },
+{ "pid": 10638, "tid": 1, "ts": 1702202187802952, "dur": 53, "ph": "X", "name": "Finishing", "args": {} },
+{ "pid": 10638, "tid": 1, "ts": 1702202187811474, "dur": 1850, "ph": "X", "name": "Main thread", "args": {} },
+{ "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
+,{ "pid":12345, "tid":0, "ts":1702202187723866, "dur":2160, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1702202187726083, "dur":3479, "ph":"X", "name": "RemoveStaleOutputs",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1702202187729616, "dur":239, "ph":"X", "name": "BuildQueueInit",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1702202187729862, "dur":979, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1702202187730843, "dur":56863, "ph":"X", "name": "WaitForBuildFinished", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1702202187787792, "dur":5237, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1702202187729969, "dur":879, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1702202187730850, "dur":26143, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1702202187757352, "dur":95, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/macbookair/VuforiaTesting/Build/Il2CppOutputProject/Source/il2cppOutput/Assembly-CSharp.cpp" }}
+,{ "pid":12345, "tid":1, "ts":1702202187757447, "dur":6080, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/macbookair/VuforiaTesting/Build/Il2CppOutputProject/Source/il2cppOutput/Assembly-CSharp.cpp" }}
+,{ "pid":12345, "tid":1, "ts":1702202187763958, "dur":119, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/macbookair/VuforiaTesting/Build/Il2CppOutputProject/IL2CPP/external/baselib/Include/C/Baselib_SystemSemaphore.h" }}
+,{ "pid":12345, "tid":1, "ts":1702202187763539, "dur":668, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1702202187757351, "dur":6856, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_iOS_arm64 z7ln/dbc9jnj60bb8.o" }}
+,{ "pid":12345, "tid":1, "ts":1702202187764279, "dur":307, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/macbookair/VuforiaTesting/Build/Il2CppOutputProject/Source/il2cppOutput/Vuforia.Unity.Engine.cpp" }}
+,{ "pid":12345, "tid":1, "ts":1702202187764799, "dur":74, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/macbookair/VuforiaTesting/Build/Il2CppOutputProject/IL2CPP/libil2cpp/vm/Exception.h" }}
+,{ "pid":12345, "tid":1, "ts":1702202187764596, "dur":625, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1702202187764245, "dur":976, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_iOS_arm64 z7ln/e77h4bl069au.o" }}
+,{ "pid":12345, "tid":1, "ts":1702202187765279, "dur":319, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/macbookair/VuforiaTesting/Build/Il2CppOutputProject/Source/il2cppOutput/UnityEngine.UIElementsModule__7.cpp" }}
+,{ "pid":12345, "tid":1, "ts":1702202187765619, "dur":502, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1702202187765249, "dur":872, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_iOS_arm64 z7ln/cu2ofaqxj0n1.o" }}
+,{ "pid":12345, "tid":1, "ts":1702202187766190, "dur":454, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/macbookair/VuforiaTesting/Build/Il2CppOutputProject/Source/il2cppOutput/UnityEngine.UIElementsModule__14.cpp" }}
+,{ "pid":12345, "tid":1, "ts":1702202187766657, "dur":433, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1702202187766158, "dur":932, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_iOS_arm64 z7ln/4r4t0u506hjt.o" }}
+,{ "pid":12345, "tid":1, "ts":1702202187767158, "dur":171, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/macbookair/VuforiaTesting/Build/Il2CppOutputProject/Source/il2cppOutput/UnityEngine.TilemapModule.cpp" }}
+,{ "pid":12345, "tid":1, "ts":1702202187767793, "dur":102, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/macbookair/VuforiaTesting/Build/Il2CppOutputProject/IL2CPP/libil2cpp/vm/String.h" }}
+,{ "pid":12345, "tid":1, "ts":1702202187767905, "dur":408, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/macbookair/VuforiaTesting/Build/Il2CppOutputProject/IL2CPP/libil2cpp/vm/Runtime.h" }}
+,{ "pid":12345, "tid":1, "ts":1702202187767337, "dur":1119, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1702202187767129, "dur":1327, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_iOS_arm64 z7ln/ath6o0yfxcnd.o" }}
+,{ "pid":12345, "tid":1, "ts":1702202187768518, "dur":140, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/macbookair/VuforiaTesting/Build/Il2CppOutputProject/Source/il2cppOutput/UnityEngine.InputLegacyModule.cpp" }}
+,{ "pid":12345, "tid":1, "ts":1702202187768666, "dur":267, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1702202187768490, "dur":443, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_iOS_arm64 z7ln/3jgvhq4h1n1y.o" }}
+,{ "pid":12345, "tid":1, "ts":1702202187768981, "dur":473, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/macbookair/VuforiaTesting/Build/Il2CppOutputProject/Source/il2cppOutput/UnityEngine.IMGUIModule.cpp" }}
+,{ "pid":12345, "tid":1, "ts":1702202187769465, "dur":347, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1702202187768955, "dur":857, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_iOS_arm64 z7ln/jd04lat8xs3d.o" }}
+,{ "pid":12345, "tid":1, "ts":1702202187769867, "dur":349, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/macbookair/VuforiaTesting/Build/Il2CppOutputProject/Source/il2cppOutput/UnityEngine.AudioModule.cpp" }}
+,{ "pid":12345, "tid":1, "ts":1702202187770229, "dur":473, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1702202187769838, "dur":864, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_iOS_arm64 z7ln/2crr8j7jhr8i.o" }}
+,{ "pid":12345, "tid":1, "ts":1702202187770703, "dur":52, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1702202187770782, "dur":328, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/macbookair/VuforiaTesting/Build/Il2CppOutputProject/Source/il2cppOutput/Unity.TextMeshPro__1.cpp" }}
+,{ "pid":12345, "tid":1, "ts":1702202187771141, "dur":513, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1702202187770755, "dur":899, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_iOS_arm64 z7ln/2xsvy0b5k4bb.o" }}
+,{ "pid":12345, "tid":1, "ts":1702202187771686, "dur":63, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/macbookair/VuforiaTesting/Build/Il2CppOutputProject/Source/il2cppOutput/System__4.cpp" }}
+,{ "pid":12345, "tid":1, "ts":1702202187771750, "dur":345, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/macbookair/VuforiaTesting/Build/Il2CppOutputProject/Source/il2cppOutput/System__4.cpp" }}
+,{ "pid":12345, "tid":1, "ts":1702202187772163, "dur":62, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/macbookair/VuforiaTesting/Build/Il2CppOutputProject/IL2CPP/libil2cpp/vm/Assembly.h" }}
+,{ "pid":12345, "tid":1, "ts":1702202187772488, "dur":55, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/macbookair/VuforiaTesting/Build/Il2CppOutputProject/IL2CPP/libil2cpp/os/c-api/il2cpp-config-platforms.h" }}
+,{ "pid":12345, "tid":1, "ts":1702202187772101, "dur":637, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1702202187771685, "dur":1054, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_iOS_arm64 z7ln/0zh7fj21wm42.o" }}
+,{ "pid":12345, "tid":1, "ts":1702202187772805, "dur":322, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/macbookair/VuforiaTesting/Build/Il2CppOutputProject/Source/il2cppOutput/System.Numerics.cpp" }}
+,{ "pid":12345, "tid":1, "ts":1702202187773141, "dur":419, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1702202187772779, "dur":781, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_iOS_arm64 z7ln/0v7bxfigswmm.o" }}
+,{ "pid":12345, "tid":1, "ts":1702202187773606, "dur":570, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/macbookair/VuforiaTesting/Build/Il2CppOutputProject/Source/il2cppOutput/mscorlib__9.cpp" }}
+,{ "pid":12345, "tid":1, "ts":1702202187774471, "dur":79, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/macbookair/VuforiaTesting/Build/Il2CppOutputProject/IL2CPP/libil2cpp/il2cpp-windowsruntime-types.h" }}
+,{ "pid":12345, "tid":1, "ts":1702202187774962, "dur":90, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/macbookair/VuforiaTesting/Build/Il2CppOutputProject/IL2CPP/libil2cpp/metadata/Il2CppGenericMethodCompare.h" }}
+,{ "pid":12345, "tid":1, "ts":1702202187774240, "dur":854, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1702202187773590, "dur":1504, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_iOS_arm64 z7ln/3qidx3umskm8.o" }}
+,{ "pid":12345, "tid":1, "ts":1702202187775149, "dur":213, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/macbookair/VuforiaTesting/Build/Il2CppOutputProject/Source/il2cppOutput/mscorlib__21.cpp" }}
+,{ "pid":12345, "tid":1, "ts":1702202187775368, "dur":578, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1702202187775118, "dur":828, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_iOS_arm64 z7ln/rfxmd4n77lv7.o" }}
+,{ "pid":12345, "tid":1, "ts":1702202187776001, "dur":602, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/macbookair/VuforiaTesting/Build/Il2CppOutputProject/Source/il2cppOutput/mscorlib__16.cpp" }}
+,{ "pid":12345, "tid":1, "ts":1702202187776624, "dur":649, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1702202187775984, "dur":1289, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_iOS_arm64 z7ln/xbv8fyzel7nx.o" }}
+,{ "pid":12345, "tid":1, "ts":1702202187777332, "dur":196, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/macbookair/VuforiaTesting/Build/Il2CppOutputProject/Source/il2cppOutput/Mono.Security.cpp" }}
+,{ "pid":12345, "tid":1, "ts":1702202187777716, "dur":115, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/macbookair/VuforiaTesting/Build/Il2CppOutputProject/IL2CPP/libil2cpp/utils/MemoryUtils.h" }}
+,{ "pid":12345, "tid":1, "ts":1702202187777600, "dur":460, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1702202187777315, "dur":745, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_iOS_arm64 z7ln/il7w8i4h10tp.o" }}
+,{ "pid":12345, "tid":1, "ts":1702202187778103, "dur":239, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/macbookair/VuforiaTesting/Build/Il2CppOutputProject/Source/il2cppOutput/Il2CppCCFieldValuesTable.cpp" }}
+,{ "pid":12345, "tid":1, "ts":1702202187778401, "dur":60, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/macbookair/VuforiaTesting/Build/Il2CppOutputProject/IL2CPP/external/baselib/Include/Internal/Compiler/CompilerEnvironmentMsvc.h" }}
+,{ "pid":12345, "tid":1, "ts":1702202187778358, "dur":451, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1702202187778084, "dur":725, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_iOS_arm64 z7ln/97utmobu2y6u.o" }}
+,{ "pid":12345, "tid":1, "ts":1702202187778858, "dur":167, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/macbookair/VuforiaTesting/Build/Il2CppOutputProject/Source/il2cppOutput/Generics__8.cpp" }}
+,{ "pid":12345, "tid":1, "ts":1702202187779142, "dur":60, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/macbookair/VuforiaTesting/Build/Il2CppOutputProject/IL2CPP/libil2cpp/gc/WriteBarrier.h" }}
+,{ "pid":12345, "tid":1, "ts":1702202187779043, "dur":374, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1702202187778836, "dur":581, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_iOS_arm64 z7ln/zxpwggpxkrdt.o" }}
+,{ "pid":12345, "tid":1, "ts":1702202187779417, "dur":125, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1702202187779586, "dur":234, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/macbookair/VuforiaTesting/Build/Il2CppOutputProject/Source/il2cppOutput/Generics__6.cpp" }}
+,{ "pid":12345, "tid":1, "ts":1702202187779850, "dur":318, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1702202187779542, "dur":626, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_iOS_arm64 z7ln/da2rgru1d1ku.o" }}
+,{ "pid":12345, "tid":1, "ts":1702202187780196, "dur":165, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/macbookair/VuforiaTesting/Build/Il2CppOutputProject/Source/il2cppOutput/Generics__55.cpp" }}
+,{ "pid":12345, "tid":1, "ts":1702202187780371, "dur":345, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1702202187780173, "dur":544, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_iOS_arm64 z7ln/3228oso9hm6h.o" }}
+,{ "pid":12345, "tid":1, "ts":1702202187780759, "dur":220, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/macbookair/VuforiaTesting/Build/Il2CppOutputProject/Source/il2cppOutput/Generics__48.cpp" }}
+,{ "pid":12345, "tid":1, "ts":1702202187781279, "dur":59, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/macbookair/VuforiaTesting/Build/Il2CppOutputProject/IL2CPP/libil2cpp/vm-utils/VmStringUtils.h" }}
+,{ "pid":12345, "tid":1, "ts":1702202187781372, "dur":55, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/macbookair/VuforiaTesting/Build/Il2CppOutputProject/IL2CPP/libil2cpp/utils/dynamic_array.h" }}
+,{ "pid":12345, "tid":1, "ts":1702202187781442, "dur":52, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/macbookair/VuforiaTesting/Build/Il2CppOutputProject/IL2CPP/external/baselib/Include/C/Baselib_ErrorState.h" }}
+,{ "pid":12345, "tid":1, "ts":1702202187781618, "dur":54, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/macbookair/VuforiaTesting/Build/Il2CppOutputProject/IL2CPP/libil2cpp/metadata/Il2CppGenericContextCompare.h" }}
+,{ "pid":12345, "tid":1, "ts":1702202187781002, "dur":710, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1702202187780742, "dur":970, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_iOS_arm64 z7ln/33tiw37lpvb5.o" }}
+,{ "pid":12345, "tid":1, "ts":1702202187781713, "dur":53, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1702202187781782, "dur":256, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/macbookair/VuforiaTesting/Build/Il2CppOutputProject/Source/il2cppOutput/Generics__4.cpp" }}
+,{ "pid":12345, "tid":1, "ts":1702202187782051, "dur":514, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1702202187781766, "dur":800, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_iOS_arm64 z7ln/rmeng2z56asv.o" }}
+,{ "pid":12345, "tid":1, "ts":1702202187782607, "dur":294, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/macbookair/VuforiaTesting/Build/Il2CppOutputProject/Source/il2cppOutput/Generics__32.cpp" }}
+,{ "pid":12345, "tid":1, "ts":1702202187782994, "dur":81, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/macbookair/VuforiaTesting/Build/Il2CppOutputProject/IL2CPP/external/baselib/Include/C/Baselib_CappedSemaphore.h" }}
+,{ "pid":12345, "tid":1, "ts":1702202187783125, "dur":101, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/macbookair/VuforiaTesting/Build/Il2CppOutputProject/IL2CPP/libil2cpp/metadata/Il2CppSignature.h" }}
+,{ "pid":12345, "tid":1, "ts":1702202187783460, "dur":92, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/macbookair/VuforiaTesting/Build/Il2CppOutputProject/IL2CPP/external/baselib/Include/C/Internal/Baselib_CappedSemaphore_SemaphoreBased.inl.h" }}
+,{ "pid":12345, "tid":1, "ts":1702202187782918, "dur":682, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1702202187782590, "dur":1010, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_iOS_arm64 z7ln/ivbesj0i3x39.o" }}
+,{ "pid":12345, "tid":1, "ts":1702202187783670, "dur":264, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/macbookair/VuforiaTesting/Build/Il2CppOutputProject/Source/il2cppOutput/Generics__23.cpp" }}
+,{ "pid":12345, "tid":1, "ts":1702202187783978, "dur":61, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/macbookair/VuforiaTesting/Build/Il2CppOutputProject/IL2CPP/external/google/sparsehash/internal/libc_allocator_with_realloc.h" }}
+,{ "pid":12345, "tid":1, "ts":1702202187783946, "dur":448, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1702202187783631, "dur":763, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_iOS_arm64 z7ln/w8ejz5oz3ggy.o" }}
+,{ "pid":12345, "tid":1, "ts":1702202187784434, "dur":318, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/macbookair/VuforiaTesting/Build/Il2CppOutputProject/Source/il2cppOutput/Generics__18.cpp" }}
+,{ "pid":12345, "tid":1, "ts":1702202187784759, "dur":285, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1702202187784418, "dur":626, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_iOS_arm64 z7ln/24c51z06g28n.o" }}
+,{ "pid":12345, "tid":1, "ts":1702202187785044, "dur":72, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1702202187785134, "dur":292, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/macbookair/VuforiaTesting/Build/Il2CppOutputProject/Source/il2cppOutput/Generics__12.cpp" }}
+,{ "pid":12345, "tid":1, "ts":1702202187785578, "dur":243, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/macbookair/VuforiaTesting/Build/Il2CppOutputProject/IL2CPP/libil2cpp/os/WaitStatus.h" }}
+,{ "pid":12345, "tid":1, "ts":1702202187786079, "dur":60, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/macbookair/VuforiaTesting/Build/Il2CppOutputProject/IL2CPP/external/baselib/Include/Internal/VerifyPlatformEnvironment.h" }}
+,{ "pid":12345, "tid":1, "ts":1702202187785439, "dur":797, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1702202187785116, "dur":1120, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_iOS_arm64 z7ln/oyuj62ikx9zn.o" }}
+,{ "pid":12345, "tid":1, "ts":1702202187786278, "dur":273, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/macbookair/VuforiaTesting/Build/Il2CppOutputProject/Source/il2cppOutput/GenericMethods__3.cpp" }}
+,{ "pid":12345, "tid":1, "ts":1702202187786689, "dur":51, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/macbookair/VuforiaTesting/Build/Il2CppOutputProject/IL2CPP/external/baselib/Include/Internal/Assert.h" }}
+,{ "pid":12345, "tid":1, "ts":1702202187786565, "dur":454, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1702202187786262, "dur":757, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_iOS_arm64 z7ln/3vv9fvqyujxp.o" }}
+,{ "pid":12345, "tid":1, "ts":1702202187787065, "dur":284, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/macbookair/VuforiaTesting/Build/Il2CppOutputProject/Source/il2cppOutput/GenericMethods__1.cpp" }}
+,{ "pid":12345, "tid":1, "ts":1702202187787355, "dur":237, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1702202187787040, "dur":552, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_iOS_arm64 z7ln/x0oxkcy3o79m.o" }}
+,{ "pid":12345, "tid":1, "ts":1702202187787597, "dur":98, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1702202187730014, "dur":908, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1702202187730923, "dur":26150, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1702202187757075, "dur":135, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/macbookair/VuforiaTesting/Build/Il2CppOutputProject/Source/il2cppOutput/UnityEngine.UI_CodeGen.c" }}
+,{ "pid":12345, "tid":2, "ts":1702202187757211, "dur":759, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/macbookair/VuforiaTesting/Build/Il2CppOutputProject/Source/il2cppOutput/UnityEngine.UI_CodeGen.c" }}
+,{ "pid":12345, "tid":2, "ts":1702202187758116, "dur":173, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1702202187757073, "dur":1216, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_iOS_arm64 z7ln/qmgqzr05knap.o" }}
+,{ "pid":12345, "tid":2, "ts":1702202187758336, "dur":67, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/macbookair/VuforiaTesting/Build/Il2CppOutputProject/Source/il2cppOutput/UnityEngine.TilemapModule_CodeGen.c" }}
+,{ "pid":12345, "tid":2, "ts":1702202187758403, "dur":270, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/macbookair/VuforiaTesting/Build/Il2CppOutputProject/Source/il2cppOutput/UnityEngine.TilemapModule_CodeGen.c" }}
+,{ "pid":12345, "tid":2, "ts":1702202187758737, "dur":135, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1702202187758334, "dur":538, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_iOS_arm64 z7ln/i8z64qh602ig.o" }}
+,{ "pid":12345, "tid":2, "ts":1702202187758938, "dur":85, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/macbookair/VuforiaTesting/Build/Il2CppOutputProject/Source/il2cppOutput/UnityEngine.PropertiesModule_CodeGen.c" }}
+,{ "pid":12345, "tid":2, "ts":1702202187758905, "dur":146, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_iOS_arm64 z7ln/9cty4fif11hs.o" }}
+,{ "pid":12345, "tid":2, "ts":1702202187759093, "dur":65, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/macbookair/VuforiaTesting/Build/Il2CppOutputProject/Source/il2cppOutput/UnityEngine.CoreModule_CodeGen.c" }}
+,{ "pid":12345, "tid":2, "ts":1702202187759159, "dur":110, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/macbookair/VuforiaTesting/Build/Il2CppOutputProject/Source/il2cppOutput/UnityEngine.CoreModule_CodeGen.c" }}
+,{ "pid":12345, "tid":2, "ts":1702202187759279, "dur":154, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1702202187759092, "dur":341, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_iOS_arm64 z7ln/dz8y2wup3zpf.o" }}
+,{ "pid":12345, "tid":2, "ts":1702202187759502, "dur":102, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/macbookair/VuforiaTesting/Build/Il2CppOutputProject/Source/il2cppOutput/System.Numerics_CodeGen.c" }}
+,{ "pid":12345, "tid":2, "ts":1702202187759662, "dur":207, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1702202187759474, "dur":395, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_iOS_arm64 z7ln/4b4vgt5872qd.o" }}
+,{ "pid":12345, "tid":2, "ts":1702202187759930, "dur":150, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/macbookair/VuforiaTesting/Build/Il2CppOutputProject/Source/il2cppOutput/mscorlib_CodeGen.c" }}
+,{ "pid":12345, "tid":2, "ts":1702202187760143, "dur":128, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1702202187759895, "dur":377, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_iOS_arm64 z7ln/8s6f2gk91qet.o" }}
+,{ "pid":12345, "tid":2, "ts":1702202187760328, "dur":185, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/macbookair/VuforiaTesting/Build/Il2CppOutputProject/Source/il2cppOutput/Il2CppMetadataRegistration.c" }}
+,{ "pid":12345, "tid":2, "ts":1702202187760535, "dur":190, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1702202187760280, "dur":446, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_iOS_arm64 z7ln/f0j9crk5z2ea.o" }}
+,{ "pid":12345, "tid":2, "ts":1702202187760726, "dur":98, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1702202187760843, "dur":73, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/macbookair/VuforiaTesting/Build/Il2CppOutputProject/Source/il2cppOutput/Assembly-CSharp_CodeGen.c" }}
+,{ "pid":12345, "tid":2, "ts":1702202187761017, "dur":288, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1702202187760824, "dur":481, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_iOS_arm64 z7ln/5ptug8yh3es0.o" }}
+,{ "pid":12345, "tid":2, "ts":1702202187761370, "dur":2053, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/macbookair/VuforiaTesting/Build/Il2CppOutputProject/Source/il2cppOutput/Vuforia.Unity.Engine__6.cpp" }}
+,{ "pid":12345, "tid":2, "ts":1702202187763435, "dur":595, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1702202187761350, "dur":2681, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_iOS_arm64 z7ln/qo6o5vqvs9kp.o" }}
+,{ "pid":12345, "tid":2, "ts":1702202187764031, "dur":55, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1702202187764115, "dur":442, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/macbookair/VuforiaTesting/Build/Il2CppOutputProject/Source/il2cppOutput/Vuforia.Unity.Engine__1.cpp" }}
+,{ "pid":12345, "tid":2, "ts":1702202187764569, "dur":543, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1702202187764086, "dur":1026, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_iOS_arm64 z7ln/dq8juep7cjt4.o" }}
+,{ "pid":12345, "tid":2, "ts":1702202187765176, "dur":397, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/macbookair/VuforiaTesting/Build/Il2CppOutputProject/Source/il2cppOutput/UnityEngine.UIElementsModule__8.cpp" }}
+,{ "pid":12345, "tid":2, "ts":1702202187765588, "dur":431, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1702202187765150, "dur":869, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_iOS_arm64 z7ln/x95cvj4umozk.o" }}
+,{ "pid":12345, "tid":2, "ts":1702202187766086, "dur":450, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/macbookair/VuforiaTesting/Build/Il2CppOutputProject/Source/il2cppOutput/UnityEngine.UIElementsModule__2.cpp" }}
+,{ "pid":12345, "tid":2, "ts":1702202187766549, "dur":410, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1702202187766055, "dur":904, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_iOS_arm64 z7ln/j3nrzmm82vqk.o" }}
+,{ "pid":12345, "tid":2, "ts":1702202187767030, "dur":211, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/macbookair/VuforiaTesting/Build/Il2CppOutputProject/Source/il2cppOutput/UnityEngine.UI.cpp" }}
+,{ "pid":12345, "tid":2, "ts":1702202187767250, "dur":442, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1702202187767000, "dur":692, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_iOS_arm64 z7ln/e0l86r9tqpsx.o" }}
+,{ "pid":12345, "tid":2, "ts":1702202187767692, "dur":63, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1702202187767756, "dur":63, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/macbookair/VuforiaTesting/Build/Il2CppOutputProject/Source/il2cppOutput/UnityEngine.TextCoreFontEngineModule.cpp" }}
+,{ "pid":12345, "tid":2, "ts":1702202187767819, "dur":264, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/macbookair/VuforiaTesting/Build/Il2CppOutputProject/Source/il2cppOutput/UnityEngine.TextCoreFontEngineModule.cpp" }}
+,{ "pid":12345, "tid":2, "ts":1702202187768094, "dur":197, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1702202187767755, "dur":536, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_iOS_arm64 z7ln/bm7y4s8ivixl.o" }}
+,{ "pid":12345, "tid":2, "ts":1702202187768329, "dur":63, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/macbookair/VuforiaTesting/Build/Il2CppOutputProject/Source/il2cppOutput/UnityEngine.PropertiesModule.cpp" }}
+,{ "pid":12345, "tid":2, "ts":1702202187768392, "dur":216, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/macbookair/VuforiaTesting/Build/Il2CppOutputProject/Source/il2cppOutput/UnityEngine.PropertiesModule.cpp" }}
+,{ "pid":12345, "tid":2, "ts":1702202187768616, "dur":207, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1702202187768328, "dur":496, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_iOS_arm64 z7ln/156tkfsvxmp2.o" }}
+,{ "pid":12345, "tid":2, "ts":1702202187768824, "dur":183, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1702202187769009, "dur":75, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/macbookair/VuforiaTesting/Build/Il2CppOutputProject/Source/il2cppOutput/UnityEngine.GridModule.cpp" }}
+,{ "pid":12345, "tid":2, "ts":1702202187769084, "dur":305, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/macbookair/VuforiaTesting/Build/Il2CppOutputProject/Source/il2cppOutput/UnityEngine.GridModule.cpp" }}
+,{ "pid":12345, "tid":2, "ts":1702202187769555, "dur":266, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/macbookair/VuforiaTesting/Build/Il2CppOutputProject/IL2CPP/external/baselib/Include/Internal/ArchitectureDetection.h" }}
+,{ "pid":12345, "tid":2, "ts":1702202187769979, "dur":89, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/macbookair/VuforiaTesting/Build/Il2CppOutputProject/IL2CPP/libil2cpp/vm-utils/Debugger.h" }}
+,{ "pid":12345, "tid":2, "ts":1702202187770186, "dur":67, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/macbookair/VuforiaTesting/Build/Il2CppOutputProject/IL2CPP/external/google/sparsehash/internal/hashtable-common.h" }}
+,{ "pid":12345, "tid":2, "ts":1702202187769406, "dur":980, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1702202187769008, "dur":1378, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_iOS_arm64 z7ln/49h3en26bif7.o" }}
+,{ "pid":12345, "tid":2, "ts":1702202187770442, "dur":265, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/macbookair/VuforiaTesting/Build/Il2CppOutputProject/Source/il2cppOutput/Unity.TextMeshPro__3.cpp" }}
+,{ "pid":12345, "tid":2, "ts":1702202187770719, "dur":592, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1702202187770414, "dur":897, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_iOS_arm64 z7ln/olg0yp60ru49.o" }}
+,{ "pid":12345, "tid":2, "ts":1702202187771312, "dur":76, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1702202187771413, "dur":240, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/macbookair/VuforiaTesting/Build/Il2CppOutputProject/Source/il2cppOutput/System__5.cpp" }}
+,{ "pid":12345, "tid":2, "ts":1702202187771870, "dur":84, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/macbookair/VuforiaTesting/Build/Il2CppOutputProject/IL2CPP/libil2cpp/vm/Object.h" }}
+,{ "pid":12345, "tid":2, "ts":1702202187772052, "dur":56, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/macbookair/VuforiaTesting/Build/Il2CppOutputProject/IL2CPP/external/baselib/Include/C/Internal/Compiler/Baselib_Atomic_Gcc.h" }}
+,{ "pid":12345, "tid":2, "ts":1702202187772163, "dur":61, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/macbookair/VuforiaTesting/Build/Il2CppOutputProject/IL2CPP/libil2cpp/vm-utils/Debugger.h" }}
+,{ "pid":12345, "tid":2, "ts":1702202187771717, "dur":729, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1702202187771389, "dur":1057, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_iOS_arm64 z7ln/lflvvsgzzagm.o" }}
+,{ "pid":12345, "tid":2, "ts":1702202187772506, "dur":223, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/macbookair/VuforiaTesting/Build/Il2CppOutputProject/Source/il2cppOutput/System.Xml__1.cpp" }}
+,{ "pid":12345, "tid":2, "ts":1702202187772742, "dur":420, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1702202187772482, "dur":680, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_iOS_arm64 z7ln/whv3vrmeji3s.o" }}
+,{ "pid":12345, "tid":2, "ts":1702202187773207, "dur":223, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/macbookair/VuforiaTesting/Build/Il2CppOutputProject/Source/il2cppOutput/System.Core__2.cpp" }}
+,{ "pid":12345, "tid":2, "ts":1702202187773476, "dur":696, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1702202187773186, "dur":986, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_iOS_arm64 z7ln/fiw8s4gbtbsj.o" }}
+,{ "pid":12345, "tid":2, "ts":1702202187774173, "dur":66, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1702202187774256, "dur":678, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/macbookair/VuforiaTesting/Build/Il2CppOutputProject/Source/il2cppOutput/mscorlib__6.cpp" }}
+,{ "pid":12345, "tid":2, "ts":1702202187774940, "dur":334, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1702202187774239, "dur":1035, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_iOS_arm64 z7ln/wnrkh5lti6hq.o" }}
+,{ "pid":12345, "tid":2, "ts":1702202187775321, "dur":260, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/macbookair/VuforiaTesting/Build/Il2CppOutputProject/Source/il2cppOutput/mscorlib__20.cpp" }}
+,{ "pid":12345, "tid":2, "ts":1702202187775715, "dur":578, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1702202187775306, "dur":987, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_iOS_arm64 z7ln/q7c6so783jes.o" }}
+,{ "pid":12345, "tid":2, "ts":1702202187776293, "dur":53, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1702202187776365, "dur":339, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/macbookair/VuforiaTesting/Build/Il2CppOutputProject/Source/il2cppOutput/mscorlib__13.cpp" }}
+,{ "pid":12345, "tid":2, "ts":1702202187776921, "dur":50, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/macbookair/VuforiaTesting/Build/Il2CppOutputProject/IL2CPP/libil2cpp/vm/ScopedThreadAttacher.h" }}
+,{ "pid":12345, "tid":2, "ts":1702202187777215, "dur":81, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/macbookair/VuforiaTesting/Build/Il2CppOutputProject/IL2CPP/external/baselib/Include/C/Baselib_WakeupFallbackStrategy.h" }}
+,{ "pid":12345, "tid":2, "ts":1702202187777324, "dur":59, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/macbookair/VuforiaTesting/Build/Il2CppOutputProject/IL2CPP/external/baselib/Include/C/Baselib_StaticAssert.h" }}
+,{ "pid":12345, "tid":2, "ts":1702202187776795, "dur":746, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1702202187776347, "dur":1194, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_iOS_arm64 z7ln/q83f0zqlbtjf.o" }}
+,{ "pid":12345, "tid":2, "ts":1702202187777591, "dur":161, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/macbookair/VuforiaTesting/Build/Il2CppOutputProject/Source/il2cppOutput/Il2CppReversePInvokeWrapperTable.cpp" }}
+,{ "pid":12345, "tid":2, "ts":1702202187777903, "dur":55, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/macbookair/VuforiaTesting/Build/Il2CppOutputProject/IL2CPP/external/baselib/Include/C/Internal/Compiler/Baselib_Atomic_Gcc_Patch.h" }}
+,{ "pid":12345, "tid":2, "ts":1702202187777975, "dur":76, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/macbookair/VuforiaTesting/Build/Il2CppOutputProject/IL2CPP/libil2cpp/utils/MemoryUtils.h" }}
+,{ "pid":12345, "tid":2, "ts":1702202187777758, "dur":607, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1702202187777566, "dur":799, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_iOS_arm64 z7ln/khlzy2ak66kc.o" }}
+,{ "pid":12345, "tid":2, "ts":1702202187778408, "dur":159, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/macbookair/VuforiaTesting/Build/Il2CppOutputProject/Source/il2cppOutput/Il2CppCCalculateFieldValues2.cpp" }}
+,{ "pid":12345, "tid":2, "ts":1702202187778700, "dur":62, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/macbookair/VuforiaTesting/Build/Il2CppOutputProject/IL2CPP/libil2cpp/il2cpp-metadata.h" }}
+,{ "pid":12345, "tid":2, "ts":1702202187778848, "dur":79, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/macbookair/VuforiaTesting/Build/Il2CppOutputProject/IL2CPP/libil2cpp/vm/PlatformInvoke.h" }}
+,{ "pid":12345, "tid":2, "ts":1702202187779028, "dur":58, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/macbookair/VuforiaTesting/Build/Il2CppOutputProject/IL2CPP/libil2cpp/codegen/il2cpp-codegen-common.h" }}
+,{ "pid":12345, "tid":2, "ts":1702202187779142, "dur":60, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/macbookair/VuforiaTesting/Build/Il2CppOutputProject/IL2CPP/libil2cpp/os/Win32/ThreadLocalValueImpl.h" }}
+,{ "pid":12345, "tid":2, "ts":1702202187779300, "dur":61, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/macbookair/VuforiaTesting/Build/Il2CppOutputProject/IL2CPP/libil2cpp/vm/Runtime.h" }}
+,{ "pid":12345, "tid":2, "ts":1702202187778583, "dur":869, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1702202187778391, "dur":1061, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_iOS_arm64 z7ln/sda7bbdt6e03.o" }}
+,{ "pid":12345, "tid":2, "ts":1702202187779475, "dur":300, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/macbookair/VuforiaTesting/Build/Il2CppOutputProject/Source/il2cppOutput/Generics__62.cpp" }}
+,{ "pid":12345, "tid":2, "ts":1702202187779960, "dur":87, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/macbookair/VuforiaTesting/Build/Il2CppOutputProject/IL2CPP/libil2cpp/os/ThreadLocalValue.h" }}
+,{ "pid":12345, "tid":2, "ts":1702202187779783, "dur":437, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1702202187779465, "dur":756, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_iOS_arm64 z7ln/jusrmn7xbr6q.o" }}
+,{ "pid":12345, "tid":2, "ts":1702202187780252, "dur":173, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/macbookair/VuforiaTesting/Build/Il2CppOutputProject/Source/il2cppOutput/Generics__54.cpp" }}
+,{ "pid":12345, "tid":2, "ts":1702202187780432, "dur":361, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1702202187780236, "dur":557, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_iOS_arm64 z7ln/inzk9iacfyuy.o" }}
+,{ "pid":12345, "tid":2, "ts":1702202187780830, "dur":248, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/macbookair/VuforiaTesting/Build/Il2CppOutputProject/Source/il2cppOutput/Generics__47.cpp" }}
+,{ "pid":12345, "tid":2, "ts":1702202187781088, "dur":319, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1702202187780812, "dur":595, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_iOS_arm64 z7ln/ioqugutom7zl.o" }}
+,{ "pid":12345, "tid":2, "ts":1702202187781407, "dur":163, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1702202187781571, "dur":53, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/macbookair/VuforiaTesting/Build/Il2CppOutputProject/Source/il2cppOutput/Generics__41.cpp" }}
+,{ "pid":12345, "tid":2, "ts":1702202187781624, "dur":408, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/macbookair/VuforiaTesting/Build/Il2CppOutputProject/Source/il2cppOutput/Generics__41.cpp" }}
+,{ "pid":12345, "tid":2, "ts":1702202187782045, "dur":393, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1702202187781570, "dur":868, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_iOS_arm64 z7ln/4h88kxb22erl.o" }}
+,{ "pid":12345, "tid":2, "ts":1702202187782483, "dur":380, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/macbookair/VuforiaTesting/Build/Il2CppOutputProject/Source/il2cppOutput/Generics__34.cpp" }}
+,{ "pid":12345, "tid":2, "ts":1702202187782996, "dur":79, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/macbookair/VuforiaTesting/Build/Il2CppOutputProject/IL2CPP/libil2cpp/metadata/CustomAttributeDataReader.h" }}
+,{ "pid":12345, "tid":2, "ts":1702202187782881, "dur":570, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1702202187782458, "dur":994, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_iOS_arm64 z7ln/oqiqn2sd99qc.o" }}
+,{ "pid":12345, "tid":2, "ts":1702202187783452, "dur":96, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1702202187783571, "dur":406, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/macbookair/VuforiaTesting/Build/Il2CppOutputProject/Source/il2cppOutput/Generics__25.cpp" }}
+,{ "pid":12345, "tid":2, "ts":1702202187784010, "dur":502, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1702202187783549, "dur":963, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_iOS_arm64 z7ln/iw2nzujva78w.o" }}
+,{ "pid":12345, "tid":2, "ts":1702202187784552, "dur":299, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/macbookair/VuforiaTesting/Build/Il2CppOutputProject/Source/il2cppOutput/Generics__16.cpp" }}
+,{ "pid":12345, "tid":2, "ts":1702202187785138, "dur":59, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/macbookair/VuforiaTesting/Build/Il2CppOutputProject/IL2CPP/libil2cpp/icalls/mscorlib/System.Runtime.InteropServices/Marshal.h" }}
+,{ "pid":12345, "tid":2, "ts":1702202187784858, "dur":469, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1702202187784536, "dur":791, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_iOS_arm64 z7ln/w95s6g8bbqll.o" }}
+,{ "pid":12345, "tid":2, "ts":1702202187785369, "dur":416, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/macbookair/VuforiaTesting/Build/Il2CppOutputProject/Source/il2cppOutput/Generics__1.cpp" }}
+,{ "pid":12345, "tid":2, "ts":1702202187786077, "dur":61, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/macbookair/VuforiaTesting/Build/Il2CppOutputProject/IL2CPP/libil2cpp/vm/String.h" }}
+,{ "pid":12345, "tid":2, "ts":1702202187786199, "dur":51, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/macbookair/VuforiaTesting/Build/Il2CppOutputProject/IL2CPP/external/baselib/Include/C/Internal/Baselib_CappedSemaphore_SemaphoreBased.inl.h" }}
+,{ "pid":12345, "tid":2, "ts":1702202187786271, "dur":60, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/macbookair/VuforiaTesting/Build/Il2CppOutputProject/IL2CPP/libil2cpp/metadata/ArrayMetadata.h" }}
+,{ "pid":12345, "tid":2, "ts":1702202187785795, "dur":611, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1702202187785351, "dur":1055, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_iOS_arm64 z7ln/kjnu03qcxwnd.o" }}
+,{ "pid":12345, "tid":2, "ts":1702202187786447, "dur":257, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/macbookair/VuforiaTesting/Build/Il2CppOutputProject/Source/il2cppOutput/GenericMethods__14.cpp" }}
+,{ "pid":12345, "tid":2, "ts":1702202187786910, "dur":57, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/macbookair/VuforiaTesting/Build/Il2CppOutputProject/IL2CPP/libil2cpp/utils/MemoryUtils.h" }}
+,{ "pid":12345, "tid":2, "ts":1702202187787060, "dur":59, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/macbookair/VuforiaTesting/Build/Il2CppOutputProject/IL2CPP/libil2cpp/utils/StringViewUtils.h" }}
+,{ "pid":12345, "tid":2, "ts":1702202187786710, "dur":582, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1702202187786432, "dur":860, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_iOS_arm64 z7ln/hkps3j3kv5jp.o" }}
+,{ "pid":12345, "tid":2, "ts":1702202187787317, "dur":400, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1702202187729988, "dur":922, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1702202187730910, "dur":26110, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1702202187757023, "dur":120, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/macbookair/VuforiaTesting/Build/Il2CppOutputProject/Source/il2cppOutput/Vuforia.Unity.Wrapper_CodeGen.c" }}
+,{ "pid":12345, "tid":3, "ts":1702202187757143, "dur":825, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/macbookair/VuforiaTesting/Build/Il2CppOutputProject/Source/il2cppOutput/Vuforia.Unity.Wrapper_CodeGen.c" }}
+,{ "pid":12345, "tid":3, "ts":1702202187758042, "dur":102, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1702202187757021, "dur":1123, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_iOS_arm64 z7ln/p95rrc3dv3a0.o" }}
+,{ "pid":12345, "tid":3, "ts":1702202187758145, "dur":317, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1702202187758464, "dur":59, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/macbookair/VuforiaTesting/Build/Il2CppOutputProject/Source/il2cppOutput/UnityEngine.TextRenderingModule_CodeGen.c" }}
+,{ "pid":12345, "tid":3, "ts":1702202187758523, "dur":172, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/macbookair/VuforiaTesting/Build/Il2CppOutputProject/Source/il2cppOutput/UnityEngine.TextRenderingModule_CodeGen.c" }}
+,{ "pid":12345, "tid":3, "ts":1702202187758742, "dur":164, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1702202187758463, "dur":443, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_iOS_arm64 z7ln/762v8839a3c3.o" }}
+,{ "pid":12345, "tid":3, "ts":1702202187758952, "dur":65, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/macbookair/VuforiaTesting/Build/Il2CppOutputProject/Source/il2cppOutput/UnityEngine.PhysicsModule_CodeGen.c" }}
+,{ "pid":12345, "tid":3, "ts":1702202187758947, "dur":113, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_iOS_arm64 z7ln/v7njcdwenrr5.o" }}
+,{ "pid":12345, "tid":3, "ts":1702202187759061, "dur":117, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1702202187759269, "dur":136, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1702202187759179, "dur":226, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_iOS_arm64 z7ln/o2b07782mnu0.o" }}
+,{ "pid":12345, "tid":3, "ts":1702202187759406, "dur":578, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1702202187760002, "dur":203, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/macbookair/VuforiaTesting/Build/Il2CppOutputProject/Source/il2cppOutput/Il2CppTypeDefinitions.c" }}
+,{ "pid":12345, "tid":3, "ts":1702202187760248, "dur":267, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1702202187759984, "dur":532, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_iOS_arm64 z7ln/dgcmpeuynqou.o" }}
+,{ "pid":12345, "tid":3, "ts":1702202187760516, "dur":225, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1702202187760758, "dur":137, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/macbookair/VuforiaTesting/Build/Il2CppOutputProject/Source/il2cppOutput/Il2CppGenericAdjustorThunkTable.c" }}
+,{ "pid":12345, "tid":3, "ts":1702202187760907, "dur":197, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1702202187760741, "dur":363, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_iOS_arm64 z7ln/slo2ww1g3all.o" }}
+,{ "pid":12345, "tid":3, "ts":1702202187761105, "dur":66, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1702202187761203, "dur":2216, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/macbookair/VuforiaTesting/Build/Il2CppOutputProject/Source/il2cppOutput/Vuforia.Unity.Engine__8.cpp" }}
+,{ "pid":12345, "tid":3, "ts":1702202187763429, "dur":327, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1702202187761172, "dur":2584, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_iOS_arm64 z7ln/ccut5klrzzdo.o" }}
+,{ "pid":12345, "tid":3, "ts":1702202187763800, "dur":57, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/macbookair/VuforiaTesting/Build/Il2CppOutputProject/Source/il2cppOutput/Vuforia.Unity.Engine__4.cpp" }}
+,{ "pid":12345, "tid":3, "ts":1702202187763857, "dur":447, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/macbookair/VuforiaTesting/Build/Il2CppOutputProject/Source/il2cppOutput/Vuforia.Unity.Engine__4.cpp" }}
+,{ "pid":12345, "tid":3, "ts":1702202187764458, "dur":303, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/macbookair/VuforiaTesting/Build/Il2CppOutputProject/IL2CPP/libil2cpp/vm/ClassInlines.h" }}
+,{ "pid":12345, "tid":3, "ts":1702202187764893, "dur":59, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/macbookair/VuforiaTesting/Build/Il2CppOutputProject/IL2CPP/libil2cpp/vm/Class.h" }}
+,{ "pid":12345, "tid":3, "ts":1702202187765157, "dur":74, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/macbookair/VuforiaTesting/Build/Il2CppOutputProject/IL2CPP/external/baselib/Include/C/Baselib_StaticAssert.h" }}
+,{ "pid":12345, "tid":3, "ts":1702202187764316, "dur":1157, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1702202187763798, "dur":1676, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_iOS_arm64 z7ln/ktzcady0mxxm.o" }}
+,{ "pid":12345, "tid":3, "ts":1702202187765538, "dur":175, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/macbookair/VuforiaTesting/Build/Il2CppOutputProject/Source/il2cppOutput/UnityEngine.UIElementsModule__5.cpp" }}
+,{ "pid":12345, "tid":3, "ts":1702202187765744, "dur":514, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1702202187765506, "dur":752, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_iOS_arm64 z7ln/q6ekflv1cav2.o" }}
+,{ "pid":12345, "tid":3, "ts":1702202187766258, "dur":76, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1702202187766366, "dur":593, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/macbookair/VuforiaTesting/Build/Il2CppOutputProject/Source/il2cppOutput/UnityEngine.UIElementsModule__12.cpp" }}
+,{ "pid":12345, "tid":3, "ts":1702202187766969, "dur":374, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1702202187766335, "dur":1008, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_iOS_arm64 z7ln/i4gp05a5zrqu.o" }}
+,{ "pid":12345, "tid":3, "ts":1702202187767343, "dur":55, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1702202187767443, "dur":383, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/macbookair/VuforiaTesting/Build/Il2CppOutputProject/Source/il2cppOutput/UnityEngine.TextCoreTextEngineModule__3.cpp" }}
+,{ "pid":12345, "tid":3, "ts":1702202187768127, "dur":181, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/macbookair/VuforiaTesting/Build/Il2CppOutputProject/IL2CPP/libil2cpp/vm-utils/icalls/mscorlib/System.Threading/Interlocked.h" }}
+,{ "pid":12345, "tid":3, "ts":1702202187768426, "dur":53, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/macbookair/VuforiaTesting/Build/Il2CppOutputProject/IL2CPP/external/baselib/Include/C/Baselib_SystemSemaphore.h" }}
+,{ "pid":12345, "tid":3, "ts":1702202187768507, "dur":342, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/macbookair/VuforiaTesting/Build/Il2CppOutputProject/IL2CPP/libil2cpp/vm/String.h" }}
+,{ "pid":12345, "tid":3, "ts":1702202187767840, "dur":1286, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1702202187767398, "dur":1729, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_iOS_arm64 z7ln/c571uheg8j4x.o" }}
+,{ "pid":12345, "tid":3, "ts":1702202187769201, "dur":309, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/macbookair/VuforiaTesting/Build/Il2CppOutputProject/Source/il2cppOutput/UnityEngine.CoreModule__2.cpp" }}
+,{ "pid":12345, "tid":3, "ts":1702202187769521, "dur":709, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1702202187769168, "dur":1062, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_iOS_arm64 z7ln/b0imq3m6xjws.o" }}
+,{ "pid":12345, "tid":3, "ts":1702202187770299, "dur":255, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/macbookair/VuforiaTesting/Build/Il2CppOutputProject/Source/il2cppOutput/Unity.TextMeshPro__4.cpp" }}
+,{ "pid":12345, "tid":3, "ts":1702202187770570, "dur":528, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1702202187770267, "dur":831, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_iOS_arm64 z7ln/90joezkyuigt.o" }}
+,{ "pid":12345, "tid":3, "ts":1702202187771162, "dur":417, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/macbookair/VuforiaTesting/Build/Il2CppOutputProject/Source/il2cppOutput/System__8.cpp" }}
+,{ "pid":12345, "tid":3, "ts":1702202187771595, "dur":422, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1702202187771139, "dur":878, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_iOS_arm64 z7ln/sicobrps9ok4.o" }}
+,{ "pid":12345, "tid":3, "ts":1702202187772061, "dur":158, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/macbookair/VuforiaTesting/Build/Il2CppOutputProject/Source/il2cppOutput/System__1.cpp" }}
+,{ "pid":12345, "tid":3, "ts":1702202187772226, "dur":531, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1702202187772040, "dur":717, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_iOS_arm64 z7ln/d49lver7luuo.o" }}
+,{ "pid":12345, "tid":3, "ts":1702202187772816, "dur":337, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/macbookair/VuforiaTesting/Build/Il2CppOutputProject/Source/il2cppOutput/System.cpp" }}
+,{ "pid":12345, "tid":3, "ts":1702202187773451, "dur":90, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/macbookair/VuforiaTesting/Build/Il2CppOutputProject/IL2CPP/libil2cpp/os/Win32/ThreadLocalValueImpl.h" }}
+,{ "pid":12345, "tid":3, "ts":1702202187773168, "dur":669, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1702202187772793, "dur":1044, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_iOS_arm64 z7ln/i4xttgt4g9i3.o" }}
+,{ "pid":12345, "tid":3, "ts":1702202187773880, "dur":856, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/macbookair/VuforiaTesting/Build/Il2CppOutputProject/Source/il2cppOutput/mscorlib__7.cpp" }}
+,{ "pid":12345, "tid":3, "ts":1702202187774974, "dur":78, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/macbookair/VuforiaTesting/Build/Il2CppOutputProject/IL2CPP/libil2cpp/vm/ClassInlines.h" }}
+,{ "pid":12345, "tid":3, "ts":1702202187774767, "dur":646, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1702202187773864, "dur":1549, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_iOS_arm64 z7ln/h3u8we0qlut9.o" }}
+,{ "pid":12345, "tid":3, "ts":1702202187775469, "dur":312, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/macbookair/VuforiaTesting/Build/Il2CppOutputProject/Source/il2cppOutput/mscorlib__2.cpp" }}
+,{ "pid":12345, "tid":3, "ts":1702202187776055, "dur":58, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/macbookair/VuforiaTesting/Build/Il2CppOutputProject/IL2CPP/external/baselib/Include/Internal/CoreMacros.h" }}
+,{ "pid":12345, "tid":3, "ts":1702202187775808, "dur":701, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1702202187775437, "dur":1072, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_iOS_arm64 z7ln/ocgbhrw14pws.o" }}
+,{ "pid":12345, "tid":3, "ts":1702202187776552, "dur":256, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/macbookair/VuforiaTesting/Build/Il2CppOutputProject/Source/il2cppOutput/mscorlib__12.cpp" }}
+,{ "pid":12345, "tid":3, "ts":1702202187777219, "dur":51, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/macbookair/VuforiaTesting/Build/Il2CppOutputProject/IL2CPP/libil2cpp/codegen/il2cpp-codegen.h" }}
+,{ "pid":12345, "tid":3, "ts":1702202187777323, "dur":59, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/macbookair/VuforiaTesting/Build/Il2CppOutputProject/IL2CPP/libil2cpp/metadata/Il2CppGenericInstHash.h" }}
+,{ "pid":12345, "tid":3, "ts":1702202187776821, "dur":667, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1702202187776536, "dur":952, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_iOS_arm64 z7ln/5s0rkqco847v.o" }}
+,{ "pid":12345, "tid":3, "ts":1702202187777538, "dur":197, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/macbookair/VuforiaTesting/Build/Il2CppOutputProject/Source/il2cppOutput/Il2CppUnresolvedIndirectCallStubs.cpp" }}
+,{ "pid":12345, "tid":3, "ts":1702202187777890, "dur":55, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/macbookair/VuforiaTesting/Build/Il2CppOutputProject/IL2CPP/libil2cpp/il2cpp-tokentype.h" }}
+,{ "pid":12345, "tid":3, "ts":1702202187777973, "dur":77, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/macbookair/VuforiaTesting/Build/Il2CppOutputProject/IL2CPP/libil2cpp/os/Win32/ThreadLocalValueImpl.h" }}
+,{ "pid":12345, "tid":3, "ts":1702202187777741, "dur":485, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1702202187777520, "dur":706, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_iOS_arm64 z7ln/79chjojtfqpe.o" }}
+,{ "pid":12345, "tid":3, "ts":1702202187778283, "dur":197, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/macbookair/VuforiaTesting/Build/Il2CppOutputProject/Source/il2cppOutput/Il2CppCCalculateTypeValues1.cpp" }}
+,{ "pid":12345, "tid":3, "ts":1702202187778700, "dur":52, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/macbookair/VuforiaTesting/Build/Il2CppOutputProject/IL2CPP/libil2cpp/os/c-api/il2cpp-config-api-platforms.h" }}
+,{ "pid":12345, "tid":3, "ts":1702202187778847, "dur":80, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/macbookair/VuforiaTesting/Build/Il2CppOutputProject/IL2CPP/libil2cpp/os/ErrorCodes.h" }}
+,{ "pid":12345, "tid":3, "ts":1702202187778492, "dur":610, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1702202187778264, "dur":839, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_iOS_arm64 z7ln/5898517y36l3.o" }}
+,{ "pid":12345, "tid":3, "ts":1702202187779151, "dur":170, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/macbookair/VuforiaTesting/Build/Il2CppOutputProject/Source/il2cppOutput/Generics__64.cpp" }}
+,{ "pid":12345, "tid":3, "ts":1702202187779575, "dur":78, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/macbookair/VuforiaTesting/Build/Il2CppOutputProject/IL2CPP/external/baselib/Include/C/Internal/Compiler/Baselib_Atomic_MsvcIntrinsics.h" }}
+,{ "pid":12345, "tid":3, "ts":1702202187779327, "dur":382, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1702202187779134, "dur":576, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_iOS_arm64 z7ln/ppz3h6zsh3tt.o" }}
+,{ "pid":12345, "tid":3, "ts":1702202187779750, "dur":253, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/macbookair/VuforiaTesting/Build/Il2CppOutputProject/Source/il2cppOutput/Generics__58.cpp" }}
+,{ "pid":12345, "tid":3, "ts":1702202187780178, "dur":50, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/macbookair/VuforiaTesting/Build/Il2CppOutputProject/IL2CPP/libil2cpp/il2cpp-runtime-metadata.h" }}
+,{ "pid":12345, "tid":3, "ts":1702202187780010, "dur":374, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1702202187779734, "dur":650, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_iOS_arm64 z7ln/qyau9wz3segw.o" }}
+,{ "pid":12345, "tid":3, "ts":1702202187780385, "dur":194, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1702202187780628, "dur":399, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/macbookair/VuforiaTesting/Build/Il2CppOutputProject/Source/il2cppOutput/Generics__49.cpp" }}
+,{ "pid":12345, "tid":3, "ts":1702202187781040, "dur":301, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1702202187780580, "dur":762, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_iOS_arm64 z7ln/4bezgjoktxsk.o" }}
+,{ "pid":12345, "tid":3, "ts":1702202187781378, "dur":294, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/macbookair/VuforiaTesting/Build/Il2CppOutputProject/Source/il2cppOutput/Generics__45.cpp" }}
+,{ "pid":12345, "tid":3, "ts":1702202187781889, "dur":61, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/macbookair/VuforiaTesting/Build/Il2CppOutputProject/IL2CPP/libil2cpp/codegen/il2cpp-codegen.h" }}
+,{ "pid":12345, "tid":3, "ts":1702202187781685, "dur":410, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1702202187781362, "dur":733, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_iOS_arm64 z7ln/w02pg5ysfh7m.o" }}
+,{ "pid":12345, "tid":3, "ts":1702202187782152, "dur":179, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/macbookair/VuforiaTesting/Build/Il2CppOutputProject/Source/il2cppOutput/Generics__37.cpp" }}
+,{ "pid":12345, "tid":3, "ts":1702202187782486, "dur":52, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/macbookair/VuforiaTesting/Build/Il2CppOutputProject/IL2CPP/libil2cpp/metadata/CustomAttributeDataReader.h" }}
+,{ "pid":12345, "tid":3, "ts":1702202187782345, "dur":566, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1702202187782128, "dur":783, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_iOS_arm64 z7ln/bmqb8637j20q.o" }}
+,{ "pid":12345, "tid":3, "ts":1702202187782953, "dur":142, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/macbookair/VuforiaTesting/Build/Il2CppOutputProject/Source/il2cppOutput/Generics__30.cpp" }}
+,{ "pid":12345, "tid":3, "ts":1702202187783354, "dur":73, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/macbookair/VuforiaTesting/Build/Il2CppOutputProject/IL2CPP/libil2cpp/codegen/il2cpp-codegen-metadata.h" }}
+,{ "pid":12345, "tid":3, "ts":1702202187783562, "dur":51, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/macbookair/VuforiaTesting/Build/Il2CppOutputProject/IL2CPP/external/baselib/Include/C/Baselib_Atomic_TypeSafe.h" }}
+,{ "pid":12345, "tid":3, "ts":1702202187783106, "dur":528, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1702202187782936, "dur":699, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_iOS_arm64 z7ln/w7n9ru5mw7ab.o" }}
+,{ "pid":12345, "tid":3, "ts":1702202187783635, "dur":173, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1702202187783825, "dur":215, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/macbookair/VuforiaTesting/Build/Il2CppOutputProject/Source/il2cppOutput/Generics__22.cpp" }}
+,{ "pid":12345, "tid":3, "ts":1702202187784051, "dur":395, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1702202187783808, "dur":639, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_iOS_arm64 z7ln/v0u2eq80zezi.o" }}
+,{ "pid":12345, "tid":3, "ts":1702202187784479, "dur":331, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/macbookair/VuforiaTesting/Build/Il2CppOutputProject/Source/il2cppOutput/Generics__17.cpp" }}
+,{ "pid":12345, "tid":3, "ts":1702202187785135, "dur":53, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/macbookair/VuforiaTesting/Build/Il2CppOutputProject/IL2CPP/external/baselib/Include/C/Baselib_SystemSemaphore.h" }}
+,{ "pid":12345, "tid":3, "ts":1702202187785360, "dur":59, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/macbookair/VuforiaTesting/Build/Il2CppOutputProject/IL2CPP/external/baselib/Include/C/Baselib_SourceLocation.h" }}
+,{ "pid":12345, "tid":3, "ts":1702202187784878, "dur":583, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1702202187784463, "dur":998, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_iOS_arm64 z7ln/hp9gmqm9dex4.o" }}
+,{ "pid":12345, "tid":3, "ts":1702202187785515, "dur":166, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/macbookair/VuforiaTesting/Build/Il2CppOutputProject/Source/il2cppOutput/Generics.cpp" }}
+,{ "pid":12345, "tid":3, "ts":1702202187785882, "dur":78, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/macbookair/VuforiaTesting/Build/Il2CppOutputProject/IL2CPP/external/baselib/Include/Internal/BasicTypes.h" }}
+,{ "pid":12345, "tid":3, "ts":1702202187785696, "dur":462, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1702202187785496, "dur":662, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_iOS_arm64 z7ln/7xtiwhadj04z.o" }}
+,{ "pid":12345, "tid":3, "ts":1702202187786207, "dur":265, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/macbookair/VuforiaTesting/Build/Il2CppOutputProject/Source/il2cppOutput/GenericMethods__4.cpp" }}
+,{ "pid":12345, "tid":3, "ts":1702202187786488, "dur":352, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1702202187786191, "dur":649, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_iOS_arm64 z7ln/43fq0a7wyle5.o" }}
+,{ "pid":12345, "tid":3, "ts":1702202187786840, "dur":58, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1702202187786924, "dur":291, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/macbookair/VuforiaTesting/Build/Il2CppOutputProject/Source/il2cppOutput/GenericMethods__10.cpp" }}
+,{ "pid":12345, "tid":3, "ts":1702202187787230, "dur":311, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1702202187786899, "dur":642, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_iOS_arm64 z7ln/p1ub8bgui33n.o" }}
+,{ "pid":12345, "tid":3, "ts":1702202187787551, "dur":142, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1702202187729974, "dur":880, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1702202187730902, "dur":61, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1702202187730963, "dur":26052, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1702202187757025, "dur":954, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/macbookair/VuforiaTesting/Build/Il2CppOutputProject/Source/il2cppOutput/VuforiaScripts_CodeGen.c" }}
+,{ "pid":12345, "tid":4, "ts":1702202187758162, "dur":268, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1702202187757017, "dur":1413, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_iOS_arm64 z7ln/dse8nxgd42tx.o" }}
+,{ "pid":12345, "tid":4, "ts":1702202187758474, "dur":88, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/macbookair/VuforiaTesting/Build/Il2CppOutputProject/Source/il2cppOutput/UnityEngine.TextCoreTextEngineModule_CodeGen.c" }}
+,{ "pid":12345, "tid":4, "ts":1702202187758562, "dur":172, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/macbookair/VuforiaTesting/Build/Il2CppOutputProject/Source/il2cppOutput/UnityEngine.TextCoreTextEngineModule_CodeGen.c" }}
+,{ "pid":12345, "tid":4, "ts":1702202187758746, "dur":187, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1702202187758473, "dur":460, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_iOS_arm64 z7ln/ta928cuhpvqz.o" }}
+,{ "pid":12345, "tid":4, "ts":1702202187758933, "dur":217, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1702202187759151, "dur":74, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/macbookair/VuforiaTesting/Build/Il2CppOutputProject/Source/il2cppOutput/UnityEngine.AudioModule_CodeGen.c" }}
+,{ "pid":12345, "tid":4, "ts":1702202187759267, "dur":140, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1702202187759150, "dur":257, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_iOS_arm64 z7ln/uvpi6nvfrgvb.o" }}
+,{ "pid":12345, "tid":4, "ts":1702202187759408, "dur":51, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1702202187759491, "dur":113, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/macbookair/VuforiaTesting/Build/Il2CppOutputProject/Source/il2cppOutput/System.Xml_CodeGen.c" }}
+,{ "pid":12345, "tid":4, "ts":1702202187759643, "dur":137, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1702202187759459, "dur":321, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_iOS_arm64 z7ln/7p94eofruzfv.o" }}
+,{ "pid":12345, "tid":4, "ts":1702202187759846, "dur":200, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/macbookair/VuforiaTesting/Build/Il2CppOutputProject/Source/il2cppOutput/System.Configuration_CodeGen.c" }}
+,{ "pid":12345, "tid":4, "ts":1702202187760168, "dur":161, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1702202187759819, "dur":510, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_iOS_arm64 z7ln/2mcll943apam.o" }}
+,{ "pid":12345, "tid":4, "ts":1702202187760329, "dur":59, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1702202187760420, "dur":204, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/macbookair/VuforiaTesting/Build/Il2CppOutputProject/Source/il2cppOutput/Il2CppGenericMethodPointerTable.c" }}
+,{ "pid":12345, "tid":4, "ts":1702202187760750, "dur":153, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1702202187760389, "dur":514, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_iOS_arm64 z7ln/ctw8s73zvyu7.o" }}
+,{ "pid":12345, "tid":4, "ts":1702202187760993, "dur":2429, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/macbookair/VuforiaTesting/Build/Il2CppOutputProject/Source/il2cppOutput/VuforiaScripts.cpp" }}
+,{ "pid":12345, "tid":4, "ts":1702202187763434, "dur":880, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1702202187760947, "dur":3368, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_iOS_arm64 z7ln/dfx546xjm2in.o" }}
+,{ "pid":12345, "tid":4, "ts":1702202187764315, "dur":54, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1702202187764483, "dur":179, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/macbookair/VuforiaTesting/Build/Il2CppOutputProject/Source/il2cppOutput/UnityEngine.UI__3.cpp" }}
+,{ "pid":12345, "tid":4, "ts":1702202187764671, "dur":617, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1702202187764449, "dur":839, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_iOS_arm64 z7ln/njlfa0in49rk.o" }}
+,{ "pid":12345, "tid":4, "ts":1702202187765367, "dur":291, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/macbookair/VuforiaTesting/Build/Il2CppOutputProject/Source/il2cppOutput/UnityEngine.UIElementsModule__6.cpp" }}
+,{ "pid":12345, "tid":4, "ts":1702202187766061, "dur":83, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/macbookair/VuforiaTesting/Build/Il2CppOutputProject/IL2CPP/libil2cpp/il2cpp-api-types.h" }}
+,{ "pid":12345, "tid":4, "ts":1702202187765670, "dur":719, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1702202187765338, "dur":1051, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_iOS_arm64 z7ln/rez0z0b0gcci.o" }}
+,{ "pid":12345, "tid":4, "ts":1702202187766390, "dur":103, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1702202187766525, "dur":244, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/macbookair/VuforiaTesting/Build/Il2CppOutputProject/Source/il2cppOutput/UnityEngine.UIElementsModule__10.cpp" }}
+,{ "pid":12345, "tid":4, "ts":1702202187767013, "dur":104, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/macbookair/VuforiaTesting/Build/Il2CppOutputProject/IL2CPP/libil2cpp/os/Event.h" }}
+,{ "pid":12345, "tid":4, "ts":1702202187767134, "dur":231, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/macbookair/VuforiaTesting/Build/Il2CppOutputProject/IL2CPP/external/baselib/Include/C/Baselib_Alignment.h" }}
+,{ "pid":12345, "tid":4, "ts":1702202187767432, "dur":119, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/macbookair/VuforiaTesting/Build/Il2CppOutputProject/IL2CPP/libil2cpp/utils/StringViewUtils.h" }}
+,{ "pid":12345, "tid":4, "ts":1702202187766831, "dur":1018, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1702202187766494, "dur":1356, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_iOS_arm64 z7ln/wgtk0gg9s1xv.o" }}
+,{ "pid":12345, "tid":4, "ts":1702202187767850, "dur":50, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1702202187767927, "dur":200, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/macbookair/VuforiaTesting/Build/Il2CppOutputProject/Source/il2cppOutput/UnityEngine.SpriteShapeModule.cpp" }}
+,{ "pid":12345, "tid":4, "ts":1702202187768133, "dur":215, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1702202187767900, "dur":448, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_iOS_arm64 z7ln/4t7bmuc2vse5.o" }}
+,{ "pid":12345, "tid":4, "ts":1702202187768376, "dur":62, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/macbookair/VuforiaTesting/Build/Il2CppOutputProject/Source/il2cppOutput/UnityEngine.Physics2DModule.cpp" }}
+,{ "pid":12345, "tid":4, "ts":1702202187768438, "dur":297, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/macbookair/VuforiaTesting/Build/Il2CppOutputProject/Source/il2cppOutput/UnityEngine.Physics2DModule.cpp" }}
+,{ "pid":12345, "tid":4, "ts":1702202187769261, "dur":122, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/macbookair/VuforiaTesting/Build/Il2CppOutputProject/IL2CPP/libil2cpp/vm/Thread.h" }}
+,{ "pid":12345, "tid":4, "ts":1702202187769409, "dur":83, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/macbookair/VuforiaTesting/Build/Il2CppOutputProject/IL2CPP/external/baselib/Include/C/Baselib_ReentrantLock.h" }}
+,{ "pid":12345, "tid":4, "ts":1702202187768770, "dur":748, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1702202187768375, "dur":1144, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_iOS_arm64 z7ln/1p0jmlxqwr63.o" }}
+,{ "pid":12345, "tid":4, "ts":1702202187769578, "dur":159, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/macbookair/VuforiaTesting/Build/Il2CppOutputProject/Source/il2cppOutput/UnityEngine.CoreModule.cpp" }}
+,{ "pid":12345, "tid":4, "ts":1702202187769991, "dur":51, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/macbookair/VuforiaTesting/Build/Il2CppOutputProject/IL2CPP/external/baselib/Platforms/IOS/Include/BaselibPlatformSpecificEnvironment.h" }}
+,{ "pid":12345, "tid":4, "ts":1702202187769745, "dur":727, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1702202187769550, "dur":922, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_iOS_arm64 z7ln/964vu9qrmlcq.o" }}
+,{ "pid":12345, "tid":4, "ts":1702202187770472, "dur":155, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1702202187770657, "dur":424, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/macbookair/VuforiaTesting/Build/Il2CppOutputProject/Source/il2cppOutput/Unity.TextMeshPro__2.cpp" }}
+,{ "pid":12345, "tid":4, "ts":1702202187771099, "dur":560, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1702202187770627, "dur":1032, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_iOS_arm64 z7ln/35ccjgs3o6sq.o" }}
+,{ "pid":12345, "tid":4, "ts":1702202187771659, "dur":54, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1702202187771737, "dur":269, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/macbookair/VuforiaTesting/Build/Il2CppOutputProject/Source/il2cppOutput/System__3.cpp" }}
+,{ "pid":12345, "tid":4, "ts":1702202187772052, "dur":59, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/macbookair/VuforiaTesting/Build/Il2CppOutputProject/IL2CPP/external/baselib/Include/C/Baselib_CappedSemaphore.h" }}
+,{ "pid":12345, "tid":4, "ts":1702202187772407, "dur":62, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/macbookair/VuforiaTesting/Build/Il2CppOutputProject/IL2CPP/external/baselib/Include/Internal/VerifyPlatformEnvironment.h" }}
+,{ "pid":12345, "tid":4, "ts":1702202187772489, "dur":83, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/macbookair/VuforiaTesting/Build/Il2CppOutputProject/IL2CPP/libil2cpp/vm/Runtime.h" }}
+,{ "pid":12345, "tid":4, "ts":1702202187772018, "dur":657, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1702202187771713, "dur":963, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_iOS_arm64 z7ln/zrxqv3l3sknn.o" }}
+,{ "pid":12345, "tid":4, "ts":1702202187772709, "dur":311, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/macbookair/VuforiaTesting/Build/Il2CppOutputProject/Source/il2cppOutput/System.Runtime.Serialization.cpp" }}
+,{ "pid":12345, "tid":4, "ts":1702202187773027, "dur":398, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1702202187772692, "dur":733, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_iOS_arm64 z7ln/yjd5b9lz4b17.o" }}
+,{ "pid":12345, "tid":4, "ts":1702202187773473, "dur":171, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/macbookair/VuforiaTesting/Build/Il2CppOutputProject/Source/il2cppOutput/System.Configuration.cpp" }}
+,{ "pid":12345, "tid":4, "ts":1702202187774472, "dur":78, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/macbookair/VuforiaTesting/Build/Il2CppOutputProject/IL2CPP/external/baselib/Include/C/Internal/Baselib_EnumSizeCheck.h" }}
+,{ "pid":12345, "tid":4, "ts":1702202187773683, "dur":914, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1702202187773443, "dur":1155, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_iOS_arm64 z7ln/md5g5hsxkgzw.o" }}
+,{ "pid":12345, "tid":4, "ts":1702202187774632, "dur":364, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/macbookair/VuforiaTesting/Build/Il2CppOutputProject/Source/il2cppOutput/mscorlib__3.cpp" }}
+,{ "pid":12345, "tid":4, "ts":1702202187775003, "dur":399, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1702202187774616, "dur":787, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_iOS_arm64 z7ln/9rjzw0az7d8b.o" }}
+,{ "pid":12345, "tid":4, "ts":1702202187775403, "dur":95, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1702202187775515, "dur":621, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/macbookair/VuforiaTesting/Build/Il2CppOutputProject/Source/il2cppOutput/mscorlib__18.cpp" }}
+,{ "pid":12345, "tid":4, "ts":1702202187776544, "dur":60, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/macbookair/VuforiaTesting/Build/Il2CppOutputProject/IL2CPP/libil2cpp/vm/Type.h" }}
+,{ "pid":12345, "tid":4, "ts":1702202187776148, "dur":743, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1702202187775499, "dur":1393, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_iOS_arm64 z7ln/jzidgnuasxgw.o" }}
+,{ "pid":12345, "tid":4, "ts":1702202187776931, "dur":424, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/macbookair/VuforiaTesting/Build/Il2CppOutputProject/Source/il2cppOutput/mscorlib__10.cpp" }}
+,{ "pid":12345, "tid":4, "ts":1702202187777576, "dur":83, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/macbookair/VuforiaTesting/Build/Il2CppOutputProject/IL2CPP/libil2cpp/os/ThreadLocalValue.h" }}
+,{ "pid":12345, "tid":4, "ts":1702202187777361, "dur":570, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1702202187776913, "dur":1019, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_iOS_arm64 z7ln/j5cnk1hs1efx.o" }}
+,{ "pid":12345, "tid":4, "ts":1702202187777983, "dur":238, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/macbookair/VuforiaTesting/Build/Il2CppOutputProject/Source/il2cppOutput/Il2CppCCTypeValuesTable.cpp" }}
+,{ "pid":12345, "tid":4, "ts":1702202187778235, "dur":505, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1702202187777964, "dur":776, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_iOS_arm64 z7ln/tjyn3if6r9uv.o" }}
+,{ "pid":12345, "tid":4, "ts":1702202187778788, "dur":145, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/macbookair/VuforiaTesting/Build/Il2CppOutputProject/Source/il2cppOutput/Generics__9.cpp" }}
+,{ "pid":12345, "tid":4, "ts":1702202187779027, "dur":59, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/macbookair/VuforiaTesting/Build/Il2CppOutputProject/IL2CPP/external/baselib/Include/Internal/Compiler/CompilerEnvironmentClang.h" }}
+,{ "pid":12345, "tid":4, "ts":1702202187778947, "dur":405, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1702202187778769, "dur":583, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_iOS_arm64 z7ln/kdtkwp3unfpc.o" }}
+,{ "pid":12345, "tid":4, "ts":1702202187779352, "dur":179, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1702202187779561, "dur":303, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/macbookair/VuforiaTesting/Build/Il2CppOutputProject/Source/il2cppOutput/Generics__61.cpp" }}
+,{ "pid":12345, "tid":4, "ts":1702202187779960, "dur":87, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/macbookair/VuforiaTesting/Build/Il2CppOutputProject/IL2CPP/external/baselib/Include/Internal/CoreMacros.h" }}
+,{ "pid":12345, "tid":4, "ts":1702202187779877, "dur":423, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1702202187779531, "dur":770, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_iOS_arm64 z7ln/im8a27qz7opb.o" }}
+,{ "pid":12345, "tid":4, "ts":1702202187780301, "dur":265, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1702202187780614, "dur":398, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/macbookair/VuforiaTesting/Build/Il2CppOutputProject/Source/il2cppOutput/Generics__5.cpp" }}
+,{ "pid":12345, "tid":4, "ts":1702202187781026, "dur":302, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1702202187780567, "dur":761, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_iOS_arm64 z7ln/suy30hg4ad9a.o" }}
+,{ "pid":12345, "tid":4, "ts":1702202187781328, "dur":234, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1702202187781563, "dur":50, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/macbookair/VuforiaTesting/Build/Il2CppOutputProject/Source/il2cppOutput/Generics__42.cpp" }}
+,{ "pid":12345, "tid":4, "ts":1702202187781614, "dur":354, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/macbookair/VuforiaTesting/Build/Il2CppOutputProject/Source/il2cppOutput/Generics__42.cpp" }}
+,{ "pid":12345, "tid":4, "ts":1702202187781989, "dur":447, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1702202187781562, "dur":875, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_iOS_arm64 z7ln/pxbx06pz5224.o" }}
+,{ "pid":12345, "tid":4, "ts":1702202187782493, "dur":300, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/macbookair/VuforiaTesting/Build/Il2CppOutputProject/Source/il2cppOutput/Generics__33.cpp" }}
+,{ "pid":12345, "tid":4, "ts":1702202187782805, "dur":308, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1702202187782470, "dur":643, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_iOS_arm64 z7ln/3af27seg6lft.o" }}
+,{ "pid":12345, "tid":4, "ts":1702202187783113, "dur":195, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1702202187783327, "dur":421, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/macbookair/VuforiaTesting/Build/Il2CppOutputProject/Source/il2cppOutput/Generics__28.cpp" }}
+,{ "pid":12345, "tid":4, "ts":1702202187783978, "dur":62, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/macbookair/VuforiaTesting/Build/Il2CppOutputProject/IL2CPP/external/baselib/Include/C/Baselib_Alignment.h" }}
+,{ "pid":12345, "tid":4, "ts":1702202187783760, "dur":424, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1702202187783308, "dur":877, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_iOS_arm64 z7ln/pztgftsokldf.o" }}
+,{ "pid":12345, "tid":4, "ts":1702202187784240, "dur":275, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/macbookair/VuforiaTesting/Build/Il2CppOutputProject/Source/il2cppOutput/Generics__20.cpp" }}
+,{ "pid":12345, "tid":4, "ts":1702202187784614, "dur":309, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1702202187784223, "dur":700, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_iOS_arm64 z7ln/p5nqj7f6t2bg.o" }}
+,{ "pid":12345, "tid":4, "ts":1702202187784924, "dur":181, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1702202187785150, "dur":411, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/macbookair/VuforiaTesting/Build/Il2CppOutputProject/Source/il2cppOutput/Generics__13.cpp" }}
+,{ "pid":12345, "tid":4, "ts":1702202187785592, "dur":259, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1702202187785105, "dur":746, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_iOS_arm64 z7ln/p6e0qizi1bh3.o" }}
+,{ "pid":12345, "tid":4, "ts":1702202187785889, "dur":259, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/macbookair/VuforiaTesting/Build/Il2CppOutputProject/Source/il2cppOutput/GenericMethods__8.cpp" }}
+,{ "pid":12345, "tid":4, "ts":1702202187786198, "dur":51, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/macbookair/VuforiaTesting/Build/Il2CppOutputProject/IL2CPP/libil2cpp/il2cpp-string-types.h" }}
+,{ "pid":12345, "tid":4, "ts":1702202187786269, "dur":61, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/macbookair/VuforiaTesting/Build/Il2CppOutputProject/IL2CPP/libil2cpp/il2cpp-config-api.h" }}
+,{ "pid":12345, "tid":4, "ts":1702202187786690, "dur":57, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/macbookair/VuforiaTesting/Build/Il2CppOutputProject/IL2CPP/libil2cpp/gc/GarbageCollector.h" }}
+,{ "pid":12345, "tid":4, "ts":1702202187786160, "dur":622, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1702202187785870, "dur":912, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_iOS_arm64 z7ln/wma7viunbou6.o" }}
+,{ "pid":12345, "tid":4, "ts":1702202187786783, "dur":68, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1702202187786866, "dur":234, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/macbookair/VuforiaTesting/Build/Il2CppOutputProject/Source/il2cppOutput/GenericMethods__11.cpp" }}
+,{ "pid":12345, "tid":4, "ts":1702202187787107, "dur":428, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1702202187786851, "dur":684, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_iOS_arm64 z7ln/ahyznlurlrf7.o" }}
+,{ "pid":12345, "tid":4, "ts":1702202187787535, "dur":74, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1702202187787609, "dur":100, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1702202187729990, "dur":922, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1702202187730913, "dur":26151, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1702202187757065, "dur":79, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/macbookair/VuforiaTesting/Build/Il2CppOutputProject/Source/il2cppOutput/UnityEngine_CodeGen.c" }}
+,{ "pid":12345, "tid":5, "ts":1702202187757144, "dur":832, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/macbookair/VuforiaTesting/Build/Il2CppOutputProject/Source/il2cppOutput/UnityEngine_CodeGen.c" }}
+,{ "pid":12345, "tid":5, "ts":1702202187758043, "dur":186, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1702202187757064, "dur":1165, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_iOS_arm64 z7ln/qbkoe1li5wye.o" }}
+,{ "pid":12345, "tid":5, "ts":1702202187758230, "dur":55, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1702202187758321, "dur":311, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/macbookair/VuforiaTesting/Build/Il2CppOutputProject/Source/il2cppOutput/UnityEngine.UIElementsModule_CodeGen.c" }}
+,{ "pid":12345, "tid":5, "ts":1702202187758699, "dur":148, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1702202187758286, "dur":561, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_iOS_arm64 z7ln/l01g15mc50df.o" }}
+,{ "pid":12345, "tid":5, "ts":1702202187758847, "dur":228, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1702202187759081, "dur":183, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/macbookair/VuforiaTesting/Build/Il2CppOutputProject/Source/il2cppOutput/UnityEngine.GridModule_CodeGen.c" }}
+,{ "pid":12345, "tid":5, "ts":1702202187759275, "dur":157, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1702202187759075, "dur":357, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_iOS_arm64 z7ln/wk2i3boatoks.o" }}
+,{ "pid":12345, "tid":5, "ts":1702202187759498, "dur":179, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/macbookair/VuforiaTesting/Build/Il2CppOutputProject/Source/il2cppOutput/System.Runtime.Serialization_CodeGen.c" }}
+,{ "pid":12345, "tid":5, "ts":1702202187759780, "dur":207, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1702202187759466, "dur":521, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_iOS_arm64 z7ln/6i30m3xv42zi.o" }}
+,{ "pid":12345, "tid":5, "ts":1702202187760029, "dur":58, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/macbookair/VuforiaTesting/Build/Il2CppOutputProject/Source/il2cppOutput/Il2CppRgctxTable.c" }}
+,{ "pid":12345, "tid":5, "ts":1702202187760087, "dur":136, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/macbookair/VuforiaTesting/Build/Il2CppOutputProject/Source/il2cppOutput/Il2CppRgctxTable.c" }}
+,{ "pid":12345, "tid":5, "ts":1702202187760294, "dur":217, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1702202187760028, "dur":484, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_iOS_arm64 z7ln/zk7hcid6z59t.o" }}
+,{ "pid":12345, "tid":5, "ts":1702202187760512, "dur":50, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1702202187760583, "dur":194, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/macbookair/VuforiaTesting/Build/Il2CppOutputProject/Source/il2cppOutput/Il2CppGenericInstDefinitions.c" }}
+,{ "pid":12345, "tid":5, "ts":1702202187760890, "dur":87, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1702202187760562, "dur":416, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_iOS_arm64 z7ln/ieo1vnkqm2cs.o" }}
+,{ "pid":12345, "tid":5, "ts":1702202187760979, "dur":67, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1702202187761078, "dur":2341, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/macbookair/VuforiaTesting/Build/Il2CppOutputProject/Source/il2cppOutput/Vuforia.Unity.Engine__9.cpp" }}
+,{ "pid":12345, "tid":5, "ts":1702202187763427, "dur":333, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1702202187761046, "dur":2715, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_iOS_arm64 z7ln/dkeaq01p31u3.o" }}
+,{ "pid":12345, "tid":5, "ts":1702202187763761, "dur":60, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1702202187763822, "dur":61, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/macbookair/VuforiaTesting/Build/Il2CppOutputProject/Source/il2cppOutput/Vuforia.Unity.Engine__3.cpp" }}
+,{ "pid":12345, "tid":5, "ts":1702202187763883, "dur":571, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/macbookair/VuforiaTesting/Build/Il2CppOutputProject/Source/il2cppOutput/Vuforia.Unity.Engine__3.cpp" }}
+,{ "pid":12345, "tid":5, "ts":1702202187764495, "dur":356, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1702202187763821, "dur":1030, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_iOS_arm64 z7ln/jlfwpxh2ivg7.o" }}
+,{ "pid":12345, "tid":5, "ts":1702202187764915, "dur":376, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/macbookair/VuforiaTesting/Build/Il2CppOutputProject/Source/il2cppOutput/UnityEngine.UI__1.cpp" }}
+,{ "pid":12345, "tid":5, "ts":1702202187765345, "dur":155, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/macbookair/VuforiaTesting/Build/Il2CppOutputProject/IL2CPP/libil2cpp/utils/ExceptionSupportStack.h" }}
+,{ "pid":12345, "tid":5, "ts":1702202187765827, "dur":217, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/macbookair/VuforiaTesting/Build/Il2CppOutputProject/IL2CPP/libil2cpp/metadata/Il2CppGenericInstCompare.h" }}
+,{ "pid":12345, "tid":5, "ts":1702202187766164, "dur":96, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/macbookair/VuforiaTesting/Build/Il2CppOutputProject/IL2CPP/libil2cpp/vm/GenericClass.h" }}
+,{ "pid":12345, "tid":5, "ts":1702202187765299, "dur":1078, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1702202187764887, "dur":1491, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_iOS_arm64 z7ln/1vxaaborxjzl.o" }}
+,{ "pid":12345, "tid":5, "ts":1702202187766378, "dur":53, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1702202187766467, "dur":641, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/macbookair/VuforiaTesting/Build/Il2CppOutputProject/Source/il2cppOutput/UnityEngine.UIElementsModule__11.cpp" }}
+,{ "pid":12345, "tid":5, "ts":1702202187767163, "dur":478, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1702202187766431, "dur":1211, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_iOS_arm64 z7ln/xod1kww7w3eb.o" }}
+,{ "pid":12345, "tid":5, "ts":1702202187767642, "dur":54, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1702202187767699, "dur":76, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/macbookair/VuforiaTesting/Build/Il2CppOutputProject/Source/il2cppOutput/UnityEngine.TextCoreTextEngineModule__1.cpp" }}
+,{ "pid":12345, "tid":5, "ts":1702202187767775, "dur":322, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/macbookair/VuforiaTesting/Build/Il2CppOutputProject/Source/il2cppOutput/UnityEngine.TextCoreTextEngineModule__1.cpp" }}
+,{ "pid":12345, "tid":5, "ts":1702202187768107, "dur":191, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1702202187767698, "dur":601, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_iOS_arm64 z7ln/qhkxusjk1tbz.o" }}
+,{ "pid":12345, "tid":5, "ts":1702202187768368, "dur":244, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/macbookair/VuforiaTesting/Build/Il2CppOutputProject/Source/il2cppOutput/UnityEngine.SharedInternalsModule.cpp" }}
+,{ "pid":12345, "tid":5, "ts":1702202187768619, "dur":210, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1702202187768319, "dur":510, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_iOS_arm64 z7ln/9hsqxcmn40l2.o" }}
+,{ "pid":12345, "tid":5, "ts":1702202187768895, "dur":531, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/macbookair/VuforiaTesting/Build/Il2CppOutputProject/Source/il2cppOutput/UnityEngine.IMGUIModule__1.cpp" }}
+,{ "pid":12345, "tid":5, "ts":1702202187769437, "dur":441, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1702202187768857, "dur":1021, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_iOS_arm64 z7ln/k9cco1d9enoy.o" }}
+,{ "pid":12345, "tid":5, "ts":1702202187769938, "dur":390, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/macbookair/VuforiaTesting/Build/Il2CppOutputProject/Source/il2cppOutput/UnityEngine.AnimationModule.cpp" }}
+,{ "pid":12345, "tid":5, "ts":1702202187770343, "dur":468, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1702202187769904, "dur":907, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_iOS_arm64 z7ln/cel7ml1qe57x.o" }}
+,{ "pid":12345, "tid":5, "ts":1702202187770841, "dur":55, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/macbookair/VuforiaTesting/Build/Il2CppOutputProject/Source/il2cppOutput/Unity.TextMeshPro.cpp" }}
+,{ "pid":12345, "tid":5, "ts":1702202187770896, "dur":424, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/macbookair/VuforiaTesting/Build/Il2CppOutputProject/Source/il2cppOutput/Unity.TextMeshPro.cpp" }}
+,{ "pid":12345, "tid":5, "ts":1702202187771414, "dur":264, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/macbookair/VuforiaTesting/Build/Il2CppOutputProject/IL2CPP/external/baselib/Include/Internal/PlatformDetection.h" }}
+,{ "pid":12345, "tid":5, "ts":1702202187771878, "dur":151, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/macbookair/VuforiaTesting/Build/Il2CppOutputProject/IL2CPP/libil2cpp/il2cpp-sanitizers.h" }}
+,{ "pid":12345, "tid":5, "ts":1702202187772054, "dur":55, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/macbookair/VuforiaTesting/Build/Il2CppOutputProject/IL2CPP/libil2cpp/il2cpp-windowsruntime-types.h" }}
+,{ "pid":12345, "tid":5, "ts":1702202187771392, "dur":973, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1702202187770840, "dur":1526, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_iOS_arm64 z7ln/x50xa13xunev.o" }}
+,{ "pid":12345, "tid":5, "ts":1702202187772414, "dur":260, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/macbookair/VuforiaTesting/Build/Il2CppOutputProject/Source/il2cppOutput/System.Xml__2.cpp" }}
+,{ "pid":12345, "tid":5, "ts":1702202187773000, "dur":59, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/macbookair/VuforiaTesting/Build/Il2CppOutputProject/IL2CPP/external/baselib/Include/C/Baselib_StaticAssert.h" }}
+,{ "pid":12345, "tid":5, "ts":1702202187772693, "dur":494, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1702202187772386, "dur":801, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_iOS_arm64 z7ln/xpfkg72cnkk8.o" }}
+,{ "pid":12345, "tid":5, "ts":1702202187773235, "dur":465, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/macbookair/VuforiaTesting/Build/Il2CppOutputProject/Source/il2cppOutput/System.Core__1.cpp" }}
+,{ "pid":12345, "tid":5, "ts":1702202187774470, "dur":71, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/macbookair/VuforiaTesting/Build/Il2CppOutputProject/IL2CPP/external/baselib/Include/C/Baselib_StaticAssert.h" }}
+,{ "pid":12345, "tid":5, "ts":1702202187773711, "dur":1131, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1702202187773219, "dur":1623, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_iOS_arm64 z7ln/u2skdv2dqng0.o" }}
+,{ "pid":12345, "tid":5, "ts":1702202187774842, "dur":50, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1702202187774910, "dur":209, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/macbookair/VuforiaTesting/Build/Il2CppOutputProject/Source/il2cppOutput/mscorlib__22.cpp" }}
+,{ "pid":12345, "tid":5, "ts":1702202187775669, "dur":80, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/macbookair/VuforiaTesting/Build/Il2CppOutputProject/IL2CPP/external/baselib/Include/C/Baselib_WakeupFallbackStrategy.h" }}
+,{ "pid":12345, "tid":5, "ts":1702202187776055, "dur":57, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/macbookair/VuforiaTesting/Build/Il2CppOutputProject/IL2CPP/libil2cpp/metadata/Il2CppGenericContextCompare.h" }}
+,{ "pid":12345, "tid":5, "ts":1702202187775218, "dur":932, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1702202187774892, "dur":1258, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_iOS_arm64 z7ln/cv0atd24aa7q.o" }}
+,{ "pid":12345, "tid":5, "ts":1702202187776216, "dur":386, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/macbookair/VuforiaTesting/Build/Il2CppOutputProject/Source/il2cppOutput/mscorlib__14.cpp" }}
+,{ "pid":12345, "tid":5, "ts":1702202187776619, "dur":459, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1702202187776199, "dur":879, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_iOS_arm64 z7ln/rgowkf7jfv0u.o" }}
+,{ "pid":12345, "tid":5, "ts":1702202187777125, "dur":237, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/macbookair/VuforiaTesting/Build/Il2CppOutputProject/Source/il2cppOutput/Mono.Security__1.cpp" }}
+,{ "pid":12345, "tid":5, "ts":1702202187777368, "dur":398, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1702202187777109, "dur":657, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_iOS_arm64 z7ln/l92e0n0j2k7k.o" }}
+,{ "pid":12345, "tid":5, "ts":1702202187777766, "dur":82, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1702202187777865, "dur":206, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/macbookair/VuforiaTesting/Build/Il2CppOutputProject/Source/il2cppOutput/Il2CppInteropDataTable.cpp" }}
+,{ "pid":12345, "tid":5, "ts":1702202187778096, "dur":56, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++" }}
+,{ "pid":12345, "tid":5, "ts":1702202187778399, "dur":61, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/macbookair/VuforiaTesting/Build/Il2CppOutputProject/IL2CPP/external/baselib/Include/C/Baselib_ErrorCode.h" }}
+,{ "pid":12345, "tid":5, "ts":1702202187778160, "dur":456, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1702202187777849, "dur":767, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_iOS_arm64 z7ln/69hyfgydbbz0.o" }}
+,{ "pid":12345, "tid":5, "ts":1702202187778654, "dur":221, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/macbookair/VuforiaTesting/Build/Il2CppOutputProject/Source/il2cppOutput/Il2CppCCalculateFieldValues1.cpp" }}
+,{ "pid":12345, "tid":5, "ts":1702202187779031, "dur":56, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/macbookair/VuforiaTesting/Build/Il2CppOutputProject/IL2CPP/libil2cpp/os/Atomic.h" }}
+,{ "pid":12345, "tid":5, "ts":1702202187778882, "dur":386, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1702202187778637, "dur":631, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_iOS_arm64 z7ln/7x6iw1yv3qok.o" }}
+,{ "pid":12345, "tid":5, "ts":1702202187779309, "dur":126, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/macbookair/VuforiaTesting/Build/Il2CppOutputProject/Source/il2cppOutput/Generics__63.cpp" }}
+,{ "pid":12345, "tid":5, "ts":1702202187779441, "dur":486, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1702202187779292, "dur":636, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_iOS_arm64 z7ln/49vf2wlvefia.o" }}
+,{ "pid":12345, "tid":5, "ts":1702202187779979, "dur":149, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/macbookair/VuforiaTesting/Build/Il2CppOutputProject/Source/il2cppOutput/Generics__56.cpp" }}
+,{ "pid":12345, "tid":5, "ts":1702202187780247, "dur":51, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/macbookair/VuforiaTesting/Build/Il2CppOutputProject/IL2CPP/libil2cpp/metadata/CustomAttributeDataReader.h" }}
+,{ "pid":12345, "tid":5, "ts":1702202187780138, "dur":368, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1702202187779953, "dur":553, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_iOS_arm64 z7ln/4anp9747lonx.o" }}
+,{ "pid":12345, "tid":5, "ts":1702202187780527, "dur":329, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/macbookair/VuforiaTesting/Build/Il2CppOutputProject/Source/il2cppOutput/Generics__53.cpp" }}
+,{ "pid":12345, "tid":5, "ts":1702202187780863, "dur":386, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1702202187780523, "dur":726, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_iOS_arm64 z7ln/x7vwt9vecajf.o" }}
+,{ "pid":12345, "tid":5, "ts":1702202187781287, "dur":134, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/macbookair/VuforiaTesting/Build/Il2CppOutputProject/Source/il2cppOutput/Generics__46.cpp" }}
+,{ "pid":12345, "tid":5, "ts":1702202187781451, "dur":399, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1702202187781270, "dur":580, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_iOS_arm64 z7ln/x8m60kfrjjo2.o" }}
+,{ "pid":12345, "tid":5, "ts":1702202187781897, "dur":189, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/macbookair/VuforiaTesting/Build/Il2CppOutputProject/Source/il2cppOutput/Generics__39.cpp" }}
+,{ "pid":12345, "tid":5, "ts":1702202187782095, "dur":521, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1702202187781882, "dur":734, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_iOS_arm64 z7ln/hhxn3pw2peot.o" }}
+,{ "pid":12345, "tid":5, "ts":1702202187782648, "dur":311, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/macbookair/VuforiaTesting/Build/Il2CppOutputProject/Source/il2cppOutput/Generics__31.cpp" }}
+,{ "pid":12345, "tid":5, "ts":1702202187782966, "dur":274, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1702202187782632, "dur":609, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_iOS_arm64 z7ln/hnrx73jkzvmu.o" }}
+,{ "pid":12345, "tid":5, "ts":1702202187783241, "dur":92, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1702202187783349, "dur":340, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/macbookair/VuforiaTesting/Build/Il2CppOutputProject/Source/il2cppOutput/Generics__26.cpp" }}
+,{ "pid":12345, "tid":5, "ts":1702202187783817, "dur":58, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/macbookair/VuforiaTesting/Build/Il2CppOutputProject/IL2CPP/libil2cpp/vm/Class.h" }}
+,{ "pid":12345, "tid":5, "ts":1702202187783983, "dur":108, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/macbookair/VuforiaTesting/Build/Il2CppOutputProject/IL2CPP/libil2cpp/codegen/il2cpp-codegen.h" }}
+,{ "pid":12345, "tid":5, "ts":1702202187783696, "dur":600, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1702202187783333, "dur":964, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_iOS_arm64 z7ln/3b6bf4xsdvkg.o" }}
+,{ "pid":12345, "tid":5, "ts":1702202187784355, "dur":285, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/macbookair/VuforiaTesting/Build/Il2CppOutputProject/Source/il2cppOutput/Generics__19.cpp" }}
+,{ "pid":12345, "tid":5, "ts":1702202187784719, "dur":60, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/macbookair/VuforiaTesting/Build/Il2CppOutputProject/IL2CPP/libil2cpp/utils/ExceptionSupportStack.h" }}
+,{ "pid":12345, "tid":5, "ts":1702202187784809, "dur":60, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/macbookair/VuforiaTesting/Build/Il2CppOutputProject/IL2CPP/libil2cpp/os/WaitStatus.h" }}
+,{ "pid":12345, "tid":5, "ts":1702202187784666, "dur":523, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1702202187784339, "dur":850, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_iOS_arm64 z7ln/3cxlmfh5k4p3.o" }}
+,{ "pid":12345, "tid":5, "ts":1702202187785243, "dur":421, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/macbookair/VuforiaTesting/Build/Il2CppOutputProject/Source/il2cppOutput/Generics__11.cpp" }}
+,{ "pid":12345, "tid":5, "ts":1702202187785678, "dur":354, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1702202187785211, "dur":821, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_iOS_arm64 z7ln/3irvqt4mulo4.o" }}
+,{ "pid":12345, "tid":5, "ts":1702202187786087, "dur":201, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/macbookair/VuforiaTesting/Build/Il2CppOutputProject/Source/il2cppOutput/GenericMethods__5.cpp" }}
+,{ "pid":12345, "tid":5, "ts":1702202187786295, "dur":365, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1702202187786069, "dur":591, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_iOS_arm64 z7ln/pjjegklu19po.o" }}
+,{ "pid":12345, "tid":5, "ts":1702202187786699, "dur":441, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/macbookair/VuforiaTesting/Build/Il2CppOutputProject/Source/il2cppOutput/GenericMethods__13.cpp" }}
+,{ "pid":12345, "tid":5, "ts":1702202187787156, "dur":339, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1702202187786682, "dur":813, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_iOS_arm64 z7ln/w4l4napnsh85.o" }}
+,{ "pid":12345, "tid":5, "ts":1702202187787509, "dur":204, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1702202187730006, "dur":912, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1702202187730918, "dur":26122, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1702202187757042, "dur":150, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/macbookair/VuforiaTesting/Build/Il2CppOutputProject/Source/il2cppOutput/Vuforia.Unity.Engine_CodeGen.c" }}
+,{ "pid":12345, "tid":6, "ts":1702202187757192, "dur":781, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/macbookair/VuforiaTesting/Build/Il2CppOutputProject/Source/il2cppOutput/Vuforia.Unity.Engine_CodeGen.c" }}
+,{ "pid":12345, "tid":6, "ts":1702202187757994, "dur":68, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++" }}
+,{ "pid":12345, "tid":6, "ts":1702202187758205, "dur":291, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1702202187757041, "dur":1455, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_iOS_arm64 z7ln/ql411132efbf.o" }}
+,{ "pid":12345, "tid":6, "ts":1702202187758496, "dur":81, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1702202187758604, "dur":136, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/macbookair/VuforiaTesting/Build/Il2CppOutputProject/Source/il2cppOutput/UnityEngine.SharedInternalsModule_CodeGen.c" }}
+,{ "pid":12345, "tid":6, "ts":1702202187758752, "dur":200, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1702202187758577, "dur":375, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_iOS_arm64 z7ln/92j6cjv90yq4.o" }}
+,{ "pid":12345, "tid":6, "ts":1702202187758956, "dur":92, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_iOS_arm64 z7ln/1ak988ynlijl.o" }}
+,{ "pid":12345, "tid":6, "ts":1702202187759057, "dur":170, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/macbookair/VuforiaTesting/Build/Il2CppOutputProject/Source/il2cppOutput/UnityEngine.IMGUIModule_CodeGen.c" }}
+,{ "pid":12345, "tid":6, "ts":1702202187759052, "dur":220, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_iOS_arm64 z7ln/rwzogwhchfs4.o" }}
+,{ "pid":12345, "tid":6, "ts":1702202187759328, "dur":94, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/macbookair/VuforiaTesting/Build/Il2CppOutputProject/Source/il2cppOutput/Unity.TextMeshPro_CodeGen.c" }}
+,{ "pid":12345, "tid":6, "ts":1702202187759514, "dur":130, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1702202187759304, "dur":340, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_iOS_arm64 z7ln/93ye3elxh3as.o" }}
+,{ "pid":12345, "tid":6, "ts":1702202187759703, "dur":122, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/macbookair/VuforiaTesting/Build/Il2CppOutputProject/Source/il2cppOutput/System.Core_CodeGen.c" }}
+,{ "pid":12345, "tid":6, "ts":1702202187759942, "dur":258, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1702202187759674, "dur":526, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_iOS_arm64 z7ln/xjpv4uh9pbv0.o" }}
+,{ "pid":12345, "tid":6, "ts":1702202187760201, "dur":162, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1702202187760408, "dur":128, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/macbookair/VuforiaTesting/Build/Il2CppOutputProject/Source/il2cppOutput/Il2CppGenericMethodTable.c" }}
+,{ "pid":12345, "tid":6, "ts":1702202187760668, "dur":160, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1702202187760364, "dur":464, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_iOS_arm64 z7ln/90u9dr54tjn3.o" }}
+,{ "pid":12345, "tid":6, "ts":1702202187760890, "dur":2529, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/macbookair/VuforiaTesting/Build/Il2CppOutputProject/Source/il2cppOutput/__Generated.cpp" }}
+,{ "pid":12345, "tid":6, "ts":1702202187763430, "dur":339, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1702202187760866, "dur":2903, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_iOS_arm64 z7ln/erblvsvkdj9k.o" }}
+,{ "pid":12345, "tid":6, "ts":1702202187763769, "dur":63, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1702202187763833, "dur":76, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/macbookair/VuforiaTesting/Build/Il2CppOutputProject/Source/il2cppOutput/Vuforia.Unity.Engine__2.cpp" }}
+,{ "pid":12345, "tid":6, "ts":1702202187763910, "dur":418, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/macbookair/VuforiaTesting/Build/Il2CppOutputProject/Source/il2cppOutput/Vuforia.Unity.Engine__2.cpp" }}
+,{ "pid":12345, "tid":6, "ts":1702202187764469, "dur":463, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1702202187763832, "dur":1100, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_iOS_arm64 z7ln/y5b89n34f74n.o" }}
+,{ "pid":12345, "tid":6, "ts":1702202187764932, "dur":83, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1702202187765045, "dur":331, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/macbookair/VuforiaTesting/Build/Il2CppOutputProject/Source/il2cppOutput/UnityEngine.UIElementsModule__9.cpp" }}
+,{ "pid":12345, "tid":6, "ts":1702202187765387, "dur":392, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1702202187765015, "dur":764, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_iOS_arm64 z7ln/yhqtfzktqqg0.o" }}
+,{ "pid":12345, "tid":6, "ts":1702202187765842, "dur":168, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/macbookair/VuforiaTesting/Build/Il2CppOutputProject/Source/il2cppOutput/UnityEngine.UIElementsModule__3.cpp" }}
+,{ "pid":12345, "tid":6, "ts":1702202187766018, "dur":646, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1702202187765808, "dur":857, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_iOS_arm64 z7ln/kb87j2266x7z.o" }}
+,{ "pid":12345, "tid":6, "ts":1702202187766665, "dur":52, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1702202187766742, "dur":239, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/macbookair/VuforiaTesting/Build/Il2CppOutputProject/Source/il2cppOutput/UnityEngine.UIElementsModule__1.cpp" }}
+,{ "pid":12345, "tid":6, "ts":1702202187767083, "dur":447, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1702202187766717, "dur":813, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_iOS_arm64 z7ln/ynk3jd8a07e1.o" }}
+,{ "pid":12345, "tid":6, "ts":1702202187767601, "dur":362, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/macbookair/VuforiaTesting/Build/Il2CppOutputProject/Source/il2cppOutput/UnityEngine.TextCoreTextEngineModule__2.cpp" }}
+,{ "pid":12345, "tid":6, "ts":1702202187768127, "dur":181, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/macbookair/VuforiaTesting/Build/Il2CppOutputProject/IL2CPP/libil2cpp/utils/Il2CppError.h" }}
+,{ "pid":12345, "tid":6, "ts":1702202187768413, "dur":53, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/macbookair/VuforiaTesting/Build/Il2CppOutputProject/IL2CPP/libil2cpp/utils/StringViewUtils.h" }}
+,{ "pid":12345, "tid":6, "ts":1702202187768505, "dur":335, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/macbookair/VuforiaTesting/Build/Il2CppOutputProject/IL2CPP/libil2cpp/os/Handle.h" }}
+,{ "pid":12345, "tid":6, "ts":1702202187767976, "dur":1206, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1702202187767567, "dur":1616, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_iOS_arm64 z7ln/rp4df8zi5vse.o" }}
+,{ "pid":12345, "tid":6, "ts":1702202187769219, "dur":65, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/macbookair/VuforiaTesting/Build/Il2CppOutputProject/Source/il2cppOutput/UnityEngine.CoreModule__1.cpp" }}
+,{ "pid":12345, "tid":6, "ts":1702202187769284, "dur":207, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/macbookair/VuforiaTesting/Build/Il2CppOutputProject/Source/il2cppOutput/UnityEngine.CoreModule__1.cpp" }}
+,{ "pid":12345, "tid":6, "ts":1702202187769884, "dur":50, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/macbookair/VuforiaTesting/Build/Il2CppOutputProject/IL2CPP/external/baselib/Include/C/Internal/Compiler/Baselib_Atomic_Msvc.h" }}
+,{ "pid":12345, "tid":6, "ts":1702202187769501, "dur":449, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1702202187769218, "dur":733, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_iOS_arm64 z7ln/asy55n67thfd.o" }}
+,{ "pid":12345, "tid":6, "ts":1702202187770000, "dur":354, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/macbookair/VuforiaTesting/Build/Il2CppOutputProject/Source/il2cppOutput/UnityEngine.AndroidJNIModule.cpp" }}
+,{ "pid":12345, "tid":6, "ts":1702202187770365, "dur":452, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1702202187769975, "dur":842, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_iOS_arm64 z7ln/8o99i6z6bhsq.o" }}
+,{ "pid":12345, "tid":6, "ts":1702202187770856, "dur":72, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/macbookair/VuforiaTesting/Build/Il2CppOutputProject/Source/il2cppOutput/System__9.cpp" }}
+,{ "pid":12345, "tid":6, "ts":1702202187770929, "dur":355, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/macbookair/VuforiaTesting/Build/Il2CppOutputProject/Source/il2cppOutput/System__9.cpp" }}
+,{ "pid":12345, "tid":6, "ts":1702202187771317, "dur":510, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1702202187770855, "dur":972, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_iOS_arm64 z7ln/dyfcr03pcdwn.o" }}
+,{ "pid":12345, "tid":6, "ts":1702202187771887, "dur":159, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/macbookair/VuforiaTesting/Build/Il2CppOutputProject/Source/il2cppOutput/System__2.cpp" }}
+,{ "pid":12345, "tid":6, "ts":1702202187772165, "dur":80, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/macbookair/VuforiaTesting/Build/Il2CppOutputProject/IL2CPP/libil2cpp/metadata/Il2CppTypeCompare.h" }}
+,{ "pid":12345, "tid":6, "ts":1702202187772493, "dur":81, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/macbookair/VuforiaTesting/Build/Il2CppOutputProject/IL2CPP/external/baselib/Include/C/Internal/Compiler/Baselib_Atomic_MsvcIntrinsics.h" }}
+,{ "pid":12345, "tid":6, "ts":1702202187772066, "dur":564, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1702202187771865, "dur":765, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_iOS_arm64 z7ln/ecu2fu75pwb4.o" }}
+,{ "pid":12345, "tid":6, "ts":1702202187772672, "dur":279, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/macbookair/VuforiaTesting/Build/Il2CppOutputProject/Source/il2cppOutput/System.Xml.cpp" }}
+,{ "pid":12345, "tid":6, "ts":1702202187773001, "dur":59, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/macbookair/VuforiaTesting/Build/Il2CppOutputProject/IL2CPP/external/baselib/Include/C/Baselib_CappedSemaphore.h" }}
+,{ "pid":12345, "tid":6, "ts":1702202187773466, "dur":76, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/macbookair/VuforiaTesting/Build/Il2CppOutputProject/IL2CPP/external/google/sparsehash/internal/hashtable-common.h" }}
+,{ "pid":12345, "tid":6, "ts":1702202187772967, "dur":760, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1702202187772655, "dur":1072, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_iOS_arm64 z7ln/j2rtozm2zo7j.o" }}
+,{ "pid":12345, "tid":6, "ts":1702202187773767, "dur":1325, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/macbookair/VuforiaTesting/Build/Il2CppOutputProject/Source/il2cppOutput/mscorlib__8.cpp" }}
+,{ "pid":12345, "tid":6, "ts":1702202187775668, "dur":80, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/macbookair/VuforiaTesting/Build/Il2CppOutputProject/IL2CPP/libil2cpp/vm/Thread.h" }}
+,{ "pid":12345, "tid":6, "ts":1702202187775104, "dur":903, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1702202187773750, "dur":2257, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_iOS_arm64 z7ln/2iywcoeooi5s.o" }}
+,{ "pid":12345, "tid":6, "ts":1702202187776070, "dur":214, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/macbookair/VuforiaTesting/Build/Il2CppOutputProject/Source/il2cppOutput/mscorlib__15.cpp" }}
+,{ "pid":12345, "tid":6, "ts":1702202187776455, "dur":57, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/macbookair/VuforiaTesting/Build/Il2CppOutputProject/IL2CPP/libil2cpp/codegen/il2cpp-codegen-tiny.h" }}
+,{ "pid":12345, "tid":6, "ts":1702202187776303, "dur":578, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1702202187776044, "dur":837, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_iOS_arm64 z7ln/cwrk0olhijce.o" }}
+,{ "pid":12345, "tid":6, "ts":1702202187776882, "dur":174, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1702202187777076, "dur":409, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/macbookair/VuforiaTesting/Build/Il2CppOutputProject/Source/il2cppOutput/mscorlib.cpp" }}
+,{ "pid":12345, "tid":6, "ts":1702202187777522, "dur":306, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1702202187777056, "dur":772, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_iOS_arm64 z7ln/khgwwj4jphmv.o" }}
+,{ "pid":12345, "tid":6, "ts":1702202187777828, "dur":52, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1702202187777909, "dur":184, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/macbookair/VuforiaTesting/Build/Il2CppOutputProject/Source/il2cppOutput/Il2CppCodeRegistration.cpp" }}
+,{ "pid":12345, "tid":6, "ts":1702202187778400, "dur":60, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/macbookair/VuforiaTesting/Build/Il2CppOutputProject/IL2CPP/external/baselib/Include/Baselib.h" }}
+,{ "pid":12345, "tid":6, "ts":1702202187778159, "dur":506, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1702202187777881, "dur":784, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_iOS_arm64 z7ln/xr0nhuf9lk1s.o" }}
+,{ "pid":12345, "tid":6, "ts":1702202187778717, "dur":184, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/macbookair/VuforiaTesting/Build/Il2CppOutputProject/Source/il2cppOutput/Il2CppCCalculateFieldValues.cpp" }}
+,{ "pid":12345, "tid":6, "ts":1702202187779145, "dur":59, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/macbookair/VuforiaTesting/Build/Il2CppOutputProject/IL2CPP/external/google/sparsehash/internal/sparsehashtable.h" }}
+,{ "pid":12345, "tid":6, "ts":1702202187779299, "dur":79, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/macbookair/VuforiaTesting/Build/Il2CppOutputProject/IL2CPP/libil2cpp/il2cpp-class-internals.h" }}
+,{ "pid":12345, "tid":6, "ts":1702202187778908, "dur":497, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1702202187778688, "dur":718, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_iOS_arm64 z7ln/g0oh4dzcobmx.o" }}
+,{ "pid":12345, "tid":6, "ts":1702202187779406, "dur":132, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1702202187779578, "dur":382, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/macbookair/VuforiaTesting/Build/Il2CppOutputProject/Source/il2cppOutput/Generics__60.cpp" }}
+,{ "pid":12345, "tid":6, "ts":1702202187780057, "dur":308, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1702202187779538, "dur":827, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_iOS_arm64 z7ln/x64mmyc240ds.o" }}
+,{ "pid":12345, "tid":6, "ts":1702202187780365, "dur":160, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1702202187780529, "dur":476, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/macbookair/VuforiaTesting/Build/Il2CppOutputProject/Source/il2cppOutput/Generics__51.cpp" }}
+,{ "pid":12345, "tid":6, "ts":1702202187781279, "dur":59, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/macbookair/VuforiaTesting/Build/Il2CppOutputProject/IL2CPP/libil2cpp/vm-utils/VmStringUtils.h" }}
+,{ "pid":12345, "tid":6, "ts":1702202187781020, "dur":398, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1702202187780525, "dur":893, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_iOS_arm64 z7ln/bk8rtk1i5jqg.o" }}
+,{ "pid":12345, "tid":6, "ts":1702202187781448, "dur":334, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/macbookair/VuforiaTesting/Build/Il2CppOutputProject/Source/il2cppOutput/Generics__44.cpp" }}
+,{ "pid":12345, "tid":6, "ts":1702202187781788, "dur":304, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1702202187781433, "dur":659, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_iOS_arm64 z7ln/blz10vkvctv3.o" }}
+,{ "pid":12345, "tid":6, "ts":1702202187782141, "dur":369, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/macbookair/VuforiaTesting/Build/Il2CppOutputProject/Source/il2cppOutput/Generics__38.cpp" }}
+,{ "pid":12345, "tid":6, "ts":1702202187782517, "dur":454, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1702202187782115, "dur":856, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_iOS_arm64 z7ln/w1tzngi5mqca.o" }}
+,{ "pid":12345, "tid":6, "ts":1702202187783007, "dur":132, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/macbookair/VuforiaTesting/Build/Il2CppOutputProject/Source/il2cppOutput/Generics__3.cpp" }}
+,{ "pid":12345, "tid":6, "ts":1702202187783147, "dur":454, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1702202187782987, "dur":614, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_iOS_arm64 z7ln/66az0sl83mgc.o" }}
+,{ "pid":12345, "tid":6, "ts":1702202187783659, "dur":368, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/macbookair/VuforiaTesting/Build/Il2CppOutputProject/Source/il2cppOutput/Generics__24.cpp" }}
+,{ "pid":12345, "tid":6, "ts":1702202187784349, "dur":58, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/macbookair/VuforiaTesting/Build/Il2CppOutputProject/IL2CPP/libil2cpp/il2cpp-pinvoke-support.h" }}
+,{ "pid":12345, "tid":6, "ts":1702202187784545, "dur":60, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/macbookair/VuforiaTesting/Build/Il2CppOutputProject/IL2CPP/libil2cpp/metadata/Il2CppGenericInstCompare.h" }}
+,{ "pid":12345, "tid":6, "ts":1702202187784034, "dur":655, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1702202187783619, "dur":1070, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_iOS_arm64 z7ln/hoi7ef3w64rh.o" }}
+,{ "pid":12345, "tid":6, "ts":1702202187784728, "dur":250, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/macbookair/VuforiaTesting/Build/Il2CppOutputProject/Source/il2cppOutput/Generics__15.cpp" }}
+,{ "pid":12345, "tid":6, "ts":1702202187785359, "dur":60, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/macbookair/VuforiaTesting/Build/Il2CppOutputProject/IL2CPP/external/google/sparsehash/internal/sparsehashtable.h" }}
+,{ "pid":12345, "tid":6, "ts":1702202187784989, "dur":549, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1702202187784711, "dur":828, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_iOS_arm64 z7ln/v1lcm1rd7n45.o" }}
+,{ "pid":12345, "tid":6, "ts":1702202187785585, "dur":136, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/macbookair/VuforiaTesting/Build/Il2CppOutputProject/Source/il2cppOutput/GenericMethods__9.cpp" }}
+,{ "pid":12345, "tid":6, "ts":1702202187785875, "dur":64, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/macbookair/VuforiaTesting/Build/Il2CppOutputProject/IL2CPP/external/baselib/Include/C/Internal/Compiler/Baselib_Atomic_Gcc.h" }}
+,{ "pid":12345, "tid":6, "ts":1702202187786199, "dur":51, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/macbookair/VuforiaTesting/Build/Il2CppOutputProject/IL2CPP/external/google/sparsehash/internal/densehashtable.h" }}
+,{ "pid":12345, "tid":6, "ts":1702202187786270, "dur":61, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/macbookair/VuforiaTesting/Build/Il2CppOutputProject/IL2CPP/external/baselib/Include/C/Internal/Compiler/Baselib_Atomic_Msvc.h" }}
+,{ "pid":12345, "tid":6, "ts":1702202187785727, "dur":622, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1702202187785556, "dur":794, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_iOS_arm64 z7ln/xuungyamfqbm.o" }}
+,{ "pid":12345, "tid":6, "ts":1702202187786394, "dur":241, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/macbookair/VuforiaTesting/Build/Il2CppOutputProject/Source/il2cppOutput/GenericMethods__2.cpp" }}
+,{ "pid":12345, "tid":6, "ts":1702202187786692, "dur":56, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/macbookair/VuforiaTesting/Build/Il2CppOutputProject/IL2CPP/libil2cpp/utils/Memory.h" }}
+,{ "pid":12345, "tid":6, "ts":1702202187786910, "dur":57, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/macbookair/VuforiaTesting/Build/Il2CppOutputProject/IL2CPP/libil2cpp/utils/KeyWrapper.h" }}
+,{ "pid":12345, "tid":6, "ts":1702202187786649, "dur":607, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1702202187786372, "dur":884, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_iOS_arm64 z7ln/igsl0lc1rvl6.o" }}
+,{ "pid":12345, "tid":6, "ts":1702202187787328, "dur":390, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1702202187729987, "dur":918, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1702202187730905, "dur":26090, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1702202187757352, "dur":636, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/macbookair/VuforiaTesting/Build/Il2CppOutputProject/Source/il2cppOutput/UnityEngine.UIModule_CodeGen.c" }}
+,{ "pid":12345, "tid":7, "ts":1702202187758162, "dur":312, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1702202187757347, "dur":1127, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_iOS_arm64 z7ln/me8kippveoih.o" }}
+,{ "pid":12345, "tid":7, "ts":1702202187758475, "dur":72, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1702202187758599, "dur":158, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/macbookair/VuforiaTesting/Build/Il2CppOutputProject/Source/il2cppOutput/UnityEngine.TextCoreFontEngineModule_CodeGen.c" }}
+,{ "pid":12345, "tid":7, "ts":1702202187758873, "dur":123, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1702202187758547, "dur":450, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_iOS_arm64 z7ln/zxn1inicm6lf.o" }}
+,{ "pid":12345, "tid":7, "ts":1702202187758997, "dur":83, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1702202187759113, "dur":125, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/macbookair/VuforiaTesting/Build/Il2CppOutputProject/Source/il2cppOutput/UnityEngine.GameCenterModule_CodeGen.c" }}
+,{ "pid":12345, "tid":7, "ts":1702202187759255, "dur":60, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1702202187759080, "dur":235, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_iOS_arm64 z7ln/5u1nbs2ykirv.o" }}
+,{ "pid":12345, "tid":7, "ts":1702202187759315, "dur":651, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1702202187759968, "dur":70, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/macbookair/VuforiaTesting/Build/Il2CppOutputProject/Source/il2cppOutput/Mono.Security_CodeGen.c" }}
+,{ "pid":12345, "tid":7, "ts":1702202187760039, "dur":230, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/macbookair/VuforiaTesting/Build/Il2CppOutputProject/Source/il2cppOutput/Mono.Security_CodeGen.c" }}
+,{ "pid":12345, "tid":7, "ts":1702202187760330, "dur":233, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1702202187759967, "dur":596, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_iOS_arm64 z7ln/yi1w70kt7x6j.o" }}
+,{ "pid":12345, "tid":7, "ts":1702202187760606, "dur":60, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/macbookair/VuforiaTesting/Build/Il2CppOutputProject/Source/il2cppOutput/Il2CppGenericClassTable.c" }}
+,{ "pid":12345, "tid":7, "ts":1702202187760666, "dur":137, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/macbookair/VuforiaTesting/Build/Il2CppOutputProject/Source/il2cppOutput/Il2CppGenericClassTable.c" }}
+,{ "pid":12345, "tid":7, "ts":1702202187760910, "dur":264, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1702202187760605, "dur":570, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_iOS_arm64 z7ln/wd98pipmf5e1.o" }}
+,{ "pid":12345, "tid":7, "ts":1702202187761175, "dur":76, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1702202187761274, "dur":2166, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/macbookair/VuforiaTesting/Build/Il2CppOutputProject/Source/il2cppOutput/Vuforia.Unity.Engine__7.cpp" }}
+,{ "pid":12345, "tid":7, "ts":1702202187763462, "dur":459, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1702202187761252, "dur":2669, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_iOS_arm64 z7ln/rwq5pb7twb24.o" }}
+,{ "pid":12345, "tid":7, "ts":1702202187763985, "dur":345, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/macbookair/VuforiaTesting/Build/Il2CppOutputProject/Source/il2cppOutput/Vuforia.Unity.Engine__10.cpp" }}
+,{ "pid":12345, "tid":7, "ts":1702202187764374, "dur":375, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1702202187763952, "dur":797, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_iOS_arm64 z7ln/5kzp5v889wuk.o" }}
+,{ "pid":12345, "tid":7, "ts":1702202187764810, "dur":310, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/macbookair/VuforiaTesting/Build/Il2CppOutputProject/Source/il2cppOutput/UnityEngine.UI__2.cpp" }}
+,{ "pid":12345, "tid":7, "ts":1702202187765154, "dur":551, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1702202187764777, "dur":928, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_iOS_arm64 z7ln/mb1ypk2o07a5.o" }}
+,{ "pid":12345, "tid":7, "ts":1702202187765767, "dur":225, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/macbookair/VuforiaTesting/Build/Il2CppOutputProject/Source/il2cppOutput/UnityEngine.UIElementsModule__4.cpp" }}
+,{ "pid":12345, "tid":7, "ts":1702202187766339, "dur":79, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/macbookair/VuforiaTesting/Build/Il2CppOutputProject/IL2CPP/libil2cpp/os/Memory.h" }}
+,{ "pid":12345, "tid":7, "ts":1702202187766004, "dur":745, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1702202187765742, "dur":1007, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_iOS_arm64 z7ln/5qbwzbh49ljj.o" }}
+,{ "pid":12345, "tid":7, "ts":1702202187766826, "dur":229, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/macbookair/VuforiaTesting/Build/Il2CppOutputProject/Source/il2cppOutput/UnityEngine.UIElementsModule.cpp" }}
+,{ "pid":12345, "tid":7, "ts":1702202187767064, "dur":504, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1702202187766797, "dur":771, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_iOS_arm64 z7ln/ttewq2s4pe6p.o" }}
+,{ "pid":12345, "tid":7, "ts":1702202187767569, "dur":156, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1702202187767726, "dur":65, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/macbookair/VuforiaTesting/Build/Il2CppOutputProject/Source/il2cppOutput/UnityEngine.TextCoreTextEngineModule.cpp" }}
+,{ "pid":12345, "tid":7, "ts":1702202187767792, "dur":297, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/macbookair/VuforiaTesting/Build/Il2CppOutputProject/Source/il2cppOutput/UnityEngine.TextCoreTextEngineModule.cpp" }}
+,{ "pid":12345, "tid":7, "ts":1702202187768100, "dur":191, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1702202187767725, "dur":566, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_iOS_arm64 z7ln/lrdn949nhb5s.o" }}
+,{ "pid":12345, "tid":7, "ts":1702202187768361, "dur":268, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/macbookair/VuforiaTesting/Build/Il2CppOutputProject/Source/il2cppOutput/UnityEngine.PhysicsModule.cpp" }}
+,{ "pid":12345, "tid":7, "ts":1702202187768635, "dur":228, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1702202187768339, "dur":524, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_iOS_arm64 z7ln/zhjomcm3k47j.o" }}
+,{ "pid":12345, "tid":7, "ts":1702202187768864, "dur":159, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1702202187769049, "dur":580, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/macbookair/VuforiaTesting/Build/Il2CppOutputProject/Source/il2cppOutput/UnityEngine.GameCenterModule.cpp" }}
+,{ "pid":12345, "tid":7, "ts":1702202187769640, "dur":480, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1702202187769024, "dur":1097, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_iOS_arm64 z7ln/dcdgk04ov6xd.o" }}
+,{ "pid":12345, "tid":7, "ts":1702202187770121, "dur":54, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1702202187770209, "dur":366, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/macbookair/VuforiaTesting/Build/Il2CppOutputProject/Source/il2cppOutput/Unity.TextMeshPro__5.cpp" }}
+,{ "pid":12345, "tid":7, "ts":1702202187770598, "dur":653, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1702202187770175, "dur":1076, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_iOS_arm64 z7ln/a934ye1wykx8.o" }}
+,{ "pid":12345, "tid":7, "ts":1702202187771308, "dur":321, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/macbookair/VuforiaTesting/Build/Il2CppOutputProject/Source/il2cppOutput/System__7.cpp" }}
+,{ "pid":12345, "tid":7, "ts":1702202187772051, "dur":56, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/macbookair/VuforiaTesting/Build/Il2CppOutputProject/IL2CPP/external/baselib/Include/C/Baselib_Atomic.h" }}
+,{ "pid":12345, "tid":7, "ts":1702202187771642, "dur":491, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1702202187771278, "dur":856, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_iOS_arm64 z7ln/728zvhbv608k.o" }}
+,{ "pid":12345, "tid":7, "ts":1702202187772178, "dur":141, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/macbookair/VuforiaTesting/Build/Il2CppOutputProject/Source/il2cppOutput/System.Xml__4.cpp" }}
+,{ "pid":12345, "tid":7, "ts":1702202187772388, "dur":569, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1702202187772153, "dur":804, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_iOS_arm64 z7ln/3kmwbqv7sw7a.o" }}
+,{ "pid":12345, "tid":7, "ts":1702202187773007, "dur":232, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/macbookair/VuforiaTesting/Build/Il2CppOutputProject/Source/il2cppOutput/System.Core__3.cpp" }}
+,{ "pid":12345, "tid":7, "ts":1702202187773464, "dur":77, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/macbookair/VuforiaTesting/Build/Il2CppOutputProject/IL2CPP/libil2cpp/utils/Output.h" }}
+,{ "pid":12345, "tid":7, "ts":1702202187773246, "dur":1053, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1702202187772991, "dur":1308, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_iOS_arm64 z7ln/gqgpdkx9wd9y.o" }}
+,{ "pid":12345, "tid":7, "ts":1702202187774357, "dur":542, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/macbookair/VuforiaTesting/Build/Il2CppOutputProject/Source/il2cppOutput/mscorlib__5.cpp" }}
+,{ "pid":12345, "tid":7, "ts":1702202187774928, "dur":413, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1702202187774324, "dur":1018, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_iOS_arm64 z7ln/vf73wp5ue40a.o" }}
+,{ "pid":12345, "tid":7, "ts":1702202187775342, "dur":142, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1702202187775486, "dur":51, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/macbookair/VuforiaTesting/Build/Il2CppOutputProject/Source/il2cppOutput/mscorlib__19.cpp" }}
+,{ "pid":12345, "tid":7, "ts":1702202187775537, "dur":540, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/macbookair/VuforiaTesting/Build/Il2CppOutputProject/Source/il2cppOutput/mscorlib__19.cpp" }}
+,{ "pid":12345, "tid":7, "ts":1702202187776451, "dur":75, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/macbookair/VuforiaTesting/Build/Il2CppOutputProject/IL2CPP/libil2cpp/vm/Runtime.h" }}
+,{ "pid":12345, "tid":7, "ts":1702202187776546, "dur":60, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/macbookair/VuforiaTesting/Build/Il2CppOutputProject/IL2CPP/libil2cpp/vm-utils/VmStringUtils.h" }}
+,{ "pid":12345, "tid":7, "ts":1702202187776084, "dur":604, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1702202187775485, "dur":1203, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_iOS_arm64 z7ln/4em1vw87ulsf.o" }}
+,{ "pid":12345, "tid":7, "ts":1702202187776743, "dur":496, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/macbookair/VuforiaTesting/Build/Il2CppOutputProject/Source/il2cppOutput/mscorlib__11.cpp" }}
+,{ "pid":12345, "tid":7, "ts":1702202187777326, "dur":58, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/macbookair/VuforiaTesting/Build/Il2CppOutputProject/IL2CPP/external/baselib/Include/C/Internal/Baselib_ReentrantLock.inl.h" }}
+,{ "pid":12345, "tid":7, "ts":1702202187777249, "dur":452, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1702202187776727, "dur":974, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_iOS_arm64 z7ln/4kgb0awp42qg.o" }}
+,{ "pid":12345, "tid":7, "ts":1702202187777701, "dur":135, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1702202187777873, "dur":496, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/macbookair/VuforiaTesting/Build/Il2CppOutputProject/Source/il2cppOutput/Il2CppInvokerTable.cpp" }}
+,{ "pid":12345, "tid":7, "ts":1702202187778845, "dur":81, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/macbookair/VuforiaTesting/Build/Il2CppOutputProject/IL2CPP/external/baselib/Include/C/Baselib_ErrorState.h" }}
+,{ "pid":12345, "tid":7, "ts":1702202187778409, "dur":586, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1702202187777837, "dur":1159, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_iOS_arm64 z7ln/zyacywy0ku3x.o" }}
+,{ "pid":12345, "tid":7, "ts":1702202187779037, "dur":156, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/macbookair/VuforiaTesting/Build/Il2CppOutputProject/Source/il2cppOutput/Generics__7.cpp" }}
+,{ "pid":12345, "tid":7, "ts":1702202187779302, "dur":60, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/macbookair/VuforiaTesting/Build/Il2CppOutputProject/IL2CPP/libil2cpp/metadata/GenericMethod.h" }}
+,{ "pid":12345, "tid":7, "ts":1702202187779571, "dur":85, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/macbookair/VuforiaTesting/Build/Il2CppOutputProject/IL2CPP/libil2cpp/vm/MetadataCache.h" }}
+,{ "pid":12345, "tid":7, "ts":1702202187779200, "dur":517, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1702202187779018, "dur":699, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_iOS_arm64 z7ln/yp5fw08ygpwd.o" }}
+,{ "pid":12345, "tid":7, "ts":1702202187779777, "dur":320, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/macbookair/VuforiaTesting/Build/Il2CppOutputProject/Source/il2cppOutput/Generics__57.cpp" }}
+,{ "pid":12345, "tid":7, "ts":1702202187780178, "dur":50, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/macbookair/VuforiaTesting/Build/Il2CppOutputProject/IL2CPP/libil2cpp/metadata/Il2CppGenericMethodHash.h" }}
+,{ "pid":12345, "tid":7, "ts":1702202187780110, "dur":345, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1702202187779762, "dur":693, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_iOS_arm64 z7ln/pqqdphj5oczg.o" }}
+,{ "pid":12345, "tid":7, "ts":1702202187780456, "dur":87, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1702202187780592, "dur":283, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/macbookair/VuforiaTesting/Build/Il2CppOutputProject/Source/il2cppOutput/Generics__50.cpp" }}
+,{ "pid":12345, "tid":7, "ts":1702202187781281, "dur":58, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/macbookair/VuforiaTesting/Build/Il2CppOutputProject/IL2CPP/libil2cpp/il2cpp-class-internals.h" }}
+,{ "pid":12345, "tid":7, "ts":1702202187781370, "dur":54, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/macbookair/VuforiaTesting/Build/Il2CppOutputProject/IL2CPP/external/baselib/Include/C/Baselib_Atomic.h" }}
+,{ "pid":12345, "tid":7, "ts":1702202187780887, "dur":598, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1702202187780543, "dur":943, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_iOS_arm64 z7ln/q443dbnl2vex.o" }}
+,{ "pid":12345, "tid":7, "ts":1702202187781520, "dur":441, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/macbookair/VuforiaTesting/Build/Il2CppOutputProject/Source/il2cppOutput/Generics__43.cpp" }}
+,{ "pid":12345, "tid":7, "ts":1702202187781973, "dur":378, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1702202187781503, "dur":849, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_iOS_arm64 z7ln/adflgg4w8qeo.o" }}
+,{ "pid":12345, "tid":7, "ts":1702202187782407, "dur":310, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/macbookair/VuforiaTesting/Build/Il2CppOutputProject/Source/il2cppOutput/Generics__35.cpp" }}
+,{ "pid":12345, "tid":7, "ts":1702202187782996, "dur":80, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/macbookair/VuforiaTesting/Build/Il2CppOutputProject/IL2CPP/external/baselib/Include/C/Internal/Baselib_CappedSemaphore_FutexBased.inl.h" }}
+,{ "pid":12345, "tid":7, "ts":1702202187782737, "dur":473, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1702202187782391, "dur":820, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_iOS_arm64 z7ln/py267h9bdc8r.o" }}
+,{ "pid":12345, "tid":7, "ts":1702202187783211, "dur":108, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1702202187783360, "dur":225, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/macbookair/VuforiaTesting/Build/Il2CppOutputProject/Source/il2cppOutput/Generics__27.cpp" }}
+,{ "pid":12345, "tid":7, "ts":1702202187783591, "dur":354, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1702202187783319, "dur":627, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_iOS_arm64 z7ln/or9zudcqgjwz.o" }}
+,{ "pid":12345, "tid":7, "ts":1702202187784003, "dur":140, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/macbookair/VuforiaTesting/Build/Il2CppOutputProject/Source/il2cppOutput/Generics__21.cpp" }}
+,{ "pid":12345, "tid":7, "ts":1702202187784152, "dur":565, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1702202187783973, "dur":745, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_iOS_arm64 z7ln/alrezgu3wqnz.o" }}
+,{ "pid":12345, "tid":7, "ts":1702202187784718, "dur":83, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1702202187784820, "dur":152, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/macbookair/VuforiaTesting/Build/Il2CppOutputProject/Source/il2cppOutput/Generics__14.cpp" }}
+,{ "pid":12345, "tid":7, "ts":1702202187785135, "dur":61, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/macbookair/VuforiaTesting/Build/Il2CppOutputProject/IL2CPP/libil2cpp/vm/ScopedThreadAttacher.h" }}
+,{ "pid":12345, "tid":7, "ts":1702202187785358, "dur":129, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/macbookair/VuforiaTesting/Build/Il2CppOutputProject/IL2CPP/libil2cpp/il2cpp-blob.h" }}
+,{ "pid":12345, "tid":7, "ts":1702202187785564, "dur":89, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/macbookair/VuforiaTesting/Build/Il2CppOutputProject/IL2CPP/libil2cpp/os/Win32/ThreadLocalValueImpl.h" }}
+,{ "pid":12345, "tid":7, "ts":1702202187784984, "dur":827, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1702202187784801, "dur":1010, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_iOS_arm64 z7ln/amio6rdg4zsm.o" }}
+,{ "pid":12345, "tid":7, "ts":1702202187785812, "dur":196, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1702202187786057, "dur":230, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/macbookair/VuforiaTesting/Build/Il2CppOutputProject/Source/il2cppOutput/GenericMethods__6.cpp" }}
+,{ "pid":12345, "tid":7, "ts":1702202187786690, "dur":61, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/macbookair/VuforiaTesting/Build/Il2CppOutputProject/IL2CPP/libil2cpp/vm/MarshalAlloc.h" }}
+,{ "pid":12345, "tid":7, "ts":1702202187786295, "dur":490, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1702202187786008, "dur":777, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_iOS_arm64 z7ln/qr3u0z1s5b73.o" }}
+,{ "pid":12345, "tid":7, "ts":1702202187786838, "dur":260, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/macbookair/VuforiaTesting/Build/Il2CppOutputProject/Source/il2cppOutput/GenericMethods__12.cpp" }}
+,{ "pid":12345, "tid":7, "ts":1702202187787104, "dur":361, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1702202187786808, "dur":657, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_iOS_arm64 z7ln/bpig80aqptwm.o" }}
+,{ "pid":12345, "tid":7, "ts":1702202187787465, "dur":140, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1702202187787605, "dur":91, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1702202187729992, "dur":923, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1702202187730915, "dur":26095, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1702202187757070, "dur":122, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/macbookair/VuforiaTesting/Build/Il2CppOutputProject/Source/il2cppOutput/__Generated_CodeGen.c" }}
+,{ "pid":12345, "tid":8, "ts":1702202187757192, "dur":777, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/macbookair/VuforiaTesting/Build/Il2CppOutputProject/Source/il2cppOutput/__Generated_CodeGen.c" }}
+,{ "pid":12345, "tid":8, "ts":1702202187758040, "dur":102, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1702202187757046, "dur":1096, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_iOS_arm64 z7ln/61rmmm28sm3s.o" }}
+,{ "pid":12345, "tid":8, "ts":1702202187758143, "dur":408, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1702202187758552, "dur":59, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/macbookair/VuforiaTesting/Build/Il2CppOutputProject/Source/il2cppOutput/UnityEngine.SpriteShapeModule_CodeGen.c" }}
+,{ "pid":12345, "tid":8, "ts":1702202187758611, "dur":132, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/macbookair/VuforiaTesting/Build/Il2CppOutputProject/Source/il2cppOutput/UnityEngine.SpriteShapeModule_CodeGen.c" }}
+,{ "pid":12345, "tid":8, "ts":1702202187758755, "dur":201, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1702202187758551, "dur":405, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_iOS_arm64 z7ln/stgchk6j0uyz.o" }}
+,{ "pid":12345, "tid":8, "ts":1702202187759033, "dur":65, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1702202187758979, "dur":119, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_iOS_arm64 z7ln/r3u173p0y5bm.o" }}
+,{ "pid":12345, "tid":8, "ts":1702202187759098, "dur":64, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1702202187759204, "dur":50, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/macbookair/VuforiaTesting/Build/Il2CppOutputProject/Source/il2cppOutput/UnityEngine.AnimationModule_CodeGen.c" }}
+,{ "pid":12345, "tid":8, "ts":1702202187759163, "dur":145, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_iOS_arm64 z7ln/cnduejw321o4.o" }}
+,{ "pid":12345, "tid":8, "ts":1702202187759403, "dur":273, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/macbookair/VuforiaTesting/Build/Il2CppOutputProject/Source/il2cppOutput/System_CodeGen.c" }}
+,{ "pid":12345, "tid":8, "ts":1702202187759736, "dur":308, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1702202187759353, "dur":691, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_iOS_arm64 z7ln/ees89bk1j93a.o" }}
+,{ "pid":12345, "tid":8, "ts":1702202187760045, "dur":64, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1702202187760110, "dur":86, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/macbookair/VuforiaTesting/Build/Il2CppOutputProject/Source/il2cppOutput/Il2CppMetadataUsage.c" }}
+,{ "pid":12345, "tid":8, "ts":1702202187760196, "dur":72, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/macbookair/VuforiaTesting/Build/Il2CppOutputProject/Source/il2cppOutput/Il2CppMetadataUsage.c" }}
+,{ "pid":12345, "tid":8, "ts":1702202187760307, "dur":206, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1702202187760109, "dur":404, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_iOS_arm64 z7ln/djkn5krepb3h.o" }}
+,{ "pid":12345, "tid":8, "ts":1702202187760554, "dur":63, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/macbookair/VuforiaTesting/Build/Il2CppOutputProject/Source/il2cppOutput/Il2CppGenericMethodDefinitions.c" }}
+,{ "pid":12345, "tid":8, "ts":1702202187760617, "dur":95, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/macbookair/VuforiaTesting/Build/Il2CppOutputProject/Source/il2cppOutput/Il2CppGenericMethodDefinitions.c" }}
+,{ "pid":12345, "tid":8, "ts":1702202187760873, "dur":90, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1702202187760553, "dur":410, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_iOS_arm64 z7ln/zve9tqq5eqkw.o" }}
+,{ "pid":12345, "tid":8, "ts":1702202187760963, "dur":70, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1702202187761034, "dur":59, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/macbookair/VuforiaTesting/Build/Il2CppOutputProject/Source/il2cppOutput/Vuforia.Unity.Wrapper.cpp" }}
+,{ "pid":12345, "tid":8, "ts":1702202187761093, "dur":2325, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/macbookair/VuforiaTesting/Build/Il2CppOutputProject/Source/il2cppOutput/Vuforia.Unity.Wrapper.cpp" }}
+,{ "pid":12345, "tid":8, "ts":1702202187763426, "dur":302, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1702202187761033, "dur":2696, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_iOS_arm64 z7ln/11shdzhnh0qa.o" }}
+,{ "pid":12345, "tid":8, "ts":1702202187763778, "dur":759, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/macbookair/VuforiaTesting/Build/Il2CppOutputProject/Source/il2cppOutput/Vuforia.Unity.Engine__5.cpp" }}
+,{ "pid":12345, "tid":8, "ts":1702202187764550, "dur":390, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1702202187763755, "dur":1186, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_iOS_arm64 z7ln/5820pmcypl95.o" }}
+,{ "pid":12345, "tid":8, "ts":1702202187764986, "dur":488, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/macbookair/VuforiaTesting/Build/Il2CppOutputProject/Source/il2cppOutput/UnityEngine.UIModule.cpp" }}
+,{ "pid":12345, "tid":8, "ts":1702202187766028, "dur":50, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/macbookair/VuforiaTesting/Build/Il2CppOutputProject/IL2CPP/external/google/sparsehash/internal/sparsehashtable.h" }}
+,{ "pid":12345, "tid":8, "ts":1702202187765770, "dur":466, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1702202187764963, "dur":1273, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_iOS_arm64 z7ln/yiemdp94uz84.o" }}
+,{ "pid":12345, "tid":8, "ts":1702202187766302, "dur":377, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/macbookair/VuforiaTesting/Build/Il2CppOutputProject/Source/il2cppOutput/UnityEngine.UIElementsModule__13.cpp" }}
+,{ "pid":12345, "tid":8, "ts":1702202187767007, "dur":72, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/macbookair/VuforiaTesting/Build/Il2CppOutputProject/IL2CPP/libil2cpp/vm/Il2CppHStringReference.h" }}
+,{ "pid":12345, "tid":8, "ts":1702202187766720, "dur":620, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1702202187766277, "dur":1063, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_iOS_arm64 z7ln/3jkdgfp22f2d.o" }}
+,{ "pid":12345, "tid":8, "ts":1702202187767370, "dur":58, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/macbookair/VuforiaTesting/Build/Il2CppOutputProject/Source/il2cppOutput/UnityEngine.TextRenderingModule.cpp" }}
+,{ "pid":12345, "tid":8, "ts":1702202187767428, "dur":416, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/macbookair/VuforiaTesting/Build/Il2CppOutputProject/Source/il2cppOutput/UnityEngine.TextRenderingModule.cpp" }}
+,{ "pid":12345, "tid":8, "ts":1702202187768109, "dur":216, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/macbookair/VuforiaTesting/Build/Il2CppOutputProject/IL2CPP/libil2cpp/codegen/il2cpp-codegen.h" }}
+,{ "pid":12345, "tid":8, "ts":1702202187768413, "dur":53, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/macbookair/VuforiaTesting/Build/Il2CppOutputProject/IL2CPP/external/baselib/Include/Internal/BasicTypes.h" }}
+,{ "pid":12345, "tid":8, "ts":1702202187768505, "dur":341, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/macbookair/VuforiaTesting/Build/Il2CppOutputProject/IL2CPP/libil2cpp/il2cpp-pinvoke-support.h" }}
+,{ "pid":12345, "tid":8, "ts":1702202187767857, "dur":1271, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1702202187767369, "dur":1759, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_iOS_arm64 z7ln/nirlet6g8h3h.o" }}
+,{ "pid":12345, "tid":8, "ts":1702202187769147, "dur":100, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/macbookair/VuforiaTesting/Build/Il2CppOutputProject/Source/il2cppOutput/UnityEngine.cpp" }}
+,{ "pid":12345, "tid":8, "ts":1702202187769248, "dur":224, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/macbookair/VuforiaTesting/Build/Il2CppOutputProject/Source/il2cppOutput/UnityEngine.cpp" }}
+,{ "pid":12345, "tid":8, "ts":1702202187769484, "dur":553, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1702202187769146, "dur":907, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_iOS_arm64 z7ln/ely0qjr5uexw.o" }}
+,{ "pid":12345, "tid":8, "ts":1702202187770198, "dur":468, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/macbookair/VuforiaTesting/Build/Il2CppOutputProject/Source/il2cppOutput/Unity.TextMeshPro__6.cpp" }}
+,{ "pid":12345, "tid":8, "ts":1702202187770688, "dur":604, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1702202187770149, "dur":1143, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_iOS_arm64 z7ln/vo7seofu188r.o" }}
+,{ "pid":12345, "tid":8, "ts":1702202187771366, "dur":357, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/macbookair/VuforiaTesting/Build/Il2CppOutputProject/Source/il2cppOutput/System__6.cpp" }}
+,{ "pid":12345, "tid":8, "ts":1702202187771869, "dur":85, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/macbookair/VuforiaTesting/Build/Il2CppOutputProject/IL2CPP/external/google/sparsehash/dense_hash_map.h" }}
+,{ "pid":12345, "tid":8, "ts":1702202187772163, "dur":78, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/macbookair/VuforiaTesting/Build/Il2CppOutputProject/IL2CPP/external/baselib/Include/C/Internal/Compiler/Baselib_Atomic_MsvcIntrinsics.h" }}
+,{ "pid":12345, "tid":8, "ts":1702202187771759, "dur":541, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1702202187771337, "dur":963, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_iOS_arm64 z7ln/6uojb2uw2yr5.o" }}
+,{ "pid":12345, "tid":8, "ts":1702202187772362, "dur":271, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/macbookair/VuforiaTesting/Build/Il2CppOutputProject/Source/il2cppOutput/System.Xml__3.cpp" }}
+,{ "pid":12345, "tid":8, "ts":1702202187772840, "dur":75, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/macbookair/VuforiaTesting/Build/Il2CppOutputProject/IL2CPP/libil2cpp/vm-utils/VmThreadUtils.h" }}
+,{ "pid":12345, "tid":8, "ts":1702202187772999, "dur":62, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/macbookair/VuforiaTesting/Build/Il2CppOutputProject/IL2CPP/external/baselib/Include/Internal/Assert.h" }}
+,{ "pid":12345, "tid":8, "ts":1702202187772727, "dur":630, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1702202187772343, "dur":1014, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_iOS_arm64 z7ln/i5i8vghaq8vr.o" }}
+,{ "pid":12345, "tid":8, "ts":1702202187773400, "dur":158, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/macbookair/VuforiaTesting/Build/Il2CppOutputProject/Source/il2cppOutput/System.Core.cpp" }}
+,{ "pid":12345, "tid":8, "ts":1702202187773570, "dur":857, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1702202187773382, "dur":1045, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_iOS_arm64 z7ln/l95b1v2wawv2.o" }}
+,{ "pid":12345, "tid":8, "ts":1702202187774428, "dur":113, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1702202187774559, "dur":514, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/macbookair/VuforiaTesting/Build/Il2CppOutputProject/Source/il2cppOutput/mscorlib__4.cpp" }}
+,{ "pid":12345, "tid":8, "ts":1702202187775666, "dur":81, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/macbookair/VuforiaTesting/Build/Il2CppOutputProject/IL2CPP/external/baselib/Include/C/Baselib_SourceLocation.h" }}
+,{ "pid":12345, "tid":8, "ts":1702202187775084, "dur":697, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1702202187774541, "dur":1240, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_iOS_arm64 z7ln/a03fhgrxbgpr.o" }}
+,{ "pid":12345, "tid":8, "ts":1702202187775824, "dur":569, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/macbookair/VuforiaTesting/Build/Il2CppOutputProject/Source/il2cppOutput/mscorlib__17.cpp" }}
+,{ "pid":12345, "tid":8, "ts":1702202187776545, "dur":60, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/macbookair/VuforiaTesting/Build/Il2CppOutputProject/IL2CPP/external/baselib/Platforms/IOS/Include/BaselibPlatformSpecificEnvironment.h" }}
+,{ "pid":12345, "tid":8, "ts":1702202187776400, "dur":548, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1702202187775806, "dur":1142, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_iOS_arm64 z7ln/yjfp0dgdp94c.o" }}
+,{ "pid":12345, "tid":8, "ts":1702202187777001, "dur":371, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/macbookair/VuforiaTesting/Build/Il2CppOutputProject/Source/il2cppOutput/mscorlib__1.cpp" }}
+,{ "pid":12345, "tid":8, "ts":1702202187777574, "dur":82, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/macbookair/VuforiaTesting/Build/Il2CppOutputProject/IL2CPP/libil2cpp/vm/Class.h" }}
+,{ "pid":12345, "tid":8, "ts":1702202187777716, "dur":101, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/macbookair/VuforiaTesting/Build/Il2CppOutputProject/IL2CPP/libil2cpp/vm/Exception.h" }}
+,{ "pid":12345, "tid":8, "ts":1702202187777890, "dur":54, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/macbookair/VuforiaTesting/Build/Il2CppOutputProject/IL2CPP/libil2cpp/os/c-api/il2cpp-config-platforms.h" }}
+,{ "pid":12345, "tid":8, "ts":1702202187777971, "dur":62, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/macbookair/VuforiaTesting/Build/Il2CppOutputProject/IL2CPP/libil2cpp/codegen/il2cpp-codegen-metadata.h" }}
+,{ "pid":12345, "tid":8, "ts":1702202187778092, "dur":61, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/macbookair/VuforiaTesting/Build/Il2CppOutputProject/IL2CPP/libil2cpp/il2cpp-api-types.h" }}
+,{ "pid":12345, "tid":8, "ts":1702202187777378, "dur":887, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1702202187776983, "dur":1282, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_iOS_arm64 z7ln/3wcn1hi411k9.o" }}
+,{ "pid":12345, "tid":8, "ts":1702202187778311, "dur":306, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/macbookair/VuforiaTesting/Build/Il2CppOutputProject/Source/il2cppOutput/Il2CppCCalculateTypeValues.cpp" }}
+,{ "pid":12345, "tid":8, "ts":1702202187778843, "dur":83, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/macbookair/VuforiaTesting/Build/Il2CppOutputProject/IL2CPP/external/baselib/Include/Internal/Assert.h" }}
+,{ "pid":12345, "tid":8, "ts":1702202187779027, "dur":59, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/macbookair/VuforiaTesting/Build/Il2CppOutputProject/IL2CPP/external/baselib/Include/C/Internal/Baselib_CappedSemaphore_FutexBased.inl.h" }}
+,{ "pid":12345, "tid":8, "ts":1702202187779143, "dur":60, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/macbookair/VuforiaTesting/Build/Il2CppOutputProject/IL2CPP/external/baselib/Include/C/Baselib_StaticAssert.h" }}
+,{ "pid":12345, "tid":8, "ts":1702202187779300, "dur":61, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/macbookair/VuforiaTesting/Build/Il2CppOutputProject/IL2CPP/libil2cpp/il2cpp-class-internals.h" }}
+,{ "pid":12345, "tid":8, "ts":1702202187778640, "dur":762, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1702202187778296, "dur":1106, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_iOS_arm64 z7ln/umtleonrj56n.o" }}
+,{ "pid":12345, "tid":8, "ts":1702202187779403, "dur":145, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1702202187779569, "dur":296, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/macbookair/VuforiaTesting/Build/Il2CppOutputProject/Source/il2cppOutput/Generics__59.cpp" }}
+,{ "pid":12345, "tid":8, "ts":1702202187779879, "dur":298, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1702202187779549, "dur":629, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_iOS_arm64 z7ln/beeip6d1v2rf.o" }}
+,{ "pid":12345, "tid":8, "ts":1702202187780178, "dur":345, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1702202187780528, "dur":480, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/macbookair/VuforiaTesting/Build/Il2CppOutputProject/Source/il2cppOutput/Generics__52.cpp" }}
+,{ "pid":12345, "tid":8, "ts":1702202187781278, "dur":62, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/macbookair/VuforiaTesting/Build/Il2CppOutputProject/IL2CPP/libil2cpp/vm-utils/VmStringUtils.h" }}
+,{ "pid":12345, "tid":8, "ts":1702202187781023, "dur":500, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1702202187780523, "dur":1000, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_iOS_arm64 z7ln/wzbg9tfg871z.o" }}
+,{ "pid":12345, "tid":8, "ts":1702202187781524, "dur":53, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1702202187781605, "dur":323, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/macbookair/VuforiaTesting/Build/Il2CppOutputProject/Source/il2cppOutput/Generics__40.cpp" }}
+,{ "pid":12345, "tid":8, "ts":1702202187781934, "dur":405, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1702202187781578, "dur":761, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_iOS_arm64 z7ln/39ns0hv3yca6.o" }}
+,{ "pid":12345, "tid":8, "ts":1702202187782378, "dur":408, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/macbookair/VuforiaTesting/Build/Il2CppOutputProject/Source/il2cppOutput/Generics__36.cpp" }}
+,{ "pid":12345, "tid":8, "ts":1702202187782997, "dur":79, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/macbookair/VuforiaTesting/Build/Il2CppOutputProject/IL2CPP/external/baselib/Include/Baselib.h" }}
+,{ "pid":12345, "tid":8, "ts":1702202187782799, "dur":464, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1702202187782362, "dur":901, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_iOS_arm64 z7ln/ae6unrn9f0jb.o" }}
+,{ "pid":12345, "tid":8, "ts":1702202187783290, "dur":425, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/macbookair/VuforiaTesting/Build/Il2CppOutputProject/Source/il2cppOutput/Generics__29.cpp" }}
+,{ "pid":12345, "tid":8, "ts":1702202187783996, "dur":189, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/macbookair/VuforiaTesting/Build/Il2CppOutputProject/IL2CPP/libil2cpp/vm/Runtime.h" }}
+,{ "pid":12345, "tid":8, "ts":1702202187783721, "dur":550, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1702202187783276, "dur":995, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_iOS_arm64 z7ln/afx4u26ln9oy.o" }}
+,{ "pid":12345, "tid":8, "ts":1702202187784316, "dur":374, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/macbookair/VuforiaTesting/Build/Il2CppOutputProject/Source/il2cppOutput/Generics__2.cpp" }}
+,{ "pid":12345, "tid":8, "ts":1702202187784810, "dur":59, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/macbookair/VuforiaTesting/Build/Il2CppOutputProject/IL2CPP/libil2cpp/codegen/il2cpp-codegen-il2cpp.h" }}
+,{ "pid":12345, "tid":8, "ts":1702202187785141, "dur":61, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/macbookair/VuforiaTesting/Build/Il2CppOutputProject/IL2CPP/libil2cpp/os/c-api/WaitStatus-c-api.h" }}
+,{ "pid":12345, "tid":8, "ts":1702202187784729, "dur":473, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1702202187784294, "dur":908, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_iOS_arm64 z7ln/lr7alj7a1y4s.o" }}
+,{ "pid":12345, "tid":8, "ts":1702202187785202, "dur":57, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1702202187785295, "dur":223, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/macbookair/VuforiaTesting/Build/Il2CppOutputProject/Source/il2cppOutput/Generics__10.cpp" }}
+,{ "pid":12345, "tid":8, "ts":1702202187785525, "dur":279, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1702202187785260, "dur":544, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_iOS_arm64 z7ln/2a7e6dooqj7o.o" }}
+,{ "pid":12345, "tid":8, "ts":1702202187785805, "dur":182, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1702202187786024, "dur":509, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/macbookair/VuforiaTesting/Build/Il2CppOutputProject/Source/il2cppOutput/GenericMethods__7.cpp" }}
+,{ "pid":12345, "tid":8, "ts":1702202187786909, "dur":58, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/macbookair/VuforiaTesting/Build/Il2CppOutputProject/IL2CPP/libil2cpp/vm-utils/Finally.h" }}
+,{ "pid":12345, "tid":8, "ts":1702202187786544, "dur":473, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1702202187785987, "dur":1031, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_iOS_arm64 z7ln/b76ig9fq8zin.o" }}
+,{ "pid":12345, "tid":8, "ts":1702202187787071, "dur":222, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/macbookair/VuforiaTesting/Build/Il2CppOutputProject/Source/il2cppOutput/GenericMethods.cpp" }}
+,{ "pid":12345, "tid":8, "ts":1702202187787299, "dur":296, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1702202187787052, "dur":543, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_iOS_arm64 z7ln/egcurvpy5no3.o" }}
+,{ "pid":12345, "tid":8, "ts":1702202187787614, "dur":51, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"Lib_iOS_arm64 z7ln/libGameAssembly.a" }}
+,{ "pid":12345, "tid":0, "ts":1702202187793717, "dur":920, "ph":"X", "name": "ProfilerWriteOutput" }
+,{ "pid": 10638, "tid": 1, "ts": 1702202187813589, "dur": 888, "ph": "X", "name": "Wait for external events", "args": {"First to finish": "backend_profiler0.traceevents"} },
+{ "pid": 10638, "tid": 1, "ts": 1702202187814490, "dur": 420, "ph": "X", "name": "backend_profiler0.traceevents", "args": {} },
+{ "pid": 10638, "tid": 1, "ts": 1702202187810898, "dur": 5025, "ph": "X", "name": "Write chrome-trace events", "args": {} },
+{ "pid": 10638, "tid": 1, "ts": 1702202187835397, "dur": 4109, "ph": "X", "name": "Write chrome-trace events", "args": {} },
+{}
+
+]
+}

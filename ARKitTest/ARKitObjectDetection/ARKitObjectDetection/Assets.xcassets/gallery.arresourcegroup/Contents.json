@@ -1,0 +1,32 @@
+{
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  },
+  "resources" : [
+    {
+      "filename" : "Ambulance.arobject"
+    },
+    {
+      "filename" : "Basketball.arobject"
+    },
+    {
+      "filename" : "DuploR.arobject"
+    },
+    {
+      "filename" : "DuploY.arobject"
+    },
+    {
+      "filename" : "Nutcracker.arobject"
+    },
+    {
+      "filename" : "perfume50ml.arobject"
+    },
+    {
+      "filename" : "perfume100ml.arobject"
+    },
+    {
+      "filename" : "Police.arobject"
+    }
+  ]
+}

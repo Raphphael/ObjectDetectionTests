@@ -1,0 +1,10 @@
+UnrealEngineTest/Binaries/IOS/Payload/UEAzureTest2.app/UEAzureTest2 filter=lfs diff=lfs merge=lfs -text
+UnrealEngineTest/Binaries/IOS/UEAzureTest2 filter=lfs diff=lfs merge=lfs -text
+UnrealEngineTest/Binaries/IOS/UEAzureTest2.ipa filter=lfs diff=lfs merge=lfs -text
+UnrealEngineTest/Content/AR_toolkit/Blueprints/GameFramework/BP_ARPawn.uasset filter=lfs diff=lfs merge=lfs -text
+UnrealEngineTest/IOS/UEAzureTest2.ipa filter=lfs diff=lfs merge=lfs -text
+VisionLibTest/Build/Libraries/libiPhone-lib.a filter=lfs diff=lfs merge=lfs -text
+VuforiaTest/Assets/StreamingAssets/Vuforia/Testing.dat filter=lfs diff=lfs merge=lfs -text
+VuforiaTest/Build/Data/Raw/Vuforia/Testing.dat filter=lfs diff=lfs merge=lfs -text
+VuforiaTest/Build/Libraries/libiPhone-lib.a filter=lfs diff=lfs merge=lfs -text
+VuforiaTest/Packages/com.ptc.vuforia.engine-10.19.3.tgz filter=lfs diff=lfs merge=lfs -text

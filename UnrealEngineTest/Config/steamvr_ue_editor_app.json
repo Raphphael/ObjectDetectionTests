@@ -1,0 +1,18 @@
+{
+	"source": "UE",
+	"applications": [
+		{
+			"app_key": "application.generated.ue.artoolkit-15228867.ue4editor.exe",
+			"launch_type": "url",
+			"url": "steam://launch/",
+			"action_manifest_path": "C:/Users/Adam/OneDrive/UE4 Marketplace/AR_marketplace_template/Marketplace/4.26/ARtoolkit/Config/SteamVRBindings/steamvr_manifest.json",
+			"strings":
+			{
+				"en_us":
+				{
+					"name": "ARtoolkit-15228867 [UE Editor]"
+				}
+			}
+		}
+	]
+}

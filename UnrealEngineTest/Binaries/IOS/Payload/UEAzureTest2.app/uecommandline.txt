@@ -1,0 +1,1 @@
+-project=../../../UEAzureTest2/UEAzureTest2.uproject
