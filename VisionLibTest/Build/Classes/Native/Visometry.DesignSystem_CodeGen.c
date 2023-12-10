@@ -1,0 +1,408 @@
+﻿#include "pch-c.h"
+#ifndef _MSC_VER
+# include <alloca.h>
+#else
+# include <malloc.h>
+#endif
+
+
+#include "codegen/il2cpp-codegen-metadata.h"
+
+
+
+
+
+// 0x00000001 UnityEngine.Canvas Visometry.DesignSystem.UIDisplay::get_DisplayCanvas()
+extern void UIDisplay_get_DisplayCanvas_m09A19C9D3521BD73E1C534B83ED3D74415AE2359 (void);
+// 0x00000002 System.Void Visometry.DesignSystem.UIDisplay::.ctor()
+extern void UIDisplay__ctor_m33EA795932093E424C6A0DBC587F66C564ECC6B6 (void);
+// 0x00000003 System.Void Visometry.DesignSystem.Notification::add_OnWaitingForDestroyFinished(Visometry.DesignSystem.Notification/NotificationDelegate)
+extern void Notification_add_OnWaitingForDestroyFinished_m013FFC21A015FDB1E97E60AD846C7791B80CF2C4 (void);
+// 0x00000004 System.Void Visometry.DesignSystem.Notification::remove_OnWaitingForDestroyFinished(Visometry.DesignSystem.Notification/NotificationDelegate)
+extern void Notification_remove_OnWaitingForDestroyFinished_mE8BCD8AFD6C87465CC931497CF036881C505A6B6 (void);
+// 0x00000005 System.Void Visometry.DesignSystem.Notification::add_OnDeleted(Visometry.DesignSystem.Notification/NotificationDelegate)
+extern void Notification_add_OnDeleted_mD98FFBA022D170D868FAE064CA121526AEFAB3FD (void);
+// 0x00000006 System.Void Visometry.DesignSystem.Notification::remove_OnDeleted(Visometry.DesignSystem.Notification/NotificationDelegate)
+extern void Notification_remove_OnDeleted_m6465F9B75ED8E094DFF4EB2D8136B77E5C661B85 (void);
+// 0x00000007 System.Void Visometry.DesignSystem.Notification::Awake()
+extern void Notification_Awake_mAF42C8964F2A9907E692E2FCC7869629B16CE75F (void);
+// 0x00000008 System.Void Visometry.DesignSystem.Notification::SetPosition(Visometry.DesignSystem.Notification/Position)
+extern void Notification_SetPosition_mE0C57FD13ADBE20783D9D6DDB8CCC92998A3AEA8 (void);
+// 0x00000009 System.Void Visometry.DesignSystem.Notification::ApplyOffset(System.Boolean,System.Int32)
+extern void Notification_ApplyOffset_m887085EC838E6894E96E40C2368879D49011CD2C (void);
+// 0x0000000A System.Void Visometry.DesignSystem.Notification::SetTexts(System.String,System.String)
+extern void Notification_SetTexts_m6F762A3A36D6D3535383061161DF7333D669EF31 (void);
+// 0x0000000B System.Void Visometry.DesignSystem.Notification::SetColor(UnityEngine.Color)
+extern void Notification_SetColor_m3EA92841E8CEDBF2096188C6D4CA0F69F4318A66 (void);
+// 0x0000000C System.Void Visometry.DesignSystem.Notification::SetIcon(System.String)
+extern void Notification_SetIcon_m77F3C494808B8FBE46048BDCA60FD531E978B37A (void);
+// 0x0000000D System.Void Visometry.DesignSystem.Notification::SetAction(System.Action)
+extern void Notification_SetAction_m6DE33BF6B3F3DA79595D975929E6156F64B9C86A (void);
+// 0x0000000E System.Void Visometry.DesignSystem.Notification::SetVisibilityOfChildren(System.Boolean)
+extern void Notification_SetVisibilityOfChildren_m22CA28A0BE48680AA5C4B864ABEE1E129E184691 (void);
+// 0x0000000F System.Void Visometry.DesignSystem.Notification::SendDestroyMessage()
+extern void Notification_SendDestroyMessage_m7BA15476F4B2C764642E52BDF6BAC1BFB748C707 (void);
+// 0x00000010 System.Void Visometry.DesignSystem.Notification::TriggerDestroyAfterSeconds(System.Single)
+extern void Notification_TriggerDestroyAfterSeconds_m9FEE6C4DDFBA3550ECFBC71C9614FEA3AFEE7A1C (void);
+// 0x00000011 System.Void Visometry.DesignSystem.Notification::OnDestroy()
+extern void Notification_OnDestroy_mF092C68188279B41760C2BF4D7BD49385DF3A8A8 (void);
+// 0x00000012 System.Void Visometry.DesignSystem.Notification::.ctor()
+extern void Notification__ctor_m95593577C124F2AD785D148A51596D973076DF81 (void);
+// 0x00000013 System.Void Visometry.DesignSystem.Notification/NotificationDelegate::.ctor(System.Object,System.IntPtr)
+extern void NotificationDelegate__ctor_mC7B9B94D34367C9C8551A0435B901B53B35F44DA (void);
+// 0x00000014 System.Void Visometry.DesignSystem.Notification/NotificationDelegate::Invoke(Visometry.DesignSystem.Notification)
+extern void NotificationDelegate_Invoke_mE3EFFBE30665511A2400C27C4F662DFDF08B6BCD (void);
+// 0x00000015 System.IAsyncResult Visometry.DesignSystem.Notification/NotificationDelegate::BeginInvoke(Visometry.DesignSystem.Notification,System.AsyncCallback,System.Object)
+extern void NotificationDelegate_BeginInvoke_m516722A054BBCD372BB6993C9BE8439F6A934544 (void);
+// 0x00000016 System.Void Visometry.DesignSystem.Notification/NotificationDelegate::EndInvoke(System.IAsyncResult)
+extern void NotificationDelegate_EndInvoke_mD0C9DC8868D432C14C0086B2295D0E407598E48B (void);
+// 0x00000017 System.Void Visometry.DesignSystem.Notification/<>c__DisplayClass31_0::.ctor()
+extern void U3CU3Ec__DisplayClass31_0__ctor_mD5169C9984F757849571C417E6F9A29C9D5E251F (void);
+// 0x00000018 System.Void Visometry.DesignSystem.Notification/<>c__DisplayClass31_0::<SetAction>b__0()
+extern void U3CU3Ec__DisplayClass31_0_U3CSetActionU3Eb__0_m9FE154A221C607E9A0699282EB9D2FD5493A37D4 (void);
+// 0x00000019 System.Void Visometry.DesignSystem.Notification/<TriggerDestroyAfterSeconds>d__34::MoveNext()
+extern void U3CTriggerDestroyAfterSecondsU3Ed__34_MoveNext_m8B979DF62CCE3DBE0B583E13FC42245BDEE78299 (void);
+// 0x0000001A System.Void Visometry.DesignSystem.Notification/<TriggerDestroyAfterSeconds>d__34::SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine)
+extern void U3CTriggerDestroyAfterSecondsU3Ed__34_SetStateMachine_m62A1764F1BBF227D787C735F23EDC4F29F071D5F (void);
+// 0x0000001B System.Void Visometry.DesignSystem.NotificationDisplay::OnEnable()
+extern void NotificationDisplay_OnEnable_mB3C0515920715531C851D6474B0BF8C298A296D4 (void);
+// 0x0000001C System.Void Visometry.DesignSystem.NotificationDisplay::OnDisable()
+extern void NotificationDisplay_OnDisable_mEAB232B7920AD4774B2AF5340547F68950E373D7 (void);
+// 0x0000001D System.Void Visometry.DesignSystem.NotificationDisplay::AddNotification(Visometry.DesignSystem.NotificationObject)
+extern void NotificationDisplay_AddNotification_mF33DA790E7E2DF4F1700756C94053A1068436592 (void);
+// 0x0000001E System.Void Visometry.DesignSystem.NotificationDisplay::InstantiateNextErrorWarningNotification()
+extern void NotificationDisplay_InstantiateNextErrorWarningNotification_m9CAC701168EBA8B37556C10D77B283E4A80D8C02 (void);
+// 0x0000001F System.Void Visometry.DesignSystem.NotificationDisplay::InstantiateNextInfoNotification(Visometry.DesignSystem.NotificationObject)
+extern void NotificationDisplay_InstantiateNextInfoNotification_mC193426D67C2A490E51D7C7D7FF64C13B461116F (void);
+// 0x00000020 System.Void Visometry.DesignSystem.NotificationDisplay::ReplaceNotificationFromSameCategory(System.Collections.Generic.List`1<Visometry.DesignSystem.NotificationObject>,Visometry.DesignSystem.NotificationObject)
+extern void NotificationDisplay_ReplaceNotificationFromSameCategory_m58C988C989291975F196FAF23396DA2FD8CE2AD7 (void);
+// 0x00000021 System.Void Visometry.DesignSystem.NotificationDisplay::SetUpNotification(Visometry.DesignSystem.NotificationObject)
+extern void NotificationDisplay_SetUpNotification_mE72661B85C1DB9F2AEBDC28504F34A0402269F33 (void);
+// 0x00000022 System.Void Visometry.DesignSystem.NotificationDisplay::DismissNotification(Visometry.DesignSystem.Notification)
+extern void NotificationDisplay_DismissNotification_m75B962C0B8B2554959B6D29F41E985CD6D1DCE3F (void);
+// 0x00000023 System.Void Visometry.DesignSystem.NotificationDisplay::DestroyNotificationImmediate(Visometry.DesignSystem.NotificationObject)
+extern void NotificationDisplay_DestroyNotificationImmediate_mB85C15CD7F14DC5B8C83FB404E46F72056073E7B (void);
+// 0x00000024 System.Void Visometry.DesignSystem.NotificationDisplay::HandleNotificationDeletion(Visometry.DesignSystem.Notification)
+extern void NotificationDisplay_HandleNotificationDeletion_m6A0709C2C6A3D8D3617FA6E879CCF64EE32C26B9 (void);
+// 0x00000025 System.Void Visometry.DesignSystem.NotificationDisplay::ResetNotifications()
+extern void NotificationDisplay_ResetNotifications_m91F515FCAD08759574BF90C78BF1EA1070797812 (void);
+// 0x00000026 System.Void Visometry.DesignSystem.NotificationDisplay::OnApplicationQuit()
+extern void NotificationDisplay_OnApplicationQuit_m65B0E75BFB6FCECD0E388955A86F4331597EA4B9 (void);
+// 0x00000027 System.Void Visometry.DesignSystem.NotificationDisplay::MoveNotificationsInStack(System.Collections.Generic.List`1<Visometry.DesignSystem.NotificationObject>,System.Boolean)
+extern void NotificationDisplay_MoveNotificationsInStack_m67A46B52ABADBA46A4D168195CDB1DE0E093A095 (void);
+// 0x00000028 Visometry.DesignSystem.NotificationObject Visometry.DesignSystem.NotificationDisplay::FindNextNotificationInList(System.Collections.Generic.List`1<Visometry.DesignSystem.NotificationObject>,Visometry.DesignSystem.Notification/Kind)
+extern void NotificationDisplay_FindNextNotificationInList_m8D73E642D37737E0E15D2CD847B0DB0AB8EDFFB3 (void);
+// 0x00000029 Visometry.DesignSystem.NotificationObject Visometry.DesignSystem.NotificationDisplay::GetNotificationObject(Visometry.DesignSystem.Notification)
+extern void NotificationDisplay_GetNotificationObject_mFD36B0EF876CE013BE111ED7FCAD395B7CAABB1A (void);
+// 0x0000002A System.Void Visometry.DesignSystem.NotificationDisplay::.ctor()
+extern void NotificationDisplay__ctor_m97A3D76D06C3B5B8684C881180B22BFBE2D42205 (void);
+// 0x0000002B System.Void Visometry.DesignSystem.NotificationDisplay/<>c::.cctor()
+extern void U3CU3Ec__cctor_m231622AD51AE75023B55E93ECE1A9375C41E0151 (void);
+// 0x0000002C System.Void Visometry.DesignSystem.NotificationDisplay/<>c::.ctor()
+extern void U3CU3Ec__ctor_mE23166B0EF05BC5A45F9CC688DC94F3AC18FAFA9 (void);
+// 0x0000002D System.Boolean Visometry.DesignSystem.NotificationDisplay/<>c::<AddNotification>b__6_2(Visometry.DesignSystem.NotificationObject)
+extern void U3CU3Ec_U3CAddNotificationU3Eb__6_2_m67D783E0B544D9128DD97D64F24B00CD5531D633 (void);
+// 0x0000002E System.Boolean Visometry.DesignSystem.NotificationDisplay/<>c::<InstantiateNextInfoNotification>b__8_0(Visometry.DesignSystem.NotificationObject)
+extern void U3CU3Ec_U3CInstantiateNextInfoNotificationU3Eb__8_0_m1503EBA209255609036D54F3D776FE4A408969C5 (void);
+// 0x0000002F System.Boolean Visometry.DesignSystem.NotificationDisplay/<>c::<FindNextNotificationInList>b__17_1(Visometry.DesignSystem.NotificationObject)
+extern void U3CU3Ec_U3CFindNextNotificationInListU3Eb__17_1_m7E7E1E3863114B1E8109786F21C9B43BD036254B (void);
+// 0x00000030 System.Void Visometry.DesignSystem.NotificationDisplay/<>c__DisplayClass17_0::.ctor()
+extern void U3CU3Ec__DisplayClass17_0__ctor_mA2608983AA4FA841D7837542324C1ABDA69BB9A0 (void);
+// 0x00000031 System.Boolean Visometry.DesignSystem.NotificationDisplay/<>c__DisplayClass17_0::<FindNextNotificationInList>b__0(Visometry.DesignSystem.NotificationObject)
+extern void U3CU3Ec__DisplayClass17_0_U3CFindNextNotificationInListU3Eb__0_mC77834930BCA5603CE4F5508666C88C3FD5C0ABC (void);
+// 0x00000032 System.Void Visometry.DesignSystem.NotificationDisplay/<>c__DisplayClass18_0::.ctor()
+extern void U3CU3Ec__DisplayClass18_0__ctor_m09AB556D2F36356686303D3F57EAB615D43450A6 (void);
+// 0x00000033 System.Boolean Visometry.DesignSystem.NotificationDisplay/<>c__DisplayClass18_0::<GetNotificationObject>b__0(Visometry.DesignSystem.NotificationObject)
+extern void U3CU3Ec__DisplayClass18_0_U3CGetNotificationObjectU3Eb__0_m43567A7E0CEEBD01078A4C74ACFB33675FDF1C3B (void);
+// 0x00000034 System.Void Visometry.DesignSystem.NotificationDisplay/<>c__DisplayClass6_0::.ctor()
+extern void U3CU3Ec__DisplayClass6_0__ctor_mAA5F1C418BCD8E477C670EBD55662A0AAF454BE2 (void);
+// 0x00000035 System.Boolean Visometry.DesignSystem.NotificationDisplay/<>c__DisplayClass6_0::<AddNotification>b__0(Visometry.DesignSystem.NotificationObject)
+extern void U3CU3Ec__DisplayClass6_0_U3CAddNotificationU3Eb__0_mD246622525E77DDB86E59A8CF3C28B601C49BA9D (void);
+// 0x00000036 System.Boolean Visometry.DesignSystem.NotificationDisplay/<>c__DisplayClass6_0::<AddNotification>b__1(Visometry.DesignSystem.NotificationObject)
+extern void U3CU3Ec__DisplayClass6_0_U3CAddNotificationU3Eb__1_m9E89AD1001084E48C7F610DD2BB1C3D816C5C278 (void);
+// 0x00000037 System.Void Visometry.DesignSystem.NotificationDisplay/<>c__DisplayClass9_0::.ctor()
+extern void U3CU3Ec__DisplayClass9_0__ctor_m352AF2AB0D60352AF42C0C146C8853189D4DAA0A (void);
+// 0x00000038 System.Boolean Visometry.DesignSystem.NotificationDisplay/<>c__DisplayClass9_0::<ReplaceNotificationFromSameCategory>b__0(Visometry.DesignSystem.NotificationObject)
+extern void U3CU3Ec__DisplayClass9_0_U3CReplaceNotificationFromSameCategoryU3Eb__0_m32421FD950F1C9CF594DC58FE9A7CA3F9FEF1EC1 (void);
+// 0x00000039 System.Void Visometry.DesignSystem.NotificationManager::add_OnNotificationAdded(Visometry.DesignSystem.NotificationManager/AddNotificationAction)
+extern void NotificationManager_add_OnNotificationAdded_mBCBD1AF99401F3653531A3985B7DDFDE1C444DA5 (void);
+// 0x0000003A System.Void Visometry.DesignSystem.NotificationManager::remove_OnNotificationAdded(Visometry.DesignSystem.NotificationManager/AddNotificationAction)
+extern void NotificationManager_remove_OnNotificationAdded_mE550E8AE9B85DFE2E6BE831570258E5A91BE0CB9 (void);
+// 0x0000003B System.Void Visometry.DesignSystem.NotificationManager::add_OnNotificationReset(Visometry.DesignSystem.NotificationManager/ResetNotificationAction)
+extern void NotificationManager_add_OnNotificationReset_m90F1FBDF805289053687F334D645E06A16119F0B (void);
+// 0x0000003C System.Void Visometry.DesignSystem.NotificationManager::remove_OnNotificationReset(Visometry.DesignSystem.NotificationManager/ResetNotificationAction)
+extern void NotificationManager_remove_OnNotificationReset_m41E487C9A5DBDF61019024E71FCEC5B3FDF023E8 (void);
+// 0x0000003D System.Void Visometry.DesignSystem.NotificationManager::AddNotification(Visometry.DesignSystem.NotificationObject)
+extern void NotificationManager_AddNotification_m6F92222636F75DA4B72E51C76D35E41503F6ED47 (void);
+// 0x0000003E System.String Visometry.DesignSystem.NotificationManager::ToString(Visometry.DesignSystem.Notification/Kind)
+extern void NotificationManager_ToString_mCA507DC7CE95745526D8BB94F1AD38DF3B0B896E (void);
+// 0x0000003F System.Void Visometry.DesignSystem.NotificationManager::AddSimpleNotification(Visometry.DesignSystem.Notification/Kind,System.String)
+extern void NotificationManager_AddSimpleNotification_m4DCF8E031007757B87D345C14FB41CCD5FF860D3 (void);
+// 0x00000040 System.Void Visometry.DesignSystem.NotificationManager::ResetNotifications()
+extern void NotificationManager_ResetNotifications_m9EE4894367AD17B531E5067ED0B669295D2F4AE8 (void);
+// 0x00000041 System.Void Visometry.DesignSystem.NotificationManager/AddNotificationAction::.ctor(System.Object,System.IntPtr)
+extern void AddNotificationAction__ctor_m85AEFE62A5A9BB42D2F9E8E995834394D857B924 (void);
+// 0x00000042 System.Void Visometry.DesignSystem.NotificationManager/AddNotificationAction::Invoke(Visometry.DesignSystem.NotificationObject)
+extern void AddNotificationAction_Invoke_mBBC5A55A51F1117265A61564EA41471F75AA7EB2 (void);
+// 0x00000043 System.IAsyncResult Visometry.DesignSystem.NotificationManager/AddNotificationAction::BeginInvoke(Visometry.DesignSystem.NotificationObject,System.AsyncCallback,System.Object)
+extern void AddNotificationAction_BeginInvoke_mD23AA56FD97F446D702209EFE14AD6CDACF5FA51 (void);
+// 0x00000044 System.Void Visometry.DesignSystem.NotificationManager/AddNotificationAction::EndInvoke(System.IAsyncResult)
+extern void AddNotificationAction_EndInvoke_mECF0D5DBC4BD582AB1D84BD00F40649FEF3101AF (void);
+// 0x00000045 System.Void Visometry.DesignSystem.NotificationManager/ResetNotificationAction::.ctor(System.Object,System.IntPtr)
+extern void ResetNotificationAction__ctor_mF9BFA4F431C7B986AEC5C9ADCE7FE29AD5993820 (void);
+// 0x00000046 System.Void Visometry.DesignSystem.NotificationManager/ResetNotificationAction::Invoke()
+extern void ResetNotificationAction_Invoke_m34ECE10E050467C9AC44DDDF9892304B59C38682 (void);
+// 0x00000047 System.IAsyncResult Visometry.DesignSystem.NotificationManager/ResetNotificationAction::BeginInvoke(System.AsyncCallback,System.Object)
+extern void ResetNotificationAction_BeginInvoke_m7974526C8D683638B0FEE818001E7E1904B387DC (void);
+// 0x00000048 System.Void Visometry.DesignSystem.NotificationManager/ResetNotificationAction::EndInvoke(System.IAsyncResult)
+extern void ResetNotificationAction_EndInvoke_m30939D63D31CD8708A5495AA4030CC91936D1692 (void);
+// 0x00000049 System.Void Visometry.DesignSystem.NotificationObject::.ctor(System.String,System.String,Visometry.DesignSystem.Notification/Kind,Visometry.DesignSystem.Notification/Type,System.Action,System.String,UnityEngine.GameObject,System.Boolean,System.Int32)
+extern void NotificationObject__ctor_m12F99ECC72E03B615DA2A62A1B27018031C5B263 (void);
+// 0x0000004A System.Void Visometry.DesignSystem.NotificationObject::Instantiate(UnityEngine.GameObject)
+extern void NotificationObject_Instantiate_mB4885120CA756EADB2CF11599C6D26DB1FDEAE9F (void);
+// 0x0000004B System.Void Visometry.DesignSystem.NotificationObject::InitializeNotification()
+extern void NotificationObject_InitializeNotification_m606FB936919FABD06021C4A2317779E388DB1C1A (void);
+// 0x0000004C System.Boolean Visometry.DesignSystem.NotificationObject::IsEqualTo(Visometry.DesignSystem.NotificationObject)
+extern void NotificationObject_IsEqualTo_m3E02B3C83E0BD9A93E983FD85290626C6A87E05B (void);
+// 0x0000004D System.Void Visometry.DesignSystem.NotificationObject::IncreaseEncounters()
+extern void NotificationObject_IncreaseEncounters_m7DCA778F1585568D352CA1E22BD312F42052EA2B (void);
+// 0x0000004E System.Void Visometry.DesignSystem.NotificationObject::UpdateNotificationTexts()
+extern void NotificationObject_UpdateNotificationTexts_m6F1272DFACD91BD7567F4CD9E157E571FC188A0B (void);
+// 0x0000004F System.Void Visometry.DesignSystem.NotificationObject::TriggerDestroyAfterSeconds()
+extern void NotificationObject_TriggerDestroyAfterSeconds_mD9D9532FFB6044EAF8FC47CCDCF114D78BAEC8F2 (void);
+// 0x00000050 System.Void Visometry.DesignSystem.NotificationObject::.cctor()
+extern void NotificationObject__cctor_m8026E4AE0649731C98380B8DDA85D90FA32C50C2 (void);
+// 0x00000051 System.Single Visometry.DesignSystem.LinearProgressBar::get_Value()
+extern void LinearProgressBar_get_Value_m3DD1819BB47581F3337938C8ACA90F7CE7E123B2 (void);
+// 0x00000052 System.Void Visometry.DesignSystem.LinearProgressBar::set_Value(System.Single)
+extern void LinearProgressBar_set_Value_mD14941587976B22537708BCD100711A652176259 (void);
+// 0x00000053 Visometry.DesignSystem.LinearProgressBar Visometry.DesignSystem.LinearProgressBar::Instantiate()
+extern void LinearProgressBar_Instantiate_mC61BAE438A3A43BEE4AD7D6789960F80DE0651EF (void);
+// 0x00000054 System.Void Visometry.DesignSystem.LinearProgressBar::SetMinMaxValues(System.Single,System.Single)
+extern void LinearProgressBar_SetMinMaxValues_m29371452C44F890B7BA8517CB657E28974AC53C8 (void);
+// 0x00000055 System.Void Visometry.DesignSystem.LinearProgressBar::.ctor()
+extern void LinearProgressBar__ctor_m0D1CCB287A3E069B43ED2C25F429A56B151243AE (void);
+// 0x00000056 System.Void Visometry.DesignSystem.ProgressBarNotification::.ctor(System.String,System.Single,System.Single,System.String)
+extern void ProgressBarNotification__ctor_m9E3642A4460169FB7E698FD28DE2BBA2BCC083F0 (void);
+// 0x00000057 System.Single Visometry.DesignSystem.ProgressBarNotification::get_Value()
+extern void ProgressBarNotification_get_Value_mC659D20EE34D46BF4BE2B824D2E49537A13EB8BA (void);
+// 0x00000058 System.Void Visometry.DesignSystem.ProgressBarNotification::set_Value(System.Single)
+extern void ProgressBarNotification_set_Value_mACDC581B3BB0EE69B34CC0EA064CFC2F09D53DBE (void);
+// 0x00000059 System.Void Visometry.DesignSystem.ProgressBarNotification::Finish(System.String)
+extern void ProgressBarNotification_Finish_m3CABB3E7FBBE6D04E8825199D4B12F342FAE8588 (void);
+// 0x0000005A System.Void Visometry.DesignSystem.ProgressBarNotification::Abort(System.String)
+extern void ProgressBarNotification_Abort_mB3B32568A0B574C6666F26AD3FB8D42683B8B5EB (void);
+static Il2CppMethodPointer s_methodPointers[90] = 
+{
+	UIDisplay_get_DisplayCanvas_m09A19C9D3521BD73E1C534B83ED3D74415AE2359,
+	UIDisplay__ctor_m33EA795932093E424C6A0DBC587F66C564ECC6B6,
+	Notification_add_OnWaitingForDestroyFinished_m013FFC21A015FDB1E97E60AD846C7791B80CF2C4,
+	Notification_remove_OnWaitingForDestroyFinished_mE8BCD8AFD6C87465CC931497CF036881C505A6B6,
+	Notification_add_OnDeleted_mD98FFBA022D170D868FAE064CA121526AEFAB3FD,
+	Notification_remove_OnDeleted_m6465F9B75ED8E094DFF4EB2D8136B77E5C661B85,
+	Notification_Awake_mAF42C8964F2A9907E692E2FCC7869629B16CE75F,
+	Notification_SetPosition_mE0C57FD13ADBE20783D9D6DDB8CCC92998A3AEA8,
+	Notification_ApplyOffset_m887085EC838E6894E96E40C2368879D49011CD2C,
+	Notification_SetTexts_m6F762A3A36D6D3535383061161DF7333D669EF31,
+	Notification_SetColor_m3EA92841E8CEDBF2096188C6D4CA0F69F4318A66,
+	Notification_SetIcon_m77F3C494808B8FBE46048BDCA60FD531E978B37A,
+	Notification_SetAction_m6DE33BF6B3F3DA79595D975929E6156F64B9C86A,
+	Notification_SetVisibilityOfChildren_m22CA28A0BE48680AA5C4B864ABEE1E129E184691,
+	Notification_SendDestroyMessage_m7BA15476F4B2C764642E52BDF6BAC1BFB748C707,
+	Notification_TriggerDestroyAfterSeconds_m9FEE6C4DDFBA3550ECFBC71C9614FEA3AFEE7A1C,
+	Notification_OnDestroy_mF092C68188279B41760C2BF4D7BD49385DF3A8A8,
+	Notification__ctor_m95593577C124F2AD785D148A51596D973076DF81,
+	NotificationDelegate__ctor_mC7B9B94D34367C9C8551A0435B901B53B35F44DA,
+	NotificationDelegate_Invoke_mE3EFFBE30665511A2400C27C4F662DFDF08B6BCD,
+	NotificationDelegate_BeginInvoke_m516722A054BBCD372BB6993C9BE8439F6A934544,
+	NotificationDelegate_EndInvoke_mD0C9DC8868D432C14C0086B2295D0E407598E48B,
+	U3CU3Ec__DisplayClass31_0__ctor_mD5169C9984F757849571C417E6F9A29C9D5E251F,
+	U3CU3Ec__DisplayClass31_0_U3CSetActionU3Eb__0_m9FE154A221C607E9A0699282EB9D2FD5493A37D4,
+	U3CTriggerDestroyAfterSecondsU3Ed__34_MoveNext_m8B979DF62CCE3DBE0B583E13FC42245BDEE78299,
+	U3CTriggerDestroyAfterSecondsU3Ed__34_SetStateMachine_m62A1764F1BBF227D787C735F23EDC4F29F071D5F,
+	NotificationDisplay_OnEnable_mB3C0515920715531C851D6474B0BF8C298A296D4,
+	NotificationDisplay_OnDisable_mEAB232B7920AD4774B2AF5340547F68950E373D7,
+	NotificationDisplay_AddNotification_mF33DA790E7E2DF4F1700756C94053A1068436592,
+	NotificationDisplay_InstantiateNextErrorWarningNotification_m9CAC701168EBA8B37556C10D77B283E4A80D8C02,
+	NotificationDisplay_InstantiateNextInfoNotification_mC193426D67C2A490E51D7C7D7FF64C13B461116F,
+	NotificationDisplay_ReplaceNotificationFromSameCategory_m58C988C989291975F196FAF23396DA2FD8CE2AD7,
+	NotificationDisplay_SetUpNotification_mE72661B85C1DB9F2AEBDC28504F34A0402269F33,
+	NotificationDisplay_DismissNotification_m75B962C0B8B2554959B6D29F41E985CD6D1DCE3F,
+	NotificationDisplay_DestroyNotificationImmediate_mB85C15CD7F14DC5B8C83FB404E46F72056073E7B,
+	NotificationDisplay_HandleNotificationDeletion_m6A0709C2C6A3D8D3617FA6E879CCF64EE32C26B9,
+	NotificationDisplay_ResetNotifications_m91F515FCAD08759574BF90C78BF1EA1070797812,
+	NotificationDisplay_OnApplicationQuit_m65B0E75BFB6FCECD0E388955A86F4331597EA4B9,
+	NotificationDisplay_MoveNotificationsInStack_m67A46B52ABADBA46A4D168195CDB1DE0E093A095,
+	NotificationDisplay_FindNextNotificationInList_m8D73E642D37737E0E15D2CD847B0DB0AB8EDFFB3,
+	NotificationDisplay_GetNotificationObject_mFD36B0EF876CE013BE111ED7FCAD395B7CAABB1A,
+	NotificationDisplay__ctor_m97A3D76D06C3B5B8684C881180B22BFBE2D42205,
+	U3CU3Ec__cctor_m231622AD51AE75023B55E93ECE1A9375C41E0151,
+	U3CU3Ec__ctor_mE23166B0EF05BC5A45F9CC688DC94F3AC18FAFA9,
+	U3CU3Ec_U3CAddNotificationU3Eb__6_2_m67D783E0B544D9128DD97D64F24B00CD5531D633,
+	U3CU3Ec_U3CInstantiateNextInfoNotificationU3Eb__8_0_m1503EBA209255609036D54F3D776FE4A408969C5,
+	U3CU3Ec_U3CFindNextNotificationInListU3Eb__17_1_m7E7E1E3863114B1E8109786F21C9B43BD036254B,
+	U3CU3Ec__DisplayClass17_0__ctor_mA2608983AA4FA841D7837542324C1ABDA69BB9A0,
+	U3CU3Ec__DisplayClass17_0_U3CFindNextNotificationInListU3Eb__0_mC77834930BCA5603CE4F5508666C88C3FD5C0ABC,
+	U3CU3Ec__DisplayClass18_0__ctor_m09AB556D2F36356686303D3F57EAB615D43450A6,
+	U3CU3Ec__DisplayClass18_0_U3CGetNotificationObjectU3Eb__0_m43567A7E0CEEBD01078A4C74ACFB33675FDF1C3B,
+	U3CU3Ec__DisplayClass6_0__ctor_mAA5F1C418BCD8E477C670EBD55662A0AAF454BE2,
+	U3CU3Ec__DisplayClass6_0_U3CAddNotificationU3Eb__0_mD246622525E77DDB86E59A8CF3C28B601C49BA9D,
+	U3CU3Ec__DisplayClass6_0_U3CAddNotificationU3Eb__1_m9E89AD1001084E48C7F610DD2BB1C3D816C5C278,
+	U3CU3Ec__DisplayClass9_0__ctor_m352AF2AB0D60352AF42C0C146C8853189D4DAA0A,
+	U3CU3Ec__DisplayClass9_0_U3CReplaceNotificationFromSameCategoryU3Eb__0_m32421FD950F1C9CF594DC58FE9A7CA3F9FEF1EC1,
+	NotificationManager_add_OnNotificationAdded_mBCBD1AF99401F3653531A3985B7DDFDE1C444DA5,
+	NotificationManager_remove_OnNotificationAdded_mE550E8AE9B85DFE2E6BE831570258E5A91BE0CB9,
+	NotificationManager_add_OnNotificationReset_m90F1FBDF805289053687F334D645E06A16119F0B,
+	NotificationManager_remove_OnNotificationReset_m41E487C9A5DBDF61019024E71FCEC5B3FDF023E8,
+	NotificationManager_AddNotification_m6F92222636F75DA4B72E51C76D35E41503F6ED47,
+	NotificationManager_ToString_mCA507DC7CE95745526D8BB94F1AD38DF3B0B896E,
+	NotificationManager_AddSimpleNotification_m4DCF8E031007757B87D345C14FB41CCD5FF860D3,
+	NotificationManager_ResetNotifications_m9EE4894367AD17B531E5067ED0B669295D2F4AE8,
+	AddNotificationAction__ctor_m85AEFE62A5A9BB42D2F9E8E995834394D857B924,
+	AddNotificationAction_Invoke_mBBC5A55A51F1117265A61564EA41471F75AA7EB2,
+	AddNotificationAction_BeginInvoke_mD23AA56FD97F446D702209EFE14AD6CDACF5FA51,
+	AddNotificationAction_EndInvoke_mECF0D5DBC4BD582AB1D84BD00F40649FEF3101AF,
+	ResetNotificationAction__ctor_mF9BFA4F431C7B986AEC5C9ADCE7FE29AD5993820,
+	ResetNotificationAction_Invoke_m34ECE10E050467C9AC44DDDF9892304B59C38682,
+	ResetNotificationAction_BeginInvoke_m7974526C8D683638B0FEE818001E7E1904B387DC,
+	ResetNotificationAction_EndInvoke_m30939D63D31CD8708A5495AA4030CC91936D1692,
+	NotificationObject__ctor_m12F99ECC72E03B615DA2A62A1B27018031C5B263,
+	NotificationObject_Instantiate_mB4885120CA756EADB2CF11599C6D26DB1FDEAE9F,
+	NotificationObject_InitializeNotification_m606FB936919FABD06021C4A2317779E388DB1C1A,
+	NotificationObject_IsEqualTo_m3E02B3C83E0BD9A93E983FD85290626C6A87E05B,
+	NotificationObject_IncreaseEncounters_m7DCA778F1585568D352CA1E22BD312F42052EA2B,
+	NotificationObject_UpdateNotificationTexts_m6F1272DFACD91BD7567F4CD9E157E571FC188A0B,
+	NotificationObject_TriggerDestroyAfterSeconds_mD9D9532FFB6044EAF8FC47CCDCF114D78BAEC8F2,
+	NotificationObject__cctor_m8026E4AE0649731C98380B8DDA85D90FA32C50C2,
+	LinearProgressBar_get_Value_m3DD1819BB47581F3337938C8ACA90F7CE7E123B2,
+	LinearProgressBar_set_Value_mD14941587976B22537708BCD100711A652176259,
+	LinearProgressBar_Instantiate_mC61BAE438A3A43BEE4AD7D6789960F80DE0651EF,
+	LinearProgressBar_SetMinMaxValues_m29371452C44F890B7BA8517CB657E28974AC53C8,
+	LinearProgressBar__ctor_m0D1CCB287A3E069B43ED2C25F429A56B151243AE,
+	ProgressBarNotification__ctor_m9E3642A4460169FB7E698FD28DE2BBA2BCC083F0,
+	ProgressBarNotification_get_Value_mC659D20EE34D46BF4BE2B824D2E49537A13EB8BA,
+	ProgressBarNotification_set_Value_mACDC581B3BB0EE69B34CC0EA064CFC2F09D53DBE,
+	ProgressBarNotification_Finish_m3CABB3E7FBBE6D04E8825199D4B12F342FAE8588,
+	ProgressBarNotification_Abort_mB3B32568A0B574C6666F26AD3FB8D42683B8B5EB,
+};
+extern void U3CTriggerDestroyAfterSecondsU3Ed__34_MoveNext_m8B979DF62CCE3DBE0B583E13FC42245BDEE78299_AdjustorThunk (void);
+extern void U3CTriggerDestroyAfterSecondsU3Ed__34_SetStateMachine_m62A1764F1BBF227D787C735F23EDC4F29F071D5F_AdjustorThunk (void);
+static Il2CppTokenAdjustorThunkPair s_adjustorThunks[2] = 
+{
+	{ 0x06000019, U3CTriggerDestroyAfterSecondsU3Ed__34_MoveNext_m8B979DF62CCE3DBE0B583E13FC42245BDEE78299_AdjustorThunk },
+	{ 0x0600001A, U3CTriggerDestroyAfterSecondsU3Ed__34_SetStateMachine_m62A1764F1BBF227D787C735F23EDC4F29F071D5F_AdjustorThunk },
+};
+static const int32_t s_InvokerIndices[90] = 
+{
+	4860,
+	4979,
+	4043,
+	4043,
+	4043,
+	4043,
+	4979,
+	4020,
+	1883,
+	2280,
+	3968,
+	4043,
+	4043,
+	3965,
+	4979,
+	4082,
+	4979,
+	4979,
+	2278,
+	4043,
+	1141,
+	4043,
+	4979,
+	4979,
+	4979,
+	4043,
+	4979,
+	4979,
+	4043,
+	4979,
+	4043,
+	6782,
+	4043,
+	4043,
+	7376,
+	4043,
+	4979,
+	4979,
+	6773,
+	6585,
+	3587,
+	4979,
+	7514,
+	4979,
+	2880,
+	2880,
+	2880,
+	4979,
+	2880,
+	4979,
+	2880,
+	4979,
+	2880,
+	2880,
+	4979,
+	2880,
+	7376,
+	7376,
+	7376,
+	7376,
+	7376,
+	7139,
+	6757,
+	7514,
+	2278,
+	4043,
+	1141,
+	4043,
+	2278,
+	4979,
+	1807,
+	4043,
+	45,
+	4043,
+	4979,
+	2880,
+	4979,
+	4979,
+	4979,
+	7514,
+	4903,
+	4082,
+	7484,
+	2313,
+	4979,
+	944,
+	4903,
+	4082,
+	4043,
+	4043,
+};
+IL2CPP_EXTERN_C const Il2CppCodeGenModule g_Visometry_DesignSystem_CodeGenModule;
+const Il2CppCodeGenModule g_Visometry_DesignSystem_CodeGenModule = 
+{
+	"Visometry.DesignSystem.dll",
+	90,
+	s_methodPointers,
+	2,
+	s_adjustorThunks,
+	s_InvokerIndices,
+	0,
+	NULL,
+	0,
+	NULL,
+	0,
+	NULL,
+	NULL,
+	NULL, // module initializer,
+	NULL,
+	NULL,
+	NULL,
+};

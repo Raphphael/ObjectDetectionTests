@@ -1,0 +1,138 @@
+<linker>
+	<assembly fullname="UnityEngine.CoreModule" ignoreIfMissing="1">
+		<type fullname="UnityEngine.Behaviour">
+			<method name="set_enabled"/>
+		</type>
+		<type fullname="UnityEngine.GameObject">
+			<method name="SetActive"/>
+			<method name="SetActive"/>
+			<method name="SetActive"/>
+			<method name="SetActive"/>
+			<method name="SetActive"/>
+			<method name="SetActive"/>
+			<method name="SetActive"/>
+			<method name="SetActive"/>
+			<method name="SetActive"/>
+			<method name="SetActive"/>
+			<method name="SetActive"/>
+			<method name="SetActive"/>
+			<method name="SetActive"/>
+			<method name="SetActive"/>
+			<method name="SetActive"/>
+			<method name="SetActive"/>
+			<method name="SetActive"/>
+			<method name="SetActive"/>
+			<method name="SetActive"/>
+			<method name="SetActive"/>
+			<method name="SetActive"/>
+			<method name="SetActive"/>
+			<method name="SetActive"/>
+			<method name="SetActive"/>
+			<method name="SetActive"/>
+			<method name="SetActive"/>
+			<method name="SetActive"/>
+			<method name="SetActive"/>
+			<method name="SetActive"/>
+			<method name="SetActive"/>
+			<method name="SetActive"/>
+			<method name="SetActive"/>
+			<method name="SetActive"/>
+			<method name="SetActive"/>
+			<method name="SetActive"/>
+			<method name="SetActive"/>
+			<method name="SetActive"/>
+			<method name="SetActive"/>
+			<method name="SetActive"/>
+		</type>
+	</assembly>
+	<assembly fullname="UnityEngine.UI" ignoreIfMissing="1">
+		<type fullname="UnityEngine.UI.Selectable">
+			<method name="set_interactable"/>
+			<method name="set_interactable"/>
+			<method name="set_interactable"/>
+		</type>
+		<type fullname="UnityEngine.UI.Toggle">
+			<method name="set_isOn"/>
+			<method name="set_isOn"/>
+			<method name="set_isOn"/>
+		</type>
+	</assembly>
+	<assembly fullname="VisionLib.Core" ignoreIfMissing="1">
+		<type fullname="Visometry.VisionLib.SDK.Core.GameObjectPoseInteraction">
+			<method name="ResetToOriginalPose"/>
+		</type>
+		<type fullname="Visometry.VisionLib.SDK.Core.ImageStreamFilter">
+			<method name="UseCameraImageStream"/>
+			<method name="UseCameraImageStream"/>
+			<method name="UseCameraImageStream"/>
+			<method name="UseDebugImageStream"/>
+		</type>
+		<type fullname="Visometry.VisionLib.SDK.Core.InitDataHandler">
+			<method name="ReadInitData"/>
+			<method name="ResetInitData"/>
+			<method name="WriteInitData"/>
+		</type>
+		<type fullname="Visometry.VisionLib.SDK.Core.RenderedObject">
+			<method name="ShowAlways"/>
+			<method name="ShowAlways"/>
+			<method name="ShowAlways"/>
+			<method name="ShowNever"/>
+		</type>
+		<type fullname="Visometry.VisionLib.SDK.Core.TrackingAnchor">
+			<method name="ResetHard"/>
+			<method name="SetContourEdgeThreshold"/>
+			<method name="SetContrastThreshold"/>
+			<method name="SetCreaseEdgeThreshold"/>
+			<method name="SetDetectionRadius"/>
+			<method name="SetDetectionThreshold"/>
+			<method name="SetKeepUpright"/>
+			<method name="SetKeyFrameDistance"/>
+			<method name="SetPoseFilteringSmoothness"/>
+			<method name="SetSensitivityForEdgesInTexture"/>
+			<method name="SetShowLineModel"/>
+			<method name="SetShowLineModel"/>
+			<method name="SetTrackingRadius"/>
+			<method name="SetTrackingThreshold"/>
+		</type>
+		<type fullname="Visometry.VisionLib.SDK.Core.TrackingConfiguration">
+			<method name="CancelCameraSelection"/>
+			<method name="ExtendTrackingWithSLAM"/>
+			<method name="SaveCurrentTrackerConfiguration"/>
+			<method name="StartTracking"/>
+			<method name="StaticScene"/>
+		</type>
+		<type fullname="Visometry.VisionLib.SDK.Core.TrackingManager">
+			<method name="PauseTracking"/>
+			<method name="ResumeTracking"/>
+			<method name="SetImageSourceEnabled"/>
+			<method name="SetImageSourceEnabled"/>
+			<method name="StopTracking"/>
+		</type>
+	</assembly>
+	<assembly fullname="VisionLib.SDK.Examples" ignoreIfMissing="1">
+		<type fullname="Visometry.VisionLib.SDK.Examples.InvariantCultureTextField">
+			<method name="SetText"/>
+			<method name="SetText"/>
+			<method name="SetText"/>
+			<method name="SetText"/>
+			<method name="SetText"/>
+			<method name="SetText"/>
+			<method name="SetText"/>
+			<method name="SetText"/>
+			<method name="SetText"/>
+			<method name="SetText"/>
+		</type>
+		<type fullname="Visometry.VisionLib.SDK.Examples.TemporaryParameterStorage">
+			<method name="ResetParametersToStoredVersionAndActivateShowLineModel"/>
+		</type>
+		<type fullname="Visometry.VisionLib.SDK.Examples.TogglableObjects">
+			<method name="SwitchOff"/>
+			<method name="SwitchOn"/>
+		</type>
+	</assembly>
+	<assembly fullname="VisionLib.UI" ignoreIfMissing="1">
+		<type fullname="Visometry.VisionLib.SDK.Examples.InstructionPanel">
+			<method name="OpenModelTrackingSetup"/>
+		</type>
+	</assembly>
+</linker>
